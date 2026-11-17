@@ -1,7 +1,11 @@
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
 from pydantic import BaseModel, Field
 from datetime import datetime
+
+from app.database import get_db
+from app.models import Prediction as PredictionModel
 
 router = APIRouter(
     prefix="/predictions",
@@ -17,44 +21,71 @@ ALLOWED_MARKETS = [
     "ACCUMULATOR"
 ]
 
-class Prediction(BaseModel):
+
+class PredictionCreate(BaseModel):
     fixture_id: int
-    home_team: str
-    away_team: str
     market: str
     selection: str
     confidence: float = Field(ge=0, le=100)
     analysis: str = ""
 
-predictions = []
 
 @router.post("/")
-def add_prediction(prediction: Prediction):
+def add_prediction(
+    prediction: PredictionCreate,
+    db: Session = Depends(get_db)
+):
     if prediction.market not in ALLOWED_MARKETS:
         raise HTTPException(
             status_code=400,
             detail="Unsupported prediction market"
         )
 
-    result = prediction.model_dump()
-    result["created_at"] = datetime.utcnow().isoformat()
+    new_prediction = PredictionModel(
+        **prediction.model_dump(),
+        created_at=datetime.utcnow()
+    )
 
-    predictions.append(result)
+    db.add(new_prediction)
+    db.commit()
+    db.refresh(new_prediction)
 
     return {
-        "message": "Prediction added successfully",
-        "prediction": result
+        "message": "Prediction saved successfully",
+        "prediction_id": new_prediction.id
     }
 
+
 @router.get("/")
-def get_predictions():
-    return predictions
+def get_predictions(db: Session = Depends(get_db)):
+    return db.query(PredictionModel).order_by(
+        PredictionModel.created_at.desc()
+    ).all()
+
 
 @router.get("/count")
-def prediction_count():
-    return {"total_predictions": len(predictions)}
+def prediction_count(db: Session = Depends(get_db)):
+    return {
+        "total_predictions": db.query(PredictionModel).count()
+    }
 
-@router.delete("/")
-def clear_predictions():
-    predictions.clear()
-    return {"message": "Predictions cleared"}
+
+@router.delete("/{prediction_id}")
+def delete_prediction(
+    prediction_id: int,
+    db: Session = Depends(get_db)
+):
+    prediction = db.query(PredictionModel).filter(
+        PredictionModel.id == prediction_id
+    ).first()
+
+    if not prediction:
+        raise HTTPException(
+            status_code=404,
+            detail="Prediction not found"
+        )
+
+    db.delete(prediction)
+    db.commit()
+
+    return {"message": "Prediction deleted successfully"}
