@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 from app.auth import router as auth_router
 from app.users import router as users_router
+from app.fixtures import router as fixtures_router
 
 app = FastAPI(
     title="PitchPredict API",
@@ -11,6 +12,7 @@ app = FastAPI(
 
 app.include_router(auth_router)
 app.include_router(users_router)
+app.include_router(fixtures_router)
 
 @app.get("/")
 def home():
