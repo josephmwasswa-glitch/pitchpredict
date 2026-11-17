@@ -1,11 +1,14 @@
 
 from fastapi import FastAPI
+from app.auth import router as auth_router
 
 app = FastAPI(
     title="PitchPredict API",
     description="Worldwide AI-powered football predictions platform",
     version="1.0.0"
 )
+
+app.include_router(auth_router)
 
 @app.get("/")
 def home():
