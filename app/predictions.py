@@ -8,6 +8,15 @@ router = APIRouter(
     tags=["Football Predictions"]
 )
 
+ALLOWED_MARKETS = [
+    "1X2",
+    "BTTS",
+    "OVER 2.5",
+    "DOUBLE CHANCE",
+    "COMBO",
+    "ACCUMULATOR"
+]
+
 class Prediction(BaseModel):
     fixture_id: int
     home_team: str
@@ -21,13 +30,7 @@ predictions = []
 
 @router.post("/")
 def add_prediction(prediction: Prediction):
-    allowed_markets = [
-        "1X2",
-        "BTTS",
-        "OVER 2.5"
-    ]
-
-    if prediction.market not in allowed_markets:
+    if prediction.market not in ALLOWED_MARKETS:
         raise HTTPException(
             status_code=400,
             detail="Unsupported prediction market"
@@ -49,6 +52,9 @@ def get_predictions():
 
 @router.get("/count")
 def prediction_count():
-    return {
-        "total_predictions": len(predictions)
-    }
+    return {"total_predictions": len(predictions)}
+
+@router.delete("/")
+def clear_predictions():
+    predictions.clear()
+    return {"message": "Predictions cleared"}
