@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: pitchpredict-api
+    runtime: python
+    plan: free
+    region: frankfurt
+    repo: https://github.com/josephmwasswa-glitch/pitchpredict
+    branch: feature/alembic-migrations
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pitchpredict-test-db
+          property: connectionString
+
+databases:
+  - name: pitchpredict-test-db
+    plan: free
+    region: frankfurt
+    databaseName: pitchpredict_test_db
+    user: pitchpredict_test_db_user
+    postgresMajorVersion: "18"
+    ipAllowList: []
