@@ -14,11 +14,15 @@ from app.football_data import router as football_data_router
 
 
 def migrate_fixtures_table() -> None:
-    """Create the external_id column for databases created before it existed."""
+    """Add the external_id column and index to databases from older releases."""
     with engine.begin() as connection:
+        inspector = inspect(connection)
+        if not inspector.has_table("fixtures"):
+            return
+
         columns = {
             column["name"]
-            for column in inspect(connection).get_columns("fixtures")
+            for column in inspector.get_columns("fixtures")
         }
 
         if "external_id" not in columns:
@@ -29,13 +33,18 @@ def migrate_fixtures_table() -> None:
                 )
             )
 
-        connection.execute(
-            text(
-                "CREATE UNIQUE INDEX IF NOT EXISTS "
-                "ix_fixtures_external_id "
-                "ON fixtures (external_id)"
+        index_names = {
+            index["name"]
+            for index in inspector.get_indexes("fixtures")
+        }
+        if "ix_fixtures_external_id" not in index_names:
+            connection.execute(
+                text(
+                    "CREATE UNIQUE INDEX IF NOT EXISTS "
+                    "ix_fixtures_external_id "
+                    "ON fixtures (external_id)"
+                )
             )
-        )
 
 
 @asynccontextmanager
