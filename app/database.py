@@ -10,8 +10,7 @@ if not DATABASE_URL:
         "DATABASE_URL environment variable is not configured"
     )
 
-# Convert legacy Heroku/Railway postgres:// URLs
-# to the SQLAlchemy-compatible postgresql:// scheme.
+# Normalize legacy postgres:// URLs to SQLAlchemy-compatible postgresql:// URLs.
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace(
         "postgres://",
