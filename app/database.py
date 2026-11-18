@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
@@ -22,7 +23,8 @@ if DATABASE_URL:
 else:
     # Keep local development and initial deployments runnable without a
     # provisioned PostgreSQL database. Production can still set DATABASE_URL.
-    DATABASE_URL = "sqlite:///./pitchpredict.db"
+    DATABASE_PATH = Path(__file__).resolve().parent.parent / "pitchpredict.db"
+    DATABASE_URL = f"sqlite:///{DATABASE_PATH.as_posix()}"
 
 engine_options = {"pool_pre_ping": True}
 if DATABASE_URL.startswith("sqlite:"):
