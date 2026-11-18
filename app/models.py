@@ -9,6 +9,7 @@ from app.database import Base
 class Fixture(Base):
     __tablename__ = "fixtures"
 
+    external_id = Column(Integer, unique=True, index=True, nullable=True)
     id = Column(Integer, primary_key=True, index=True)
     home_team = Column(String(150), nullable=False)
     away_team = Column(String(150), nullable=False)
