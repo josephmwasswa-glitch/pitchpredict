@@ -10,11 +10,18 @@ if not DATABASE_URL:
         "DATABASE_URL environment variable is not configured"
     )
 
-# Normalize legacy postgres:// URLs to SQLAlchemy-compatible postgresql:// URLs.
+# Normalize legacy postgres:// URLs to SQLAlchemy-compatible
+# postgresql+psycopg:// URLs, so SQLAlchemy uses psycopg 3.
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace(
         "postgres://",
+        "postgresql+psycopg://",
+        1
+    )
+elif DATABASE_URL.startswith("postgresql://"):
+    DATABASE_URL = DATABASE_URL.replace(
         "postgresql://",
+        "postgresql+psycopg://",
         1
     )
 
