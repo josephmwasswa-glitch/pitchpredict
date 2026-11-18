@@ -27,6 +27,30 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Validate database URL secret
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          from urllib.parse import urlparse
+
+          value = (os.getenv("DATABASE_URL") or "").strip()
+          parsed = urlparse(value)
+          allowed = {"postgres", "postgresql", "postgresql+psycopg"}
+          if parsed.scheme not in allowed or not parsed.hostname or not parsed.path.strip("/"):
+              raise SystemExit(
+                  "RENDER_EXTERNAL_DATABASE_URL is missing or invalid. "
+                  "Set it to Render's full External Database URL "
+                  "(postgres:// or postgresql://...), not the database name "
+                  "or Internal Database URL. The value is not printed."
+              )
+          print("Database URL format looks valid.")
+          PY
+          test -n "$RENDER_API_KEY" || {
+            echo "RENDER_API_KEY secret is missing." >&2
+            exit 1
+          }
+
       - name: Get this runner's public IP
         id: runner_ip
         shell: bash
@@ -41,8 +65,6 @@ jobs:
           RUNNER_IP: ${{ steps.runner_ip.outputs.ip }}
         run: |
           set -euo pipefail
-          test -n "$DATABASE_URL"
-          test -n "$RENDER_API_KEY"
           BODY="$(jq -n --arg cidr "${RUNNER_IP}/32" \
             '{ipAllowList:[{cidrBlock:$cidr,description:"Temporary PitchPredict GitHub Actions migration test"}]}')"
           curl --fail --silent --show-error \
