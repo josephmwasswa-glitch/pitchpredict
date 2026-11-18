@@ -1,0 +1,102 @@
+name: Validate Render PostgreSQL migration
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: render-postgres-migration-validation
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.RENDER_EXTERNAL_DATABASE_URL }}
+      RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+      RENDER_POSTGRES_ID: dpg-dbukr0gae00c73erpugg-a
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Get this runner's public IP
+        id: runner_ip
+        shell: bash
+        run: |
+          set -euo pipefail
+          IP="$(curl --fail --silent --show-error https://api.ipify.org)"
+          echo "ip=$IP" >> "$GITHUB_OUTPUT"
+
+      - name: Temporarily allow only this runner
+        shell: bash
+        env:
+          RUNNER_IP: ${{ steps.runner_ip.outputs.ip }}
+        run: |
+          set -euo pipefail
+          test -n "$DATABASE_URL"
+          test -n "$RENDER_API_KEY"
+          BODY="$(jq -n --arg cidr "${RUNNER_IP}/32" \
+            '{ipAllowList:[{cidrBlock:$cidr,description:"Temporary PitchPredict GitHub Actions migration test"}]}')"
+          curl --fail --silent --show-error \
+            --request PATCH \
+            --url "https://api.render.com/v1/postgres/${RENDER_POSTGRES_ID}" \
+            --header "Authorization: Bearer ${RENDER_API_KEY}" \
+            --header "Accept: application/json" \
+            --header "Content-Type: application/json" \
+            --data "$BODY" \
+            --output /dev/null
+          echo "Temporary single-IP access rule added."
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Apply Alembic migrations and verify schema
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m alembic upgrade head
+          python - <<'PY'
+          from sqlalchemy import inspect
+          from app.database import engine
+
+          inspector = inspect(engine)
+          required_tables = {"fixtures", "predictions"}
+          missing = required_tables - set(inspector.get_table_names())
+          if missing:
+              raise SystemExit(f"Missing required tables: {sorted(missing)}")
+
+          indexes = inspector.get_indexes("fixtures")
+          unique_index = next(
+              (item for item in indexes
+               if item["name"] == "ix_fixtures_external_id"),
+              None,
+          )
+          if not unique_index or not unique_index.get("unique"):
+              raise SystemExit("Unique ix_fixtures_external_id index is missing")
+
+          print("PASS: Render PostgreSQL migration and schema verification succeeded.")
+          PY
+
+      - name: Restore the original empty IP allowlist
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          HTTP_CODE="$(curl --silent --show-error \
+            --request PATCH \
+            --url "https://api.render.com/v1/postgres/${RENDER_POSTGRES_ID}" \
+            --header "Authorization: Bearer ${RENDER_API_KEY}" \
+            --header "Accept: application/json" \
+            --header "Content-Type: application/json" \
+            --data '{"ipAllowList":[]}' \
+            --output /dev/null \
+            --write-out '%{http_code}')"
+          case "$HTTP_CODE" in
+            2*) echo "Temporary IP access rule removed; allowlist restored to empty." ;;
+            *) echo "WARNING: Could not restore the empty IP allowlist (HTTP $HTTP_CODE)." >&2; exit 1 ;;
+          esac
