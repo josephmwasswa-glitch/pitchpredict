@@ -110,3 +110,26 @@ def test_migration_rejects_duplicate_external_ids(tmp_path):
     result = run_migrations(f"sqlite:///{db_path}")
     assert result.returncode != 0
     assert "duplicate external_id value" in result.stderr
+
+def test_migration_runs_on_postgresql_when_configured():
+    database_url = os.getenv("POSTGRES_TEST_DATABASE_URL")
+    if not database_url:
+        return
+
+    result = run_migrations(database_url)
+    assert result.returncode == 0, result.stderr
+
+    from sqlalchemy import create_engine, inspect
+
+    engine = create_engine(database_url)
+    try:
+        inspector = inspect(engine)
+        assert inspector.has_table("fixtures")
+        assert inspector.has_table("predictions")
+        indexes = inspector.get_indexes("fixtures")
+        assert any(
+            index["name"] == "ix_fixtures_external_id" and index.get("unique")
+            for index in indexes
+        )
+    finally:
+        engine.dispose()
