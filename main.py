@@ -13,12 +13,8 @@ from app.predictions import router as predictions_router
 from app.football_data import router as football_data_router
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    # Create database tables if they do not exist
-    Base.metadata.create_all(bind=engine)
-
-    # Add external_id to existing fixtures table
+def migrate_fixtures_table() -> None:
+    """Create the external_id column for databases created before it existed."""
     with engine.begin() as connection:
         columns = {
             column["name"]
@@ -41,6 +37,12 @@ async def lifespan(app: FastAPI):
             )
         )
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Create all current tables, then migrate existing fixtures incrementally.
+    Base.metadata.create_all(bind=engine)
+    migrate_fixtures_table()
     yield
 
 
@@ -48,9 +50,8 @@ app = FastAPI(
     title="PitchPredict API",
     description="Worldwide AI-powered football predictions platform",
     version="1.0.0",
-    lifespan=lifespan
+    lifespan=lifespan,
 )
-
 
 app.include_router(auth_router)
 app.include_router(users_router)
@@ -63,7 +64,7 @@ app.include_router(football_data_router)
 def home():
     return {
         "message": "Welcome to PitchPredict",
-        "status": "Running"
+        "status": "Running",
     }
 
 

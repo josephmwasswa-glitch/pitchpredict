@@ -6,7 +6,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 if DATABASE_URL:
-    # Normalize legacy PostgreSQL URL schemes for SQLAlchemy/psycopg 3.
+    # Render and older PostgreSQL providers commonly use these legacy schemes.
     if DATABASE_URL.startswith("postgres://"):
         DATABASE_URL = DATABASE_URL.replace(
             "postgres://",
@@ -20,7 +20,8 @@ if DATABASE_URL:
             1,
         )
 else:
-    # Allow the API to start locally without external database credentials.
+    # Keep local development and initial deployments runnable without a
+    # provisioned PostgreSQL database. Production can still set DATABASE_URL.
     DATABASE_URL = "sqlite:///./pitchpredict.db"
 
 engine_options = {"pool_pre_ping": True}
