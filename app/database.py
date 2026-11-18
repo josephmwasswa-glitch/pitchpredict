@@ -1,39 +1,38 @@
-
 import os
+
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-if not DATABASE_URL:
-    raise RuntimeError(
-        "DATABASE_URL environment variable is not configured"
-    )
+if DATABASE_URL:
+    # Normalize legacy PostgreSQL URL schemes for SQLAlchemy/psycopg 3.
+    if DATABASE_URL.startswith("postgres://"):
+        DATABASE_URL = DATABASE_URL.replace(
+            "postgres://",
+            "postgresql+psycopg://",
+            1,
+        )
+    elif DATABASE_URL.startswith("postgresql://"):
+        DATABASE_URL = DATABASE_URL.replace(
+            "postgresql://",
+            "postgresql+psycopg://",
+            1,
+        )
+else:
+    # Allow the API to start locally without external database credentials.
+    DATABASE_URL = "sqlite:///./pitchpredict.db"
 
-# Normalize legacy postgres:// URLs to SQLAlchemy-compatible
-# postgresql+psycopg:// URLs, so SQLAlchemy uses psycopg 3.
-if DATABASE_URL.startswith("postgres://"):
-    DATABASE_URL = DATABASE_URL.replace(
-        "postgres://",
-        "postgresql+psycopg://",
-        1
-    )
-elif DATABASE_URL.startswith("postgresql://"):
-    DATABASE_URL = DATABASE_URL.replace(
-        "postgresql://",
-        "postgresql+psycopg://",
-        1
-    )
+engine_options = {"pool_pre_ping": True}
+if DATABASE_URL.startswith("sqlite:"):
+    engine_options["connect_args"] = {"check_same_thread": False}
 
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True
-)
+engine = create_engine(DATABASE_URL, **engine_options)
 
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
-    bind=engine
+    bind=engine,
 )
 
 Base = declarative_base()
