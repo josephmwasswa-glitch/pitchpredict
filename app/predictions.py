@@ -3,6 +3,9 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, Field
 from datetime import datetime
+import os
+
+from app.consensus import ConsensusRequest, calculate_consensus
 
 from app.database import get_db
 from app.models import Prediction as PredictionModel
@@ -54,6 +57,25 @@ def add_prediction(
         "message": "Prediction saved successfully",
         "prediction_id": new_prediction.id
     }
+
+
+@router.get("/providers")
+def provider_status():
+    """Show which prediction-provider credentials are configured; never expose keys."""
+    return {
+        "providers": {
+            "api_football": bool(os.getenv("FOOTBALL_API_KEY")),
+            "sportmonks": bool(os.getenv("SPORTMONKS_API_TOKEN")),
+            "foresportia": bool(os.getenv("FORESPORTIA_API_KEY")),
+        },
+        "status": "credentials_only_not_live_feed_verification",
+    }
+
+
+@router.post("/consensus")
+def preview_consensus(request: ConsensusRequest):
+    """Calculate consensus from normalized provider probabilities."""
+    return calculate_consensus(request)
 
 
 @router.get("/")
