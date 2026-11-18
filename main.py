@@ -1,6 +1,7 @@
-
 from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
+from sqlalchemy import inspect, text
 
 from app.database import Base, engine
 from app import models
@@ -14,7 +15,32 @@ from app.football_data import router as football_data_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # Create database tables if they do not exist
     Base.metadata.create_all(bind=engine)
+
+    # Add external_id to existing fixtures table
+    with engine.begin() as connection:
+        columns = {
+            column["name"]
+            for column in inspect(connection).get_columns("fixtures")
+        }
+
+        if "external_id" not in columns:
+            connection.execute(
+                text(
+                    "ALTER TABLE fixtures "
+                    "ADD COLUMN external_id INTEGER"
+                )
+            )
+
+        connection.execute(
+            text(
+                "CREATE UNIQUE INDEX IF NOT EXISTS "
+                "ix_fixtures_external_id "
+                "ON fixtures (external_id)"
+            )
+        )
+
     yield
 
 
@@ -24,6 +50,7 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan
 )
+
 
 app.include_router(auth_router)
 app.include_router(users_router)
