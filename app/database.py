@@ -4,27 +4,26 @@ from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-DATABASE_URL = (os.getenv("DATABASE_URL") or "").strip()
 
-if DATABASE_URL:
-    # Normalize legacy PostgreSQL URL schemes for SQLAlchemy/psycopg 3.
-    if DATABASE_URL.startswith("postgres://"):
-        DATABASE_URL = DATABASE_URL.replace(
-            "postgres://",
-            "postgresql+psycopg://",
-            1,
+def normalize_database_url(value: str | None) -> str:
+    """Normalize database URLs and provide a stable local SQLite fallback."""
+    database_url = (value or "").strip()
+    if not database_url:
+        database_path = Path(__file__).resolve().parent.parent / "pitchpredict.db"
+        return f"sqlite:///{database_path.as_posix()}"
+
+    if database_url.startswith("postgres://"):
+        return database_url.replace(
+            "postgres://", "postgresql+psycopg://", 1
         )
-    elif DATABASE_URL.startswith("postgresql://"):
-        DATABASE_URL = DATABASE_URL.replace(
-            "postgresql://",
-            "postgresql+psycopg://",
-            1,
+    if database_url.startswith("postgresql://"):
+        return database_url.replace(
+            "postgresql://", "postgresql+psycopg://", 1
         )
-else:
-    # Keep local development and initial deployments runnable without a
-    # provisioned PostgreSQL database. Production can still set DATABASE_URL.
-    DATABASE_PATH = Path(__file__).resolve().parent.parent / "pitchpredict.db"
-    DATABASE_URL = f"sqlite:///{DATABASE_PATH.as_posix()}"
+    return database_url
+
+
+DATABASE_URL = normalize_database_url(os.getenv("DATABASE_URL"))
 
 engine_options = {"pool_pre_ping": True}
 if DATABASE_URL.startswith("sqlite:"):
