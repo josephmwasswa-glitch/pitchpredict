@@ -19,6 +19,11 @@ jobs:
       RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
       RENDER_POSTGRES_ID: dpg-dbukr0gae00c73erpugg-a
     steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Check out repository
         uses: actions/checkout@v4
 
@@ -49,6 +54,7 @@ jobs:
             --data "$BODY" \
             --output /dev/null
           echo "Temporary single-IP access rule added."
+          sleep 8
 
       - name: Install dependencies
         run: |
@@ -83,7 +89,7 @@ jobs:
           PY
 
       - name: Restore the original empty IP allowlist
-        if: always()
+        if: always() && env.RENDER_API_KEY != ''
         shell: bash
         run: |
           set -euo pipefail
