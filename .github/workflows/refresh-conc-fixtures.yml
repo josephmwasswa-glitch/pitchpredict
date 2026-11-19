@@ -11,9 +11,7 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Fetch today's real fixtures
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      - name: Fetch today's real fixtures from SportScore
         run: python scripts/fetch_fixtures.py
       - name: Publish fixture data
         run: |
