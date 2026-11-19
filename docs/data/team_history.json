@@ -1,0 +1,18 @@
+{
+  "teams": {},
+  "league_averages": {},
+  "_schema": {
+    "teams": {
+      "TEAM NAME EXACTLY AS IN fixtures.json": {
+        "matches": [
+          {"gf": 2, "ga": 1, "venue": "home"},
+          {"gf": 0, "ga": 0, "venue": "away"}
+        ]
+      }
+    },
+    "league_averages": {
+      "COMPETITION NAME": {"goals_per_team": 1.35, "home_factor": 1.08}
+    }
+  },
+  "_note": "Only populate from verified completed match results. Minimum five matches per team before a prediction is calculated."
+}
