@@ -5,7 +5,7 @@
 </style></head><body>
 <header><div class="brand"><img src="logo.svg" alt="ConC Soccer logo"><div><strong>ConC Soccer</strong><small>Consensus in Soccer</small></div></div><nav><a href="#fixtures">Fixtures</a><a href="#consensus">Consensus</a><a href="#markets">Markets</a><a href="#coupons">Accumulators</a><a href="#method">Method</a></nav></header>
 <main><section class="hero"><div><div class="eyebrow">Global football intelligence</div><h1>See the match.<br>Understand the numbers.</h1><p>Daily fixtures, independent model comparisons and carefully ranked football markets — with transparent confidence, not promises.</p></div><img src="logo.svg" alt=""></section>
-<div class="notice" id="feedStatus"><b>Connecting to live fixture feeds…</b> Loading real schedules from ESPN. Kick-off times are shown in East Africa Time (EAT).</div>
+<div class="notice" id="feedStatus"><b>Connecting to live fixture feeds…</b> Loading real schedules from SportScore. Kick-off times are shown in East Africa Time (EAT).</div>
 <div class="toolbar"><button class="btn" id="refresh">Refresh fixtures</button><input id="q" placeholder="Search team, league or country…"><select id="filter"><option value="all">All markets</option><option>1X2</option><option>BTTS</option><option>Over 2.5</option><option>Double Chance</option><option>Combos</option></select><button class="btn" onclick="window.print()">Download / Print</button></div>
 <div class="stats"><div class="stat"><small>Real fixtures loaded</small><b id="count">—</b></div><div class="stat"><small>Live competitions checked</small><b id="leagueCount">—</b></div><div class="stat"><small>Prediction engine</small><b>Connecting</b></div><div class="stat"><small>Timezone</small><b>EAT · UTC+3</b></div></div>
 <section id="fixtures"><div class="head"><h2>Daily fixture board</h2><p>Live schedules from available competitions. No fictional matches or invented tips.</p></div><div class="cards" id="cards"></div></section>
@@ -13,9 +13,9 @@
 <section id="markets"><div class="head"><h2>Markets covered</h2><p>Standalone and joint outcomes are evaluated separately.</p></div><div class="panel grid" id="marketGrid"></div></section>
 <section id="coupons"><div class="head"><h2>Accumulator builder</h2><p>Planned 2–5 match coupon builder.</p></div><div class="panel">Live fixtures are being loaded. Predictions, consensus rankings and accumulator probabilities will appear only after the statistical model and verified source feeds are connected. No made-up confidence percentages or betting tips are displayed.</div></section>
 <section id="method"><div class="head"><h2>Transparency and trust</h2></div><div class="panel"><ul><li>Every source forecast will carry its source URL and retrieval time.</li><li>Missing forecasts are shown as missing, never invented.</li><li>Predictions are timestamped before kick-off and settled against actual results.</li><li>Performance will include hit rate and Brier score; ROI only when real odds and stakes are recorded.</li><li>No bet is guaranteed. “Sure bet” is not a valid promise.</li></ul></div></section>
-</main><footer>© ConC Soccer · Consensus in Soccer · Informational football analytics. Predictions are uncertain and do not guarantee winnings.</footer>
+</main><footer>© ConC Soccer · Consensus in Soccer · Informational football analytics. Predictions are uncertain and do not guarantee winnings. <a href="https://sportscore.com/" rel="dofollow" title="Sports data by SportScore" style="color:inherit;font-weight:700">Powered by SportScore</a></footer>
 <script>
-const DATA_URL="data/fixtures.json";
+const DATA_URL="data/fixtures.json";\nconst markets=["1X2 (Home / Draw / Away)","BTTS — Yes / No","Over / Under 1.5 goals","Over / Under 2.5 goals","Double Chance — 1X / X2 / 12","1 + Over 2.5","2 + Over 2.5","1X + Over 2.5","X2 + Over 2.5","1X + Over 1.5","X2 + Over 1.5","BTTS + Over 2.5","Home win + BTTS","Away win + BTTS","1X + BTTS","X2 + BTTS"];
 let fixtures=[];
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function eatTime(iso){if(!iso)return "Time TBC";return new Intl.DateTimeFormat("en-UG",{timeZone:"Africa/Kampala",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(iso))+" EAT"}
@@ -23,7 +23,7 @@ function render(){
  const q=document.getElementById("q").value.toLowerCase();
  const rows=fixtures.filter(x=>(x.home+" "+x.away+" "+x.league+" "+x.country).toLowerCase().includes(q));
  document.getElementById("count").textContent=rows.length;
- document.getElementById("cards").innerHTML=rows.length?rows.map(x=>'<article class="match"><div class="meta"><span>'+esc(x.league)+' · '+esc(x.country)+'</span><span>'+esc(eatTime(x.date))+'</span></div><div class="teams"><span>'+esc(x.home)+'</span><span>VS</span><span>'+esc(x.away)+'</span></div><div class="picks"><span class="pick">'+esc(x.status||"Scheduled")+'</span><span class="pick">Score: <b>'+esc((x.homeGoals??"-")+" - "+(x.awayGoals??"-"))+'</b></span></div><div class="source"><span>API-Football · live fixture data</span><span class="tag">REAL FIXTURE</span></div></article>').join(""):'<div class="panel">No real fixtures are available for today or this search. No sample matches are substituted.</div>';
+ document.getElementById("cards").innerHTML=rows.length?rows.map(x=>'<article class="match"><div class="meta"><span>'+esc(x.league)+' · '+esc(x.country)+'</span><span>'+esc(eatTime(x.date))+'</span></div><div class="teams"><span>'+esc(x.home)+'</span><span>VS</span><span>'+esc(x.away)+'</span></div><div class="picks"><span class="pick">'+esc(x.status||"Scheduled")+'</span><span class="pick">Score: <b>'+esc((x.homeGoals??"-")+" - "+(x.awayGoals??"-"))+'</b></span></div><div class="source"><span>SportScore · live fixture data</span><span class="tag">REAL FIXTURE</span></div></article>').join(""):'<div class="panel">No real fixtures are available for today or this search. No sample matches are substituted.</div>';
 }
 async function loadFixtures(){
  const statusBox=document.getElementById("feedStatus"),button=document.getElementById("refresh");
@@ -39,7 +39,7 @@ async function loadFixtures(){
    statusBox.innerHTML="<b>Fixture feed connected.</b> "+fixtures.length+" real fixtures for "+esc(data.date)+". Last refreshed: "+esc(data.fetchedAt||"unknown")+". Predictions will appear only when the prediction engine is connected.";
  }catch(e){
    fixtures=[];render();document.getElementById("leagueCount").textContent="—";
-   statusBox.innerHTML="<b>Live fixture data is not published yet.</b> "+esc(e.message)+" Add the API_FOOTBALL_KEY repository secret and run the GitHub Actions workflow. No demo matches are displayed.";
+   statusBox.innerHTML="<b>Live fixture data is not published yet.</b> "+esc(e.message)+" Run the fixture updater again after checking the workflow logs. No demo matches are displayed.";
  }
  button.disabled=false;button.textContent="Refresh fixtures";
 }
