@@ -11,6 +11,7 @@ from app.fixtures import router as fixtures_router
 from app.predictions import router as predictions_router
 from app.football_data import router as football_data_router
 from app.sportmonks import router as sportmonks_router
+from app.consensus import router as consensus_router
 
 
 def run_database_migrations() -> None:
@@ -38,6 +39,7 @@ app.include_router(fixtures_router)
 app.include_router(predictions_router)
 app.include_router(football_data_router)
 app.include_router(sportmonks_router)
+app.include_router(consensus_router)
 
 
 @app.get("/")
