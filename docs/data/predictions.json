@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-20T02:32:41.163957+03:00",
+  "generatedAt": "2026-11-20T02:41:34.980375+03:00",
   "predictionCount": 8,
   "fixtures": [
     {
@@ -1464,6 +1464,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Deportivo La Guaira",
+      "away": "Academia Anzoategui",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Union Magdalena",
       "away": "Boca Juniors De Cali",
       "status": "insufficient_history",
@@ -1480,13 +1487,6 @@
       "fixtureId": null,
       "home": "Caravaggio Brazil U20",
       "away": "Camboriu FC U20",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Deportivo La Guaira",
-      "away": "Academia Anzoategui",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
