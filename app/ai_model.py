@@ -142,7 +142,10 @@ async def predict_match(home_team: str, away_team: str, market: str) -> dict:
         options = {"YES": probs["btts_yes"], "NO": 1.0 - probs["btts_yes"]}
     elif market_key.startswith("OVER"):
         line = market_key.replace("OVER", "").replace(".", "_")
-        options = {"OVER": probs["over_" + line], "NO_SELECTION": 1.0 - probs["over_" + line]}
+        over_probability = probs["over_" + line]
+        over_label = "Over " + market_key.replace("OVER", "")
+        # Kataka never recommends an Under market; weak Over probabilities become PASS.
+        options = {over_label if over_probability >= 0.55 else "PASS": over_probability}
     else:
         options = {"1X": probs["home_win"] + probs["draw"],
                    "X2": probs["draw"] + probs["away_win"],
