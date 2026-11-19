@@ -2,12 +2,13 @@ from collections import Counter
 from typing import Literal, Optional
 
 from fastapi import APIRouter, HTTPException
+from app.ai_model import predict_match
 from pydantic import BaseModel, Field
 
 router = APIRouter(prefix="/consensus", tags=["Prediction Consensus"])
 
-SourceName = Literal["forebet", "sports_mole", "soccervista", "goalwise_ai"]
-SOURCE_ORDER = ("forebet", "sports_mole", "soccervista", "goalwise_ai")
+SourceName = Literal["forebet", "sports_mole", "soccervista", "kataka_ai"]
+SOURCE_ORDER = ("forebet", "sports_mole", "soccervista", "kataka_ai")
 
 SOURCE_INFO = {
     "forebet": {
@@ -25,8 +26,8 @@ SOURCE_INFO = {
         "url": "https://www.soccervista.com/",
         "method": "published_prediction",
     },
-    "goalwise_ai": {
-        "name": "Kataka statistical model",
+    "kataka_ai": {
+        "name": "Kataka AI statistical model",
         "url": None,
         "method": "internal_model",
     },
@@ -156,5 +157,36 @@ def evaluate(request: ConsensusRequest):
             "match probability. Only fixture-specific predictions count. Missing "
             "sources do not count as opposing votes; ties produce no selection. "
             "2/4 requires review and 1/4 is excluded from the shortlist."
+        ),
+    }
+
+
+class AIPredictionRequest(BaseModel):
+    home_team: str = Field(min_length=2, max_length=150)
+    away_team: str = Field(min_length=2, max_length=150)
+    market: str = Field(default="1X2", min_length=2, max_length=30)
+
+
+@router.post("/ai-predict")
+async def kataka_ai_predict(request: AIPredictionRequest):
+    """Generate an independent prediction from recent completed team results."""
+    result = await predict_match(
+        request.home_team,
+        request.away_team,
+        request.market,
+    )
+    return {
+        "fixture": f"{request.home_team} vs {request.away_team}",
+        "market": request.market,
+        "prediction": result,
+        "consensus_input": {
+            "source": "kataka_ai",
+            "selection": result["selection"],
+            "confidence": result["confidence"],
+            "source_url": None,
+        },
+        "message": (
+            "This is Kataka's independent statistical prediction. "
+            "Submit consensus_input with the other source picks to /consensus/evaluate."
         ),
     }
