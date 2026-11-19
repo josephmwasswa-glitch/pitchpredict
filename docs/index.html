@@ -15,54 +15,35 @@
 <section id="method"><div class="head"><h2>Transparency and trust</h2></div><div class="panel"><ul><li>Every source forecast will carry its source URL and retrieval time.</li><li>Missing forecasts are shown as missing, never invented.</li><li>Predictions are timestamped before kick-off and settled against actual results.</li><li>Performance will include hit rate and Brier score; ROI only when real odds and stakes are recorded.</li><li>No bet is guaranteed. “Sure bet” is not a valid promise.</li></ul></div></section>
 </main><footer>© ConC Soccer · Consensus in Soccer · Informational football analytics. Predictions are uncertain and do not guarantee winnings.</footer>
 <script>
-const LEAGUES=[
-["eng.1","Premier League"],["esp.1","La Liga"],["ger.1","Bundesliga"],["ita.1","Serie A"],["fra.1","Ligue 1"],
-["uefa.champions","UEFA Champions League"],["uefa.europa","UEFA Europa League"],["uefa.europa.conf","UEFA Conference League"],
-["usa.1","MLS"],["mex.1","Liga MX"],["bra.1","Brazil Serie A"],["arg.1","Argentina Liga Profesional"],
-["ned.1","Eredivisie"],["por.1","Primeira Liga"],["sco.1","Scottish Premiership"],["tur.1","Turkish Super Lig"],
-["bel.1","Belgian Pro League"],["sau.1","Saudi Pro League"],["aus.1","A-League"],["jpn.1","J League"]
-];
-const API="https://site.api.espn.com/apis/site/v2/sports/soccer/";
+const DATA_URL="data/fixtures.json";
 let fixtures=[];
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function eatTime(iso){if(!iso)return "Time TBC";return new Intl.DateTimeFormat("en-UG",{timeZone:"Africa/Kampala",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(iso))+" EAT"}
-function status(e){const s=e.status?.type;return s?.shortDetail||s?.description||"Scheduled"}
 function render(){
- const q=document.getElementById("q").value.toLowerCase(), f=document.getElementById("filter").value;
- const rows=fixtures.filter(x=>(x.home+" "+x.away+" "+x.league).toLowerCase().includes(q));
+ const q=document.getElementById("q").value.toLowerCase();
+ const rows=fixtures.filter(x=>(x.home+" "+x.away+" "+x.league+" "+x.country).toLowerCase().includes(q));
  document.getElementById("count").textContent=rows.length;
- document.getElementById("cards").innerHTML=rows.length?rows.map(x=>'<article class="match"><div class="meta"><span>'+esc(x.league)+'</span><span>'+esc(eatTime(x.date))+'</span></div><div class="teams"><span>'+esc(x.home)+'</span><span>VS</span><span>'+esc(x.away)+'</span></div><div class="picks"><span class="pick">'+esc(status(x.event))+'</span><span class="pick">Score: <b>'+esc(x.score)+'</b></span></div><div class="source"><span>Live schedule · ESPN feed</span><span class="tag">REAL FIXTURE</span></div></article>').join(""):'<div class="panel">No real fixtures found for this date or search. Try another date or refresh later.</div>';
+ document.getElementById("cards").innerHTML=rows.length?rows.map(x=>'<article class="match"><div class="meta"><span>'+esc(x.league)+' · '+esc(x.country)+'</span><span>'+esc(eatTime(x.date))+'</span></div><div class="teams"><span>'+esc(x.home)+'</span><span>VS</span><span>'+esc(x.away)+'</span></div><div class="picks"><span class="pick">'+esc(x.status||"Scheduled")+'</span><span class="pick">Score: <b>'+esc((x.homeGoals??"-")+" - "+(x.awayGoals??"-"))+'</b></span></div><div class="source"><span>API-Football · live fixture data</span><span class="tag">REAL FIXTURE</span></div></article>').join(""):'<div class="panel">No real fixtures are available for today or this search. No sample matches are substituted.</div>';
 }
 async function loadFixtures(){
  const statusBox=document.getElementById("feedStatus"),button=document.getElementById("refresh");
  button.disabled=true;button.textContent="Refreshing…";
- statusBox.innerHTML="<b>Loading real fixtures…</b> Checking live competition schedules. No sample matches are used.";
- const now=new Date(), date=new Intl.DateTimeFormat("en-CA",{timeZone:"Africa/Kampala",year:"numeric",month:"2-digit",day:"2-digit"}).format(now).replaceAll("-","");
- const results=await Promise.allSettled(LEAGUES.map(async ([slug,name])=>{
-   const r=await fetch(API+slug+"/scoreboard?dates="+date,{cache:"no-store"});
-   if(!r.ok)throw new Error(name+" feed returned "+r.status);
+ statusBox.innerHTML="<b>Loading published live fixture data…</b>";
+ try{
+   const r=await fetch(DATA_URL+"?v="+Date.now(),{cache:"no-store"});
+   if(!r.ok)throw new Error("Fixture data not published yet ("+r.status+").");
    const data=await r.json();
-   return (data.events||[]).map(event=>{
-     const comp=event.competitions?.[0], competitors=comp?.competitors||[];
-     const home=competitors.find(t=>t.homeAway==="home"),away=competitors.find(t=>t.homeAway==="away");
-     if(!home||!away)return null;
-     return {league:name,date:event.date,home:home.team?.displayName||home.team?.name,away:away.team?.displayName||away.team?.name,
-       score:(home.score??"-")+" - "+(away.score??"-"),event};
-   }).filter(Boolean);
- }));
- fixtures=results.filter(x=>x.status==="fulfilled").flatMap(x=>x.value).sort((a,b)=>new Date(a.date)-new Date(b.date));
- const ok=results.filter(x=>x.status==="fulfilled").length;
- document.getElementById("leagueCount").textContent=ok+"/"+LEAGUES.length;
- render();
- const failures=LEAGUES.length-ok;
- statusBox.innerHTML=fixtures.length
-  ?"<b>Live fixture feed connected.</b> "+fixtures.length+" real fixtures loaded across "+ok+" competitions. "+(failures?failures+" competition feeds were unavailable. ":"")+"No predictions are displayed until the model is connected."
-  :"<b>No live fixtures returned.</b> The external feed may be temporarily unavailable or there may be no listed matches today. No demo data will be substituted.";
+   fixtures=data.fixtures||[];
+   document.getElementById("leagueCount").textContent=new Set(fixtures.map(x=>x.league)).size;
+   render();
+   statusBox.innerHTML="<b>Fixture feed connected.</b> "+fixtures.length+" real fixtures for "+esc(data.date)+". Last refreshed: "+esc(data.fetchedAt||"unknown")+". Predictions will appear only when the prediction engine is connected.";
+ }catch(e){
+   fixtures=[];render();document.getElementById("leagueCount").textContent="—";
+   statusBox.innerHTML="<b>Live fixture data is not published yet.</b> "+esc(e.message)+" Add the API_FOOTBALL_KEY repository secret and run the GitHub Actions workflow. No demo matches are displayed.";
+ }
  button.disabled=false;button.textContent="Refresh fixtures";
 }
 document.getElementById("q").addEventListener("input",render);
-document.getElementById("filter").addEventListener("change",render);
 document.getElementById("refresh").addEventListener("click",loadFixtures);
 document.getElementById("marketGrid").innerHTML=markets.map(x=>'<div class="market"><b>'+esc(x)+'</b><small>Prediction pending verified model data — no fabricated percentages.</small></div>').join("");
-loadFixtures();
-</script></body></html>
+loadFixtures();</script></body></html>
