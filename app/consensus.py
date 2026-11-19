@@ -190,3 +190,49 @@ async def kataka_ai_predict(request: AIPredictionRequest):
             "Submit consensus_input with the other source picks to /consensus/evaluate."
         ),
     }
+
+
+class ConsensusWithAIRequest(BaseModel):
+    fixture_id: str
+    home_team: str = Field(min_length=2, max_length=150)
+    away_team: str = Field(min_length=2, max_length=150)
+    market: str = Field(default="1X2", min_length=2, max_length=30)
+    predictions: list[SourcePick] = Field(default_factory=list)
+
+
+@router.post("/evaluate-with-ai")
+async def evaluate_with_ai(request: ConsensusWithAIRequest):
+    """Generate Kataka AI's pick and combine it with supplied external source picks."""
+    if any(item.source == "kataka_ai" for item in request.predictions):
+        raise HTTPException(
+            status_code=422,
+            detail="Do not submit a Kataka AI pick here; this endpoint generates it independently.",
+        )
+    ai_result = await predict_match(
+        request.home_team,
+        request.away_team,
+        request.market,
+    )
+    combined = list(request.predictions) + [
+        SourcePick(
+            source="kataka_ai",
+            selection=ai_result["selection"],
+            confidence=ai_result["confidence"],
+        )
+    ]
+    try:
+        consensus = evaluate_consensus(combined)
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    return {
+        "fixture_id": request.fixture_id,
+        "fixture": f"{request.home_team} vs {request.away_team}",
+        "market": request.market,
+        "ai_prediction": ai_result,
+        "consensus": consensus,
+        "disclaimer": (
+            "Kataka AI is independently calculated from recent completed results. "
+            "External source picks must be fixture-specific and verified. "
+            "Consensus is source agreement, not certainty or calibrated probability."
+        ),
+    }
