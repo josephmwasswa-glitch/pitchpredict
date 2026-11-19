@@ -37,7 +37,7 @@ def fetch(url):
   with urllib.request.urlopen(req,timeout=25) as r: return r.read().decode("utf-8","replace"),"ok"
  except Exception as e: return None,"fetch_error:"+type(e).__name__
 def clean(s):
- return re.sub(r"\\s+"," ",s or "").strip()
+ return re.sub(r"\s+"," ",s or "").strip()
 def team_norm(s):
  return re.sub(r"[^a-z0-9]","",s.lower())
 def main():
@@ -54,7 +54,7 @@ def main():
    body,st=fetch(article)
    if not body: continue
    q=TextParser(); q.feed(body); txt=clean(" ".join(q.text))
-   m=re.search(r"We say:\\s*:?\\s*(.{2,90}?)\\s+(\\d{1,2})\\s*[-–:]\\s*(\\d{1,2})\\s+(.{2,90}?)(?:\\s+(?:in|at|on|to|for)\\s+|$)",txt,re.I)
+   m=re.search(r"We say:\s*:?\s*(.{2,90}?)\s+(\d{1,2})\s*[-–:]\s*(\d{1,2})\s+(.{2,90}?)(?:\s+(?:in|at|on|to|for)\s+|$)",txt,re.I)
    if not m: continue
    home,hs,as_,away=m.groups()
    out["forecasts"].append({"source":"sports_mole","home":clean(home),"away":clean(away),"score":{"home":int(hs),"away":int(as_)},"url":article,"marketPicks":{"1X2":"1" if int(hs)>int(as_) else "2" if int(hs)<int(as_) else "X","Over/Under 2.5":"Over 2.5" if int(hs)+int(as_)>=3 else "Under 2.5"},"derivation":"Derived only from the publisher's explicit predicted scoreline."})
