@@ -123,7 +123,18 @@ async def _find_team(client: httpx.AsyncClient, name: str) -> dict:
     if not candidates:
         raise HTTPException(status_code=404, detail=f"Team not found by football data provider: {name}")
     exact = [x for x in candidates if _norm(x.get("team", {}).get("name", "")) == _norm(name)]
-    selected = exact[0] if exact else candidates[0]
+    if len(exact) == 1:
+        selected = exact[0]
+    elif not exact and len(candidates) == 1:
+        selected = candidates[0]
+    else:
+        raise HTTPException(
+            status_code=409,
+            detail=(
+                f"Team name '{name}' is ambiguous in the football data provider. "
+                "Use the full official team name so the model does not select the wrong club."
+            ),
+        )
     return selected.get("team", {})
 
 
