@@ -59,3 +59,32 @@ The Render staging migration is **not yet verified**. Keep the Alembic pull requ
 - Use a separate staging database for migration validation.
 - Back up important data before applying schema changes to production.
 - A passing CI test against its temporary PostgreSQL service does not prove the Render staging database migration has passed.
+
+
+## Four-source prediction consensus and Kataka AI
+
+The backend now exposes these consensus sources:
+
+- Forebet
+- Sports Mole
+- SoccerVista
+- Kataka AI (independent statistical model)
+
+Routes:
+- GET /consensus/sources
+- POST /consensus/ai-predict
+- POST /consensus/evaluate-sources
+- POST /consensus/evaluate-with-ai
+
+Kataka AI requires the private Render environment variable FOOTBALL_API_KEY (or API_FOOTBALL_KEY) containing an API-Football key. It looks up each team and uses up to ten recent completed matches to calculate attack/defence goal rates and a Poisson score matrix. At least three completed matches per team are required. It returns a PASS instead of an Over-goals selection when the Over probability is below 55%. It does not recommend Under-goals selections.
+
+Consensus labels use a four-source denominator:
+- 4/4: unanimous
+- 3/4: strong consensus
+- 2/4: review only
+- 1/4: exclude
+- tied opinions: no consensus selection
+
+The AI model is a statistical baseline, not a trained machine-learning model. Its probabilities are not yet calibrated through historical backtesting. It does not currently account for injuries, confirmed lineups, weather, odds or schedule congestion. Missing external source picks are not treated as votes.
+
+Sports Mole and SoccerVista are listed as sources, but automatic fixture-specific extraction from those sites is not yet connected. Their predictions must be captured from the actual fixture pages and submitted to the consensus endpoint. Do not use a generic homepage link as proof of a match prediction.
