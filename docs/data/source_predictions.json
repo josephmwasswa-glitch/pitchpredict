@@ -1,0 +1,23 @@
+{
+  "fetchedAt": "2026-11-19T23:42:41.727615+00:00",
+  "timezone": "UTC",
+  "sources": {
+    "sports_mole": {
+      "url": "https://www.sportsmole.co.uk/football/",
+      "status": "robots_disallow",
+      "forecastCount": 0
+    },
+    "soccer_vista": {
+      "url": "https://www.soccervista.com/predictions/",
+      "status": "robots_disallow",
+      "forecastCount": 0
+    },
+    "forebet": {
+      "url": "https://www.forebet.com/en/football-predictions",
+      "status": "robots_disallow",
+      "forecastCount": 0
+    }
+  },
+  "forecasts": [],
+  "note": "Only explicit, matched public forecasts are counted. Missing data is not a negative vote."
+}
