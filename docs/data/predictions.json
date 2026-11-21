@@ -2,7 +2,7 @@
   "date": "2026-11-21",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-21T18:39:36.127179+03:00",
+  "generatedAt": "2026-11-22T00:34:13.244073+03:00",
   "predictionCount": 46,
   "fixtures": [
     {
@@ -2958,13 +2958,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Vaqueros Reynosa",
-      "away": "Ciervos FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "CF Wellington United Women",
       "away": "Wellington Phoenix Reserves Women",
       "status": "insufficient_history",
@@ -2995,6 +2988,13 @@
       "fixtureId": null,
       "home": "San Marcos FC",
       "away": "Real Esteli",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Vaqueros Reynosa",
+      "away": "Ciervos FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },

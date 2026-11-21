@@ -7,7 +7,7 @@
     "label": "06:00 EAT to 05:59 EAT next day"
   },
   "provider": "SportScore",
-  "fetchedAt": "2026-11-21T18:39:36.127179+03:00",
+  "fetchedAt": "2026-11-22T00:34:13.244073+03:00",
   "fixtureCount": 200,
   "fixtures": [
     {
@@ -3160,23 +3160,6 @@
       "date": "2026-11-22T01:00:00+00:00",
       "status": "upcoming",
       "shortStatus": null,
-      "home": "Vaqueros Reynosa",
-      "away": "Ciervos FC",
-      "homeLogo": null,
-      "awayLogo": "https://img.thesports.com/football/team/1675563e0078cd6f1df599121343d6dd.png",
-      "homeGoals": null,
-      "awayGoals": null,
-      "league": "MEX Liga Premier",
-      "country": "",
-      "leagueLogo": "https://img.thesports.com/football/competition/11c41b78e17e5393149005ac5474c72c.png",
-      "round": null,
-      "venue": null
-    },
-    {
-      "id": null,
-      "date": "2026-11-22T01:00:00+00:00",
-      "status": "upcoming",
-      "shortStatus": null,
       "home": "CF Wellington United Women",
       "away": "Wellington Phoenix Reserves Women",
       "homeLogo": "https://img.thesports.com/football/team/20ae97a46ed6bfe99b71930dc027d559.png",
@@ -3254,6 +3237,23 @@
       "league": "Nicaragua Liga Primera",
       "country": "",
       "leagueLogo": "https://img.thesports.com/football/competition/75c914f32e8093f6efa2544a7ebfcceb.png",
+      "round": null,
+      "venue": null
+    },
+    {
+      "id": null,
+      "date": "2026-11-22T01:00:00+00:00",
+      "status": "upcoming",
+      "shortStatus": null,
+      "home": "Vaqueros Reynosa",
+      "away": "Ciervos FC",
+      "homeLogo": null,
+      "awayLogo": "https://img.thesports.com/football/team/1675563e0078cd6f1df599121343d6dd.png",
+      "homeGoals": null,
+      "awayGoals": null,
+      "league": "MEX Liga Premier",
+      "country": "",
+      "leagueLogo": "https://img.thesports.com/football/competition/11c41b78e17e5393149005ac5474c72c.png",
       "round": null,
       "venue": null
     },
