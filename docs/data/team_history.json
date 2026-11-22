@@ -2,9 +2,9 @@
   "source": "SportScore",
   "sourceUrl": "https://sportscore.com/developers/api/",
   "windowDays": 35,
-  "generatedAt": "2026-11-22T15:39:45.230987+00:00",
+  "generatedAt": "2026-11-22T21:37:02.074584+00:00",
   "completedMatches": 6842,
-  "teamCount": 6661,
+  "teamCount": 6659,
   "teams": {
     "Chapecoense - SC": {
       "matches": [
@@ -7834,6 +7834,44 @@
         }
       ]
     },
+    "Kasimpasa U19": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-22T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 6,
+          "venue": "away",
+          "date": "2026-11-06T10:00:00+00:00"
+        }
+      ]
+    },
+    "Alanyaspor U19": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-22T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 6,
+          "venue": "away",
+          "date": "2026-11-02T12:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 5,
+          "venue": "home",
+          "date": "2026-10-23T12:00:00+00:00"
+        }
+      ]
+    },
     "Kispest Honved II": {
       "matches": [
         {
@@ -8011,6 +8049,56 @@
           "ga": 4,
           "venue": "away",
           "date": "2026-10-20T12:00:00+00:00"
+        }
+      ]
+    },
+    "Erzurum BB U19": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-22T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-08T09:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-31T09:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-24T09:00:00+00:00"
+        }
+      ]
+    },
+    "Goztepe U19": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-22T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-03T17:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-10-27T17:00:00+00:00"
         }
       ]
     },
@@ -8578,56 +8666,6 @@
         }
       ]
     },
-    "Kryvbas U21": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-22T10:10:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-03T10:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-26T10:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-19T10:25:00+00:00"
-        }
-      ]
-    },
-    "Kudrivka Nyva U21": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-22T10:10:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 4,
-          "venue": "away",
-          "date": "2026-11-03T10:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 5,
-          "venue": "away",
-          "date": "2026-10-24T09:00:00+00:00"
-        }
-      ]
-    },
     "Santurtzi CD": {
       "matches": [
         {
@@ -8963,26 +9001,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-11-15T10:30:00+00:00"
-        }
-      ]
-    },
-    "CD Galapagar": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-22T10:30:00+00:00"
-        }
-      ]
-    },
-    "Mexico FC": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-22T10:30:00+00:00"
         }
       ]
     },
@@ -73986,28 +74004,6 @@
         }
       ]
     },
-    "Erzurum BB U19": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-08T09:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-31T09:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-24T09:00:00+00:00"
-        }
-      ]
-    },
     "FK Teplice Women": {
       "matches": [
         {
@@ -77611,16 +77607,6 @@
           "ga": 2,
           "venue": "home",
           "date": "2026-10-24T08:30:00+00:00"
-        }
-      ]
-    },
-    "Kasimpasa U19": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 6,
-          "venue": "away",
-          "date": "2026-11-06T10:00:00+00:00"
         }
       ]
     },
@@ -86280,6 +86266,44 @@
         }
       ]
     },
+    "Kudrivka Nyva U21": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-11-03T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 5,
+          "venue": "away",
+          "date": "2026-10-24T09:00:00+00:00"
+        }
+      ]
+    },
+    "Kryvbas U21": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-03T10:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-26T10:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-19T10:25:00+00:00"
+        }
+      ]
+    },
     "Bodo Glimt U19": {
       "matches": [
         {
@@ -88336,22 +88360,6 @@
         }
       ]
     },
-    "Goztepe U19": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-03T17:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-10-27T17:00:00+00:00"
-        }
-      ]
-    },
     "AZ Alkmaar U19": {
       "matches": [
         {
@@ -89579,22 +89587,6 @@
           "ga": 5,
           "venue": "home",
           "date": "2026-10-20T11:00:00+00:00"
-        }
-      ]
-    },
-    "Alanyaspor U19": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 6,
-          "venue": "away",
-          "date": "2026-11-02T12:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 5,
-          "venue": "home",
-          "date": "2026-10-23T12:00:00+00:00"
         }
       ]
     },
@@ -109053,7 +109045,7 @@
       "home_factor": 1.214
     },
     "Spanish Tercera División RFEF": {
-      "goals_per_team": 1.261,
+      "goals_per_team": 1.273,
       "home_factor": 1.25
     },
     "Vietnam National First Class League": {
@@ -109064,13 +109056,13 @@
       "goals_per_team": 1.6,
       "home_factor": 1.202
     },
+    "Turkish U19 A2 League": {
+      "goals_per_team": 1.651,
+      "home_factor": 1.237
+    },
     "Hungary Nemzeti Bajnoksug III": {
       "goals_per_team": 1.357,
       "home_factor": 1.235
-    },
-    "Turkish U19 A2 League": {
-      "goals_per_team": 1.623,
-      "home_factor": 1.25
     },
     "Romanian SuperLiga Feminină": {
       "goals_per_team": 2.5,
@@ -109109,7 +109101,7 @@
       "home_factor": 1.25
     },
     "Ukrainian Youth Team Championship": {
-      "goals_per_team": 1.6,
+      "goals_per_team": 1.632,
       "home_factor": 1.25
     },
     "Austrian Landesliga": {

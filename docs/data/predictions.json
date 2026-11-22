@@ -2,8 +2,8 @@
   "date": "2026-11-22",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-22T18:39:33.670135+03:00",
-  "predictionCount": 15,
+  "generatedAt": "2026-11-23T00:36:52.043428+03:00",
+  "predictionCount": 16,
   "fixtures": [
     {
       "fixtureId": null,
@@ -1548,6 +1548,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Kasimpasa U19",
+      "away": "Alanyaspor U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Kispest Honved II",
       "away": "Vasas SC II",
       "status": "insufficient_history",
@@ -1585,6 +1592,13 @@
       "fixtureId": null,
       "home": "Olimpia Cluj Women",
       "away": "Vasas Odorhei Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Erzurum BB U19",
+      "away": "Goztepe U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1688,27 +1702,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Kolos Kovalivka U21",
-      "away": "FC Kharkiv U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kasimpasa U19",
-      "away": "Alanyaspor U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Erzurum BB U19",
-      "away": "Goztepe U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Yeni Malatyaspor",
       "away": "Adanaspor",
       "status": "insufficient_history",
@@ -1718,13 +1711,6 @@
       "fixtureId": null,
       "home": "Karpaty U21",
       "away": "FC Zorya Luhansk U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kryvbas U21",
-      "away": "Kudrivka Nyva U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1751,8 +1737,65 @@
     },
     {
       "fixtureId": null,
+      "home": "SCM Ramnicu Valcea",
+      "away": "AFC Metalul Buzau",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 5
+      },
+      "expectedGoals": {
+        "home": 1.54,
+        "away": 1.42
+      },
+      "probabilities": {
+        "1": 40.4,
+        "X": 24.5,
+        "2": 35.1,
+        "1X": 64.9,
+        "X2": 59.6,
+        "12": 75.5,
+        "BTTS Yes": 59.4,
+        "BTTS No": 40.6,
+        "Over 1.5": 79.3,
+        "Under 1.5": 20.7,
+        "Over 2.5": 56.6,
+        "Under 2.5": 43.4,
+        "1 + Over 2.5": 26.2,
+        "2 + Over 2.5": 22.5,
+        "1X + Over 2.5": 34.1,
+        "X2 + Over 2.5": 30.3,
+        "1X + Over 1.5": 51.6,
+        "X2 + Over 1.5": 46.9,
+        "BTTS + Over 2.5": 48.0,
+        "Home win + BTTS": 21.4,
+        "Away win + BTTS": 18.8,
+        "1X + BTTS": 40.6,
+        "X2 + BTTS": 38.0
+      },
+      "topProbabilityMarket": "Over 1.5",
+      "topProbability": 79.3,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "Shirak Gjumri B",
+      "away": "Urartu II",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Gimnasia yTiro",
       "away": "Tristan Suarez",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Athletum Miami",
+      "away": "FC Miami City",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
