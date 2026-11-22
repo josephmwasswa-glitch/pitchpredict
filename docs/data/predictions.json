@@ -1,198 +1,640 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-22T00:34:13.244073+03:00",
-  "predictionCount": 46,
+  "generatedAt": "2026-11-22T06:49:34.844944+03:00",
+  "predictionCount": 6,
   "fixtures": [
     {
       "fixtureId": null,
-      "home": "FC Juarez",
-      "away": "Atlas",
+      "home": "Kawasaki Frontale U21",
+      "away": "Fagiano Okayama U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "AC Taipei Reserves",
-      "away": "Ming Chuan University",
+      "home": "Club Atletico Tijuana",
+      "away": "Club Sporting de Sonora",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Club Tijuana",
-      "away": "Atlante FC",
+      "home": "Eastern Suburbs AFC",
+      "away": "Wellington Phoenix Reserve",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tigres UANL",
+      "away": "Club America",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Roasso Kumamoto",
+      "away": "Giravanz Kitakyushu",
       "status": "model_ready",
       "model": "ConC Poisson v1",
       "sample": {
         "homeTeamMatches": 6,
-        "awayTeamMatches": 5
+        "awayTeamMatches": 6
       },
       "expectedGoals": {
-        "home": 1.83,
-        "away": 0.52
+        "home": 1.92,
+        "away": 1.62
       },
       "probabilities": {
-        "1": 69.3,
-        "X": 21.0,
-        "2": 9.7,
-        "1X": 90.3,
-        "X2": 30.7,
-        "12": 79.0,
-        "BTTS Yes": 33.8,
-        "BTTS No": 66.2,
-        "Over 1.5": 68.0,
-        "Under 1.5": 32.0,
-        "Over 2.5": 41.6,
-        "Under 2.5": 58.4,
-        "1 + Over 2.5": 35.7,
-        "2 + Over 2.5": 3.5,
-        "1X + Over 2.5": 38.1,
-        "X2 + Over 2.5": 5.9,
-        "1X + Over 1.5": 63.2,
-        "X2 + Over 1.5": 16.2,
-        "BTTS + Over 2.5": 24.8,
-        "Home win + BTTS": 19.2,
-        "Away win + BTTS": 3.2,
-        "1X + BTTS": 30.6,
-        "X2 + BTTS": 14.6
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 90.3,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Auckland FC",
-      "away": "Melbourne Victory",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Briobecca Urayasu",
-      "away": "VONDS Ichihara",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.9,
-        "away": 0.55
-      },
-      "probabilities": {
-        "1": 41.9,
-        "X": 36.6,
-        "2": 21.5,
-        "1X": 78.5,
-        "X2": 58.1,
-        "12": 63.4,
-        "BTTS Yes": 25.2,
-        "BTTS No": 74.8,
-        "Over 1.5": 42.6,
-        "Under 1.5": 57.4,
-        "Over 2.5": 17.9,
-        "Under 2.5": 82.1,
-        "1 + Over 2.5": 11.4,
-        "2 + Over 2.5": 5.0,
-        "1X + Over 2.5": 12.9,
-        "X2 + Over 2.5": 6.5,
-        "1X + Over 1.5": 34.0,
-        "X2 + Over 1.5": 21.7,
-        "BTTS + Over 2.5": 13.6,
-        "Home win + BTTS": 7.8,
-        "Away win + BTTS": 4.2,
-        "1X + BTTS": 21.0,
-        "X2 + BTTS": 17.4
-      },
-      "topProbabilityMarket": "Under 2.5",
-      "topProbability": 82.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Verspah Oita",
-      "away": "FC Tiamo Hirakata",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 1.31,
-        "away": 2.85
-      },
-      "probabilities": {
-        "1": 15.1,
-        "X": 15.7,
-        "2": 69.2,
-        "1X": 30.8,
-        "X2": 84.9,
-        "12": 84.3,
-        "BTTS Yes": 68.8,
-        "BTTS No": 31.2,
-        "Over 1.5": 92.0,
-        "Under 1.5": 8.0,
-        "Over 2.5": 78.4,
-        "Under 2.5": 21.6,
-        "1 + Over 2.5": 11.7,
-        "2 + Over 2.5": 58.4,
-        "1X + Over 2.5": 20.0,
-        "X2 + Over 2.5": 66.8,
-        "1X + Over 1.5": 27.2,
-        "X2 + Over 1.5": 78.9,
-        "BTTS + Over 2.5": 63.0,
-        "Home win + BTTS": 10.8,
-        "Away win + BTTS": 43.8,
-        "1X + BTTS": 25.0,
-        "X2 + BTTS": 58.0
+        "1": 45.3,
+        "X": 21.9,
+        "2": 32.8,
+        "1X": 67.2,
+        "X2": 54.7,
+        "12": 78.1,
+        "BTTS Yes": 68.5,
+        "BTTS No": 31.5,
+        "Over 1.5": 86.8,
+        "Under 1.5": 13.2,
+        "Over 2.5": 68.7,
+        "Under 2.5": 31.3,
+        "1 + Over 2.5": 34.4,
+        "2 + Over 2.5": 24.3,
+        "1X + Over 2.5": 44.3,
+        "X2 + Over 2.5": 34.3,
+        "1X + Over 1.5": 58.7,
+        "X2 + Over 1.5": 47.1,
+        "BTTS + Over 2.5": 59.4,
+        "Home win + BTTS": 28.3,
+        "Away win + BTTS": 21.1,
+        "1X + BTTS": 47.3,
+        "X2 + BTTS": 40.1
       },
       "topProbabilityMarket": "Over 1.5",
-      "topProbability": 92.0,
+      "topProbability": 86.8,
       "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
     },
     {
       "fixtureId": null,
-      "home": "Marconi Stallions",
-      "away": "Sydney Olympic",
+      "home": "Veertien Mie",
+      "away": "Criacao Shinjuku",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Okinawa SV",
+      "away": "Maruyasu Okazaki",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Iwate Grulla Morioka",
+      "away": "J-Lease FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Minebea Mitsumi FC",
+      "away": "Reinmeer Aomori FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Yokogawa Musashino FC",
+      "away": "Honda FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Melbourne Victory Women",
+      "away": "Perth Glory Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Adelaide City FC",
+      "away": "Broadmeadow Magic",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Avondale FC",
+      "away": "APIA Leichhardt Tigers",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Daegu Football Club",
+      "away": "Gimhae City",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Jeonnam Dragons",
+      "away": "Ansan Greeners FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tokushima Vortis",
+      "away": "Shonan Bellmare",
       "status": "model_ready",
       "model": "ConC Poisson v1",
       "sample": {
-        "homeTeamMatches": 5,
+        "homeTeamMatches": 6,
+        "awayTeamMatches": 6
+      },
+      "expectedGoals": {
+        "home": 0.52,
+        "away": 0.97
+      },
+      "probabilities": {
+        "1": 19.0,
+        "X": 35.3,
+        "2": 45.6,
+        "1X": 54.4,
+        "X2": 81.0,
+        "12": 64.7,
+        "BTTS Yes": 25.1,
+        "BTTS No": 74.9,
+        "Over 1.5": 43.9,
+        "Under 1.5": 56.1,
+        "Over 2.5": 18.9,
+        "Under 2.5": 81.1,
+        "1 + Over 2.5": 4.4,
+        "2 + Over 2.5": 13.0,
+        "1X + Over 2.5": 5.9,
+        "X2 + Over 2.5": 14.5,
+        "1X + Over 1.5": 20.3,
+        "X2 + Over 1.5": 36.5,
+        "BTTS + Over 2.5": 13.8,
+        "Home win + BTTS": 3.8,
+        "Away win + BTTS": 8.5,
+        "1X + BTTS": 16.7,
+        "X2 + BTTS": 21.3
+      },
+      "topProbabilityMarket": "Under 2.5",
+      "topProbability": 81.1,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "Renofa Yamaguchi",
+      "away": "Reilac Shiga FC",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 6,
+        "awayTeamMatches": 6
+      },
+      "expectedGoals": {
+        "home": 1.85,
+        "away": 0.5
+      },
+      "probabilities": {
+        "1": 70.1,
+        "X": 20.6,
+        "2": 9.3,
+        "1X": 90.7,
+        "X2": 29.9,
+        "12": 79.4,
+        "BTTS Yes": 33.3,
+        "BTTS No": 66.7,
+        "Over 1.5": 68.2,
+        "Under 1.5": 31.8,
+        "Over 2.5": 41.9,
+        "Under 2.5": 58.1,
+        "1 + Over 2.5": 36.3,
+        "2 + Over 2.5": 3.3,
+        "1X + Over 2.5": 38.6,
+        "X2 + Over 2.5": 5.6,
+        "1X + Over 1.5": 63.7,
+        "X2 + Over 1.5": 15.6,
+        "BTTS + Over 2.5": 24.5,
+        "Home win + BTTS": 19.1,
+        "Away win + BTTS": 3.1,
+        "1X + BTTS": 30.3,
+        "X2 + BTTS": 14.2
+      },
+      "topProbabilityMarket": "1X",
+      "topProbability": 90.7,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "Azul Claro Numazu",
+      "away": "Yokohama SCC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Bright Cerulean FC",
+      "away": "Sham Shui Po",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Gimcheon Sangmu Football Club",
+      "away": "Jeju SK FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Gwangju Football Club",
+      "away": "Bucheon FC 1995",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Gamba Osaka U21",
+      "away": "Tokyo Verdy U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Vissel Kobe U21",
+      "away": "FC Tokyo U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sky Wolf SC",
+      "away": "Team 23xmvkhx7vyqg8n",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Leaper MG",
+      "away": "Kui Tan",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tung Sing",
+      "away": "Hoi King",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Kln City District RSC",
+      "away": "Mutual Football Club",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "FC Osaka",
+      "away": "Kamatamare Sanuki",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 6,
+        "awayTeamMatches": 6
+      },
+      "expectedGoals": {
+        "home": 1.08,
+        "away": 0.54
+      },
+      "probabilities": {
+        "1": 48.7,
+        "X": 33.1,
+        "2": 18.2,
+        "1X": 81.8,
+        "X2": 51.3,
+        "12": 66.9,
+        "BTTS Yes": 27.6,
+        "BTTS No": 72.4,
+        "Over 1.5": 48.2,
+        "Under 1.5": 51.8,
+        "Over 2.5": 22.2,
+        "Under 2.5": 77.8,
+        "1 + Over 2.5": 15.7,
+        "2 + Over 2.5": 4.7,
+        "1X + Over 2.5": 17.5,
+        "X2 + Over 2.5": 6.5,
+        "1X + Over 1.5": 40.6,
+        "X2 + Over 1.5": 20.9,
+        "BTTS + Over 2.5": 16.0,
+        "Home win + BTTS": 10.1,
+        "Away win + BTTS": 4.1,
+        "1X + BTTS": 23.4,
+        "X2 + BTTS": 17.4
+      },
+      "topProbabilityMarket": "1X",
+      "topProbability": 81.8,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "Shanghai Women",
+      "away": "Zhejiang Hangzhou Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Beijing Women",
+      "away": "Wuhan Jiangda Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Jiangsu Yinhao Women",
+      "away": "Liaoning Shenbei Hefeng Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Jubilo Iwata U21",
+      "away": "V-Varen Nagasaki U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sha Tin",
+      "away": "Eastern SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "WSE",
+      "away": "Central & Western District RSA",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Valenzuela PB–Mendiola",
+      "away": "Kaya FC-Iloilo",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Taichung Futuro",
+      "away": "Hang Yuen FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Shenka Yikaoyingka FC",
+      "away": "Hami FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Nejmet Al Sahra SC U20",
+      "away": "Al Nejmeh U20",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Lideta Sub City Women",
+      "away": "Bahir Dar Kenema FC (W)",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Konter",
+      "away": "Soar FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Addis Ababa Ketema Women",
+      "away": "Nifas Silk Lafto Sub City Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Paju Frontier FC",
+      "away": "Cheonan City",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Seoul E-Land FC",
+      "away": "Chungnam Asan",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Resources Capital FC",
+      "away": "Lucky Mile FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Metro Gallery Sun Source",
+      "away": "Citizen",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Taichung Rock FC",
+      "away": "Tatung FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Taiwan Power Company FC",
+      "away": "Tainan City Steel",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Chengmai Team",
+      "away": "Danzhou Team",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Lingao Team",
+      "away": "Baisha Team",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tunchang Team",
+      "away": "Ding an Team",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Wuzhishan Team",
+      "away": "Ledong Team",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Dingnan United",
+      "away": "Guizhou Guiyang Athletic",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sai Kung Friends",
+      "away": "Tuen Mun FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "MS ABDB",
+      "away": "Rimba Star",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Marumo Gallants Reserves",
+      "away": "Polokwane City Reserves",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "FC Ufa",
+      "away": "Ural Yekaterinburg",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Adhyaksa FC Banten",
+      "away": "Borneo FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Khelang United",
+      "away": "Northern Nakhon Mae Sot United",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Chattrakan City",
+      "away": "Chiangmai FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Suranaree Black Cat",
+      "away": "Esan Fighter",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Pitchayabundit College",
+      "away": "Surin City FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Udon Banjan United",
+      "away": "Roi Et PB United",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Yala City FC",
+      "away": "Nara United",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Hua Hin City",
+      "away": "Assumption Thonburi",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Ayutthaya FC",
+      "away": "Prime Bangkok FC",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 6,
         "awayTeamMatches": 5
       },
       "expectedGoals": {
-        "home": 3.8,
-        "away": 1.78
+        "home": 2.43,
+        "away": 3.14
       },
       "probabilities": {
-        "1": 73.6,
-        "X": 12.5,
-        "2": 13.9,
-        "1X": 86.1,
-        "X2": 26.4,
-        "12": 87.5,
-        "BTTS Yes": 81.2,
-        "BTTS No": 18.8,
+        "1": 30.2,
+        "X": 16.7,
+        "2": 53.1,
+        "1X": 46.9,
+        "X2": 69.8,
+        "12": 83.3,
+        "BTTS Yes": 87.3,
+        "BTTS No": 12.7,
         "Over 1.5": 97.5,
         "Under 1.5": 2.5,
-        "Over 2.5": 91.5,
-        "Under 2.5": 8.5,
-        "1 + Over 2.5": 69.4,
-        "2 + Over 2.5": 12.6,
-        "1X + Over 2.5": 78.9,
-        "X2 + Over 2.5": 22.1,
-        "1X + Over 1.5": 84.3,
-        "X2 + Over 1.5": 25.3,
-        "BTTS + Over 2.5": 78.6,
-        "Home win + BTTS": 57.1,
-        "Away win + BTTS": 12.0,
-        "1X + BTTS": 69.2,
-        "X2 + BTTS": 24.1
+        "Over 2.5": 91.6,
+        "Under 2.5": 8.4,
+        "1 + Over 2.5": 28.2,
+        "2 + Over 2.5": 50.0,
+        "1X + Over 2.5": 41.6,
+        "X2 + Over 2.5": 63.4,
+        "1X + Over 1.5": 45.6,
+        "X2 + Over 1.5": 68.2,
+        "BTTS + Over 2.5": 84.4,
+        "Home win + BTTS": 26.3,
+        "Away win + BTTS": 44.7,
+        "1X + BTTS": 42.6,
+        "X2 + BTTS": 61.0
       },
       "topProbabilityMarket": "Over 1.5",
       "topProbability": 97.5,
@@ -200,2864 +642,863 @@
     },
     {
       "fixtureId": null,
-      "home": "Oakleigh Cannons",
-      "away": "Bayswater City",
+      "home": "Bangkapi",
+      "away": "Singburi Warriors FC",
       "status": "model_ready",
       "model": "ConC Poisson v1",
       "sample": {
         "homeTeamMatches": 5,
         "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 4.5,
-        "away": 3.24
-      },
-      "probabilities": {
-        "1": 59.4,
-        "X": 13.9,
-        "2": 26.7,
-        "1X": 73.3,
-        "X2": 40.6,
-        "12": 86.1,
-        "BTTS Yes": 94.9,
-        "BTTS No": 5.1,
-        "Over 1.5": 99.6,
-        "Under 1.5": 0.4,
-        "Over 2.5": 98.2,
-        "Under 2.5": 1.8,
-        "1 + Over 2.5": 58.7,
-        "2 + Over 2.5": 26.3,
-        "1X + Over 2.5": 71.9,
-        "X2 + Over 2.5": 39.5,
-        "1X + Over 1.5": 73.0,
-        "X2 + Over 1.5": 40.4,
-        "BTTS + Over 2.5": 94.3,
-        "Home win + BTTS": 55.5,
-        "Away win + BTTS": 25.6,
-        "1X + BTTS": 69.3,
-        "X2 + BTTS": 39.4
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 99.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Newcastle Jets Women",
-      "away": "Adelaide United Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kaohsiung Attackers FC Reserves",
-      "away": "San Hai Tun",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Busan I Park",
-      "away": "Chungbuk Cheongju FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Suwon Samsung Bluewings",
-      "away": "Gyeongnam FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "SKA Khabarovsk",
-      "away": "Rotor Volgograd",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Mynavi Sendai Ladies Women",
-      "away": "Cerezo Osaka Sakai",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 9,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 1.63,
-        "away": 2.81
-      },
-      "probabilities": {
-        "1": 20.7,
-        "X": 17.0,
-        "2": 62.3,
-        "1X": 37.7,
-        "X2": 79.3,
-        "12": 83.0,
-        "BTTS Yes": 75.5,
-        "BTTS No": 24.5,
-        "Over 1.5": 93.6,
-        "Under 1.5": 6.4,
-        "Over 2.5": 81.9,
-        "Under 2.5": 18.1,
-        "1 + Over 2.5": 17.2,
-        "2 + Over 2.5": 54.3,
-        "1X + Over 2.5": 27.6,
-        "X2 + Over 2.5": 64.7,
-        "1X + Over 1.5": 34.6,
-        "X2 + Over 1.5": 74.8,
-        "BTTS + Over 2.5": 70.1,
-        "Home win + BTTS": 15.8,
-        "Away win + BTTS": 43.8,
-        "1X + BTTS": 31.7,
-        "X2 + BTTS": 59.7
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 93.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Jubilo Iwata",
-      "away": "RB Omiya Ardija",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.59,
-        "away": 0.52
-      },
-      "probabilities": {
-        "1": 63.6,
-        "X": 24.5,
-        "2": 12.0,
-        "1X": 88.0,
-        "X2": 36.4,
-        "12": 75.5,
-        "BTTS Yes": 32.4,
-        "BTTS No": 67.6,
-        "Over 1.5": 62.3,
-        "Under 1.5": 37.7,
-        "Over 2.5": 35.3,
-        "Under 2.5": 64.7,
-        "1 + Over 2.5": 29.1,
-        "2 + Over 2.5": 3.9,
-        "1X + Over 2.5": 31.4,
-        "X2 + Over 2.5": 6.2,
-        "1X + Over 1.5": 56.7,
-        "X2 + Over 1.5": 18.0,
-        "BTTS + Over 2.5": 22.4,
-        "Home win + BTTS": 16.5,
-        "Away win + BTTS": 3.6,
-        "1X + BTTS": 28.8,
-        "X2 + BTTS": 16.0
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 88.0,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Fujieda MYFC",
-      "away": "FC Imabari",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.95,
-        "away": 0.52
-      },
-      "probabilities": {
-        "1": 44.6,
-        "X": 35.8,
-        "2": 19.6,
-        "1X": 80.4,
-        "X2": 55.4,
-        "12": 64.2,
-        "BTTS Yes": 25.0,
-        "BTTS No": 75.0,
-        "Over 1.5": 43.4,
-        "Under 1.5": 56.6,
-        "Over 2.5": 18.5,
-        "Under 2.5": 81.5,
-        "1 + Over 2.5": 12.5,
-        "2 + Over 2.5": 4.5,
-        "1X + Over 2.5": 14.0,
-        "X2 + Over 2.5": 6.0,
-        "1X + Over 1.5": 35.8,
-        "X2 + Over 1.5": 20.5,
-        "BTTS + Over 2.5": 13.6,
-        "Home win + BTTS": 8.3,
-        "Away win + BTTS": 3.9,
-        "1X + BTTS": 21.2,
-        "X2 + BTTS": 16.8
-      },
-      "topProbabilityMarket": "Under 2.5",
-      "topProbability": 81.5,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kataller Toyama",
-      "away": "Oita Trinita",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 2.29,
-        "away": 0.63
-      },
-      "probabilities": {
-        "1": 74.7,
-        "X": 16.6,
-        "2": 8.7,
-        "1X": 91.3,
-        "X2": 25.3,
-        "12": 83.4,
-        "BTTS Yes": 42.2,
-        "BTTS No": 57.8,
-        "Over 1.5": 78.8,
-        "Under 1.5": 21.2,
-        "Over 2.5": 55.8,
-        "Under 2.5": 44.2,
-        "1 + Over 2.5": 48.3,
-        "2 + Over 2.5": 4.2,
-        "1X + Over 2.5": 51.7,
-        "X2 + Over 2.5": 7.5,
-        "1X + Over 1.5": 73.6,
-        "X2 + Over 1.5": 16.4,
-        "BTTS + Over 2.5": 34.4,
-        "Home win + BTTS": 27.1,
-        "Away win + BTTS": 3.9,
-        "1X + BTTS": 38.3,
-        "X2 + BTTS": 15.1
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 91.3,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Tokyo Verdy",
-      "away": "Nagoya Grampus",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 6
-      },
-      "expectedGoals": {
-        "home": 2.39,
-        "away": 0.38
-      },
-      "probabilities": {
-        "1": 82.2,
-        "X": 13.4,
-        "2": 4.4,
-        "1X": 95.6,
-        "X2": 17.8,
-        "12": 86.6,
-        "BTTS Yes": 28.9,
-        "BTTS No": 71.1,
-        "Over 1.5": 76.4,
-        "Under 1.5": 23.6,
-        "Over 2.5": 52.4,
-        "Under 2.5": 47.6,
-        "1 + Over 2.5": 49.4,
-        "2 + Over 2.5": 1.5,
-        "1X + Over 2.5": 50.9,
-        "X2 + Over 2.5": 3.0,
-        "1X + Over 1.5": 74.5,
-        "X2 + Over 1.5": 9.1,
-        "BTTS + Over 2.5": 23.2,
-        "Home win + BTTS": 20.3,
-        "Away win + BTTS": 1.4,
-        "1X + BTTS": 27.4,
-        "X2 + BTTS": 8.6
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 95.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Machida Zelvia",
-      "away": "V-Varen Nagasaki",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 10,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.93,
-        "away": 0.15
-      },
-      "probabilities": {
-        "1": 55.4,
-        "X": 38.8,
-        "2": 5.9,
-        "1X": 94.1,
-        "X2": 44.6,
-        "12": 61.2,
-        "BTTS Yes": 8.4,
-        "BTTS No": 91.6,
-        "Over 1.5": 29.5,
-        "Under 1.5": 70.5,
-        "Over 2.5": 9.6,
-        "Under 2.5": 90.4,
-        "1 + Over 2.5": 9.0,
-        "2 + Over 2.5": 0.4,
-        "1X + Over 2.5": 9.2,
-        "X2 + Over 2.5": 0.6,
-        "1X + Over 1.5": 28.7,
-        "X2 + Over 1.5": 5.7,
-        "BTTS + Over 2.5": 3.7,
-        "Home win + BTTS": 3.2,
-        "Away win + BTTS": 0.4,
-        "1X + BTTS": 8.1,
-        "X2 + BTTS": 5.3
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 94.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kyoto Sanga",
-      "away": "Urawa Red Diamonds",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 3.12,
-        "away": 0.93
-      },
-      "probabilities": {
-        "1": 80.2,
-        "X": 11.9,
-        "2": 7.9,
-        "1X": 92.1,
-        "X2": 19.8,
-        "12": 88.1,
-        "BTTS Yes": 58.0,
-        "BTTS No": 42.0,
-        "Over 1.5": 91.2,
-        "Under 1.5": 8.8,
-        "Over 2.5": 76.9,
-        "Under 2.5": 23.1,
-        "1 + Over 2.5": 66.3,
-        "2 + Over 2.5": 5.5,
-        "1X + Over 2.5": 71.4,
-        "X2 + Over 2.5": 10.6,
-        "1X + Over 1.5": 85.0,
-        "X2 + Over 1.5": 16.4,
-        "BTTS + Over 2.5": 52.9,
-        "Home win + BTTS": 42.6,
-        "Away win + BTTS": 5.2,
-        "1X + BTTS": 52.8,
-        "X2 + BTTS": 15.4
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 92.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sanfrecce Hiroshima",
-      "away": "Yokohama F. Marinos",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 3.81,
-        "away": 2.15
-      },
-      "probabilities": {
-        "1": 67.6,
-        "X": 13.7,
-        "2": 18.6,
-        "1X": 81.4,
-        "X2": 32.4,
-        "12": 86.3,
-        "BTTS Yes": 86.4,
-        "BTTS No": 13.6,
-        "Over 1.5": 98.2,
-        "Under 1.5": 1.8,
-        "Over 2.5": 93.5,
-        "Under 2.5": 6.5,
-        "1 + Over 2.5": 64.7,
-        "2 + Over 2.5": 17.5,
-        "1X + Over 2.5": 76.1,
-        "X2 + Over 2.5": 28.8,
-        "1X + Over 1.5": 80.1,
-        "X2 + Over 1.5": 31.5,
-        "BTTS + Over 2.5": 84.2,
-        "Home win + BTTS": 56.3,
-        "Away win + BTTS": 16.7,
-        "1X + BTTS": 69.7,
-        "X2 + BTTS": 30.1
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 98.2,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sagan Tosu",
-      "away": "Vegalta Sendai",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.89,
-        "away": 2.08
-      },
-      "probabilities": {
-        "1": 15.0,
-        "X": 20.0,
-        "2": 64.9,
-        "1X": 35.1,
-        "X2": 85.0,
-        "12": 80.0,
-        "BTTS Yes": 51.5,
-        "BTTS No": 48.5,
-        "Over 1.5": 79.6,
-        "Under 1.5": 20.4,
-        "Over 2.5": 57.0,
-        "Under 2.5": 43.0,
-        "1 + Over 2.5": 8.5,
-        "2 + Over 2.5": 43.2,
-        "1X + Over 2.5": 13.9,
-        "X2 + Over 2.5": 48.6,
-        "1X + Over 1.5": 25.4,
-        "X2 + Over 1.5": 69.2,
-        "BTTS + Over 2.5": 42.1,
-        "Home win + BTTS": 7.7,
-        "Away win + BTTS": 28.9,
-        "1X + BTTS": 22.6,
-        "X2 + BTTS": 43.8
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 85.0,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Blaublitz Akita",
-      "away": "Montedio Yamagata",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.71,
-        "away": 0.87
-      },
-      "probabilities": {
-        "1": 57.3,
-        "X": 23.8,
-        "2": 19.0,
-        "1X": 81.0,
-        "X2": 42.7,
-        "12": 76.2,
-        "BTTS Yes": 47.7,
-        "BTTS No": 52.3,
-        "Over 1.5": 73.0,
-        "Under 1.5": 27.0,
-        "Over 2.5": 47.8,
-        "Under 2.5": 52.2,
-        "1 + Over 2.5": 33.3,
-        "2 + Over 2.5": 9.5,
-        "1X + Over 2.5": 38.3,
-        "X2 + Over 2.5": 14.5,
-        "1X + Over 1.5": 60.6,
-        "X2 + Over 1.5": 28.6,
-        "BTTS + Over 2.5": 36.5,
-        "Home win + BTTS": 23.0,
-        "Away win + BTTS": 8.5,
-        "1X + BTTS": 39.3,
-        "X2 + BTTS": 24.7
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 81.0,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Yokohama FC",
-      "away": "Hokkaido Consadole Sapporo",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.38,
-        "away": 1.33
-      },
-      "probabilities": {
-        "1": 10.5,
-        "X": 28.4,
-        "2": 61.1,
-        "1X": 38.9,
-        "X2": 89.5,
-        "12": 71.6,
-        "BTTS Yes": 23.3,
-        "BTTS No": 76.7,
-        "Over 1.5": 51.1,
-        "Under 1.5": 48.9,
-        "Over 2.5": 24.6,
-        "Under 2.5": 75.4,
-        "1 + Over 2.5": 2.3,
-        "2 + Over 2.5": 21.1,
-        "1X + Over 2.5": 3.6,
-        "X2 + Over 2.5": 22.3,
-        "1X + Over 1.5": 14.0,
-        "X2 + Over 1.5": 47.5,
-        "BTTS + Over 2.5": 14.2,
-        "Home win + BTTS": 2.2,
-        "Away win + BTTS": 10.8,
-        "1X + BTTS": 12.5,
-        "X2 + BTTS": 21.2
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 89.5,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Tegevajaro Miyazaki",
-      "away": "Iwaki FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 8
       },
       "expectedGoals": {
         "home": 1.67,
-        "away": 0.89
+        "away": 0.82
       },
       "probabilities": {
-        "1": 55.7,
-        "X": 24.3,
-        "2": 20.0,
-        "1X": 80.0,
-        "X2": 44.3,
-        "12": 75.7,
-        "BTTS Yes": 47.8,
-        "BTTS No": 52.2,
-        "Over 1.5": 72.4,
-        "Under 1.5": 27.6,
-        "Over 2.5": 47.0,
-        "Under 2.5": 53.0,
-        "1 + Over 2.5": 32.0,
-        "2 + Over 2.5": 10.0,
-        "1X + Over 2.5": 37.0,
-        "X2 + Over 2.5": 15.0,
-        "1X + Over 1.5": 59.3,
-        "X2 + Over 1.5": 29.6,
-        "BTTS + Over 2.5": 36.2,
-        "Home win + BTTS": 22.4,
-        "Away win + BTTS": 8.8,
-        "1X + BTTS": 38.9,
-        "X2 + BTTS": 25.4
+        "1": 57.5,
+        "X": 24.2,
+        "2": 18.3,
+        "1X": 81.7,
+        "X2": 42.5,
+        "12": 75.8,
+        "BTTS Yes": 45.5,
+        "BTTS No": 54.5,
+        "Over 1.5": 71.1,
+        "Under 1.5": 28.9,
+        "Over 2.5": 45.4,
+        "Under 2.5": 54.6,
+        "1 + Over 2.5": 32.1,
+        "2 + Over 2.5": 8.7,
+        "1X + Over 2.5": 36.7,
+        "X2 + Over 2.5": 13.3,
+        "1X + Over 1.5": 59.6,
+        "X2 + Over 1.5": 27.4,
+        "BTTS + Over 2.5": 34.2,
+        "Home win + BTTS": 21.8,
+        "Away win + BTTS": 7.8,
+        "1X + BTTS": 37.8,
+        "X2 + BTTS": 23.7
       },
       "topProbabilityMarket": "1X",
-      "topProbability": 80.0,
+      "topProbability": 81.7,
       "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
     },
     {
       "fixtureId": null,
-      "home": "Tochigi City",
-      "away": "Albirex Niigata",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.27,
-        "away": 3.24
-      },
-      "probabilities": {
-        "1": 11.4,
-        "X": 13.2,
-        "2": 75.5,
-        "1X": 24.5,
-        "X2": 88.6,
-        "12": 86.8,
-        "BTTS Yes": 69.1,
-        "BTTS No": 30.9,
-        "Over 1.5": 93.9,
-        "Under 1.5": 6.1,
-        "Over 2.5": 82.6,
-        "Under 2.5": 17.4,
-        "1 + Over 2.5": 9.1,
-        "2 + Over 2.5": 66.0,
-        "1X + Over 2.5": 16.6,
-        "X2 + Over 2.5": 73.5,
-        "1X + Over 1.5": 22.0,
-        "X2 + Over 1.5": 83.9,
-        "BTTS + Over 2.5": 64.5,
-        "Home win + BTTS": 8.5,
-        "Away win + BTTS": 48.5,
-        "1X + BTTS": 20.6,
-        "X2 + BTTS": 60.5
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 93.9,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Ventforet Kofu",
-      "away": "Vanraure Hachinohe FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.33,
-        "away": 1.58
-      },
-      "probabilities": {
-        "1": 7.4,
-        "X": 23.6,
-        "2": 69.0,
-        "1X": 31.0,
-        "X2": 92.6,
-        "12": 76.4,
-        "BTTS Yes": 22.5,
-        "BTTS No": 77.5,
-        "Over 1.5": 57.1,
-        "Under 1.5": 42.9,
-        "Over 2.5": 30.1,
-        "Under 2.5": 69.9,
-        "1 + Over 2.5": 1.7,
-        "2 + Over 2.5": 27.3,
-        "1X + Over 2.5": 2.8,
-        "X2 + Over 2.5": 28.4,
-        "1X + Over 1.5": 11.3,
-        "X2 + Over 1.5": 54.6,
-        "BTTS + Over 2.5": 14.8,
-        "Home win + BTTS": 1.6,
-        "Away win + BTTS": 12.1,
-        "1X + BTTS": 10.4,
-        "X2 + BTTS": 20.9
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 92.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Gainare Tottori",
-      "away": "AC Nagano Parceiro",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 0.72,
-        "away": 1.86
-      },
-      "probabilities": {
-        "1": 13.9,
-        "X": 21.7,
-        "2": 64.5,
-        "1X": 35.5,
-        "X2": 86.1,
-        "12": 78.3,
-        "BTTS Yes": 43.5,
-        "BTTS No": 56.5,
-        "Over 1.5": 73.0,
-        "Under 1.5": 27.0,
-        "Over 2.5": 47.8,
-        "Under 2.5": 52.2,
-        "1 + Over 2.5": 6.4,
-        "2 + Over 2.5": 37.4,
-        "1X + Over 2.5": 10.4,
-        "X2 + Over 2.5": 41.4,
-        "1X + Over 1.5": 22.5,
-        "X2 + Over 1.5": 64.6,
-        "BTTS + Over 2.5": 33.4,
-        "Home win + BTTS": 5.9,
-        "Away win + BTTS": 23.5,
-        "1X + BTTS": 20.0,
-        "X2 + BTTS": 37.6
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 86.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Ehime FC",
-      "away": "FC Gifu",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.62,
-        "away": 1.91
-      },
-      "probabilities": {
-        "1": 11.2,
-        "X": 20.6,
-        "2": 68.2,
-        "1X": 31.8,
-        "X2": 88.8,
-        "12": 79.4,
-        "BTTS Yes": 39.4,
-        "BTTS No": 60.6,
-        "Over 1.5": 71.9,
-        "Under 1.5": 28.1,
-        "Over 2.5": 46.4,
-        "Under 2.5": 53.6,
-        "1 + Over 2.5": 4.8,
-        "2 + Over 2.5": 38.4,
-        "1X + Over 2.5": 8.0,
-        "X2 + Over 2.5": 41.6,
-        "1X + Over 1.5": 18.9,
-        "X2 + Over 1.5": 65.6,
-        "BTTS + Over 2.5": 29.9,
-        "Home win + BTTS": 4.4,
-        "Away win + BTTS": 22.4,
-        "1X + BTTS": 17.0,
-        "X2 + BTTS": 35.0
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 88.8,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kochi United",
-      "away": "Fukushima United FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.36,
-        "away": 3.04
-      },
-      "probabilities": {
-        "1": 14.1,
-        "X": 14.7,
-        "2": 71.2,
-        "1X": 28.8,
-        "X2": 85.9,
-        "12": 85.3,
-        "BTTS Yes": 70.7,
-        "BTTS No": 29.3,
-        "Over 1.5": 93.3,
-        "Under 1.5": 6.7,
-        "Over 2.5": 81.4,
-        "Under 2.5": 18.6,
-        "1 + Over 2.5": 11.3,
-        "2 + Over 2.5": 61.7,
-        "1X + Over 2.5": 19.7,
-        "X2 + Over 2.5": 70.1,
-        "1X + Over 1.5": 25.9,
-        "X2 + Over 1.5": 80.9,
-        "BTTS + Over 2.5": 65.6,
-        "Home win + BTTS": 10.5,
-        "Away win + BTTS": 46.7,
-        "1X + BTTS": 24.0,
-        "X2 + BTTS": 60.2
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 93.3,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Matsumoto Yamaga FC",
-      "away": "FC Ryukyu Okinawa",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.16,
-        "away": 2.58
-      },
-      "probabilities": {
-        "1": 15.2,
-        "X": 17.0,
-        "2": 67.9,
-        "1X": 32.1,
-        "X2": 84.8,
-        "12": 83.0,
-        "BTTS Yes": 63.5,
-        "BTTS No": 36.5,
-        "Over 1.5": 88.7,
-        "Under 1.5": 11.3,
-        "Over 2.5": 72.1,
-        "Under 2.5": 27.9,
-        "1 + Over 2.5": 10.8,
-        "2 + Over 2.5": 53.8,
-        "1X + Over 2.5": 18.3,
-        "X2 + Over 2.5": 61.3,
-        "1X + Over 1.5": 27.0,
-        "X2 + Over 1.5": 76.3,
-        "BTTS + Over 2.5": 56.3,
-        "Home win + BTTS": 9.9,
-        "Away win + BTTS": 38.9,
-        "1X + BTTS": 24.5,
-        "X2 + BTTS": 53.5
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 88.7,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Thespa Kusatsu Gunma",
-      "away": "Tochigi SC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.15,
-        "away": 1.62
-      },
-      "probabilities": {
-        "1": 3.1,
-        "X": 21.4,
-        "2": 75.5,
-        "1X": 24.5,
-        "X2": 96.9,
-        "12": 78.6,
-        "BTTS Yes": 11.2,
-        "BTTS No": 88.8,
-        "Over 1.5": 52.9,
-        "Under 1.5": 47.1,
-        "Over 2.5": 26.2,
-        "Under 2.5": 73.8,
-        "1 + Over 2.5": 0.3,
-        "2 + Over 2.5": 25.6,
-        "1X + Over 2.5": 0.6,
-        "X2 + Over 2.5": 25.9,
-        "1X + Over 1.5": 4.9,
-        "X2 + Over 1.5": 52.4,
-        "BTTS + Over 2.5": 7.0,
-        "Home win + BTTS": 0.3,
-        "Away win + BTTS": 6.4,
-        "1X + BTTS": 4.7,
-        "X2 + BTTS": 10.8
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 96.9,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Zweigen Kanazawa FC",
-      "away": "Kagoshima United",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 2.17,
-        "away": 0.65
-      },
-      "probabilities": {
-        "1": 72.3,
-        "X": 17.9,
-        "2": 9.8,
-        "1X": 90.2,
-        "X2": 27.7,
-        "12": 82.1,
-        "BTTS Yes": 42.6,
-        "BTTS No": 57.4,
-        "Over 1.5": 77.3,
-        "Under 1.5": 22.7,
-        "Over 2.5": 53.7,
-        "Under 2.5": 46.3,
-        "1 + Over 2.5": 45.5,
-        "2 + Over 2.5": 4.7,
-        "1X + Over 2.5": 49.0,
-        "X2 + Over 2.5": 8.2,
-        "1X + Over 1.5": 71.4,
-        "X2 + Over 1.5": 17.9,
-        "BTTS + Over 2.5": 34.1,
-        "Home win + BTTS": 26.3,
-        "Away win + BTTS": 4.3,
-        "1X + BTTS": 38.2,
-        "X2 + BTTS": 16.3
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 90.2,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Nara Club",
-      "away": "SC Sagamihara",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 0.66,
-        "away": 1.43
-      },
-      "probabilities": {
-        "1": 17.3,
-        "X": 27.1,
-        "2": 55.7,
-        "1X": 44.3,
-        "X2": 82.7,
-        "12": 72.9,
-        "BTTS Yes": 36.9,
-        "BTTS No": 63.1,
-        "Over 1.5": 61.9,
-        "Under 1.5": 38.1,
-        "Over 2.5": 34.9,
-        "Under 2.5": 65.1,
-        "1 + Over 2.5": 6.4,
-        "2 + Over 2.5": 25.4,
-        "1X + Over 2.5": 9.5,
-        "X2 + Over 2.5": 28.5,
-        "1X + Over 1.5": 23.9,
-        "X2 + Over 1.5": 52.8,
-        "BTTS + Over 2.5": 25.2,
-        "Home win + BTTS": 5.7,
-        "Away win + BTTS": 16.5,
-        "1X + BTTS": 20.5,
-        "X2 + BTTS": 31.2
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 82.7,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Pohang Steelers",
-      "away": "FC Anyang",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.82,
-        "away": 0.97
-      },
-      "probabilities": {
-        "1": 29.3,
-        "X": 32.9,
-        "2": 37.9,
-        "1X": 62.1,
-        "X2": 70.7,
-        "12": 67.1,
-        "BTTS Yes": 34.7,
-        "BTTS No": 65.3,
-        "Over 1.5": 53.4,
-        "Under 1.5": 46.6,
-        "Over 2.5": 26.6,
-        "Under 2.5": 73.4,
-        "1 + Over 2.5": 10.1,
-        "2 + Over 2.5": 13.7,
-        "1X + Over 2.5": 12.9,
-        "X2 + Over 2.5": 16.6,
-        "1X + Over 1.5": 31.8,
-        "X2 + Over 1.5": 37.8,
-        "BTTS + Over 2.5": 21.4,
-        "Home win + BTTS": 8.2,
-        "Away win + BTTS": 10.4,
-        "1X + BTTS": 24.3,
-        "X2 + BTTS": 26.5
-      },
-      "topProbabilityMarket": "Under 2.5",
-      "topProbability": 73.4,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Jeonbuk Hyundai Motors",
-      "away": "FC Seoul",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.97,
-        "away": 1.69
-      },
-      "probabilities": {
-        "1": 21.6,
-        "X": 24.1,
-        "2": 54.4,
-        "1X": 45.6,
-        "X2": 78.4,
-        "12": 75.9,
-        "BTTS Yes": 50.7,
-        "BTTS No": 49.3,
-        "Over 1.5": 74.5,
-        "Under 1.5": 25.5,
-        "Over 2.5": 49.8,
-        "Under 2.5": 50.2,
-        "1 + Over 2.5": 11.5,
-        "2 + Over 2.5": 32.6,
-        "1X + Over 2.5": 17.2,
-        "X2 + Over 2.5": 38.3,
-        "1X + Over 1.5": 31.9,
-        "X2 + Over 1.5": 59.7,
-        "BTTS + Over 2.5": 39.3,
-        "Home win + BTTS": 10.2,
-        "Away win + BTTS": 23.5,
-        "1X + BTTS": 27.3,
-        "X2 + BTTS": 40.6
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 78.4,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Nagoya Grampus U21",
-      "away": "Urawa Red Diamonds U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Inter Taoyuan FC",
-      "away": "Taichung City",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Brisbane Roar Women",
-      "away": "Melbourne City Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Central Coast Mariners",
-      "away": "Perth Glory",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "AS Elfen Saitama Women",
-      "away": "JEF United Ichihara Chiba Ladies Women",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 0.75,
-        "away": 1.03
-      },
-      "probabilities": {
-        "1": 26.0,
-        "X": 32.7,
-        "2": 41.2,
-        "1X": 58.8,
-        "X2": 74.0,
-        "12": 67.3,
-        "BTTS Yes": 33.8,
-        "BTTS No": 66.2,
-        "Over 1.5": 52.9,
-        "Under 1.5": 47.1,
-        "Over 2.5": 26.2,
-        "Under 2.5": 73.8,
-        "1 + Over 2.5": 8.6,
-        "2 + Over 2.5": 14.9,
-        "1X + Over 2.5": 11.3,
-        "X2 + Over 2.5": 17.6,
-        "1X + Over 1.5": 29.1,
-        "X2 + Over 1.5": 39.6,
-        "BTTS + Over 2.5": 20.8,
-        "Home win + BTTS": 7.2,
-        "Away win + BTTS": 10.9,
-        "1X + BTTS": 22.9,
-        "X2 + BTTS": 26.6
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 74.0,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kawasaki Frontale",
-      "away": "Avispa Fukuoka",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 6
-      },
-      "expectedGoals": {
-        "home": 3.64,
-        "away": 0.54
-      },
-      "probabilities": {
-        "1": 91.1,
-        "X": 6.4,
-        "2": 2.4,
-        "1X": 97.6,
-        "X2": 8.9,
-        "12": 93.6,
-        "BTTS Yes": 40.5,
-        "BTTS No": 59.5,
-        "Over 1.5": 92.0,
-        "Under 1.5": 8.0,
-        "Over 2.5": 78.5,
-        "Under 2.5": 21.5,
-        "1 + Over 2.5": 75.2,
-        "2 + Over 2.5": 1.4,
-        "1X + Over 2.5": 77.1,
-        "X2 + Over 2.5": 3.2,
-        "1X + Over 1.5": 90.4,
-        "X2 + Over 1.5": 6.5,
-        "BTTS + Over 2.5": 37.5,
-        "Home win + BTTS": 34.3,
-        "Away win + BTTS": 1.3,
-        "1X + BTTS": 39.2,
-        "X2 + BTTS": 6.2
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 97.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Cerezo Osaka",
-      "away": "FC Tokyo",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.15,
-        "away": 3.44
-      },
-      "probabilities": {
-        "1": 0.6,
-        "X": 4.4,
-        "2": 95.0,
-        "1X": 5.0,
-        "X2": 99.4,
-        "12": 95.6,
-        "BTTS Yes": 13.5,
-        "BTTS No": 86.5,
-        "Over 1.5": 87.3,
-        "Under 1.5": 12.7,
-        "Over 2.5": 69.3,
-        "Under 2.5": 30.7,
-        "1 + Over 2.5": 0.1,
-        "2 + Over 2.5": 69.0,
-        "1X + Over 2.5": 0.3,
-        "X2 + Over 2.5": 69.2,
-        "1X + Over 1.5": 1.8,
-        "X2 + Over 1.5": 87.1,
-        "BTTS + Over 2.5": 12.0,
-        "Home win + BTTS": 0.1,
-        "Away win + BTTS": 11.7,
-        "1X + BTTS": 1.8,
-        "X2 + BTTS": 13.4
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 99.4,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sydney FC Women",
-      "away": "Canberra United Women",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 1.32,
-        "away": 2.78
-      },
-      "probabilities": {
-        "1": 15.8,
-        "X": 16.2,
-        "2": 68.0,
-        "1X": 32.0,
-        "X2": 84.2,
-        "12": 83.8,
-        "BTTS Yes": 68.7,
-        "BTTS No": 31.3,
-        "Over 1.5": 91.5,
-        "Under 1.5": 8.5,
-        "Over 2.5": 77.6,
-        "Under 2.5": 22.4,
-        "1 + Over 2.5": 12.1,
-        "2 + Over 2.5": 57.0,
-        "1X + Over 2.5": 20.6,
-        "X2 + Over 2.5": 65.4,
-        "1X + Over 1.5": 28.1,
-        "X2 + Over 1.5": 78.0,
-        "BTTS + Over 2.5": 62.6,
-        "Home win + BTTS": 11.2,
-        "Away win + BTTS": 42.9,
-        "1X + BTTS": 25.8,
-        "X2 + BTTS": 57.4
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 91.5,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sichuan Women",
-      "away": "Changchun Dazhongzhuoyue Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Shandong Women",
-      "away": "Shaanxi Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Guangxi Pingguo Beinong Women",
-      "away": "Guangdong Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Yenisey Krasnoyarsk",
-      "away": "Volga Ulyanovsk",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Tai Po",
-      "away": "Kitchee",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 1.14,
-        "away": 3.68
-      },
-      "probabilities": {
-        "1": 7.3,
-        "X": 10.0,
-        "2": 82.7,
-        "1X": 17.3,
-        "X2": 92.7,
-        "12": 90.0,
-        "BTTS Yes": 66.2,
-        "BTTS No": 33.8,
-        "Over 1.5": 95.2,
-        "Under 1.5": 4.8,
-        "Over 2.5": 85.7,
-        "Under 2.5": 14.3,
-        "1 + Over 2.5": 5.9,
-        "2 + Over 2.5": 74.1,
-        "1X + Over 2.5": 11.6,
-        "X2 + Over 2.5": 79.9,
-        "1X + Over 1.5": 15.6,
-        "X2 + Over 1.5": 88.9,
-        "BTTS + Over 2.5": 62.8,
-        "Home win + BTTS": 5.6,
-        "Away win + BTTS": 51.5,
-        "1X + BTTS": 14.8,
-        "X2 + BTTS": 60.7
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 95.2,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kwoon Chung Southern",
-      "away": "Hong Kong Rangers",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Gamba Osaka",
-      "away": "Fagiano Okayama",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 6
-      },
-      "expectedGoals": {
-        "home": 2.14,
-        "away": 0.75
-      },
-      "probabilities": {
-        "1": 69.3,
-        "X": 18.8,
-        "2": 11.9,
-        "1X": 88.1,
-        "X2": 30.7,
-        "12": 81.2,
-        "BTTS Yes": 46.6,
-        "BTTS No": 53.4,
-        "Over 1.5": 78.3,
-        "Under 1.5": 21.7,
-        "Over 2.5": 55.1,
-        "Under 2.5": 44.9,
-        "1 + Over 2.5": 44.7,
-        "2 + Over 2.5": 6.1,
-        "1X + Over 2.5": 49.0,
-        "X2 + Over 2.5": 10.4,
-        "1X + Over 1.5": 70.6,
-        "X2 + Over 1.5": 20.9,
-        "BTTS + Over 2.5": 37.6,
-        "Home win + BTTS": 27.7,
-        "Away win + BTTS": 5.6,
-        "1X + BTTS": 40.9,
-        "X2 + BTTS": 18.9
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 88.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Youyang Taohuayuan",
-      "away": "Shizhu Red",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Wushan Red Leaf",
-      "away": "Liangping",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Bishan Wolf",
-      "away": "Qijiang Laosichuan FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Rongchang Pottery",
-      "away": "Jiangjin",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Nan'an",
-      "away": "Beibei Jinyun",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Wanzhou Pegasus",
-      "away": "Fengdu",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kashi Yunwang Education Dongqiuge FC",
-      "away": "Hetianyuzhouditan",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Fu Jen University",
-      "away": "Gao Da Guoguang",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Wolaita Dicha W",
-      "away": "Fasil Kenema Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Gimpo FC",
-      "away": "Suwon Football Club",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Seongnam FC",
-      "away": "Yongin FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Incheon United Club",
-      "away": "Ulsan HD FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Gangwon FC",
-      "away": "Daejeon Hana Citizen",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 0.91,
-        "away": 1.59
-      },
-      "probabilities": {
-        "1": 21.4,
-        "X": 25.1,
-        "2": 53.5,
-        "1X": 46.5,
-        "X2": 78.6,
-        "12": 74.9,
-        "BTTS Yes": 47.5,
-        "BTTS No": 52.5,
-        "Over 1.5": 71.3,
-        "Under 1.5": 28.7,
-        "Over 2.5": 45.6,
-        "Under 2.5": 54.4,
-        "1 + Over 2.5": 10.6,
-        "2 + Over 2.5": 30.0,
-        "1X + Over 2.5": 15.6,
-        "X2 + Over 2.5": 35.0,
-        "1X + Over 1.5": 30.9,
-        "X2 + Over 1.5": 57.3,
-        "BTTS + Over 2.5": 35.6,
-        "Home win + BTTS": 9.3,
-        "Away win + BTTS": 21.3,
-        "1X + BTTS": 26.2,
-        "X2 + BTTS": 38.2
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 78.6,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kayole Starlet (W)",
-      "away": "Kenya Police Bullets Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Chippa United Reserves",
-      "away": "Richards Bay FC Reserves",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "TS Galaxy Reserves",
-      "away": "Siwelele FC Reserves",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Persikad Depok (W)",
-      "away": "Bekasi City (W)",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Mamelodi Sundowns Reserves",
-      "away": "Golden Arrows Reserves",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Babuza FC",
-      "away": "MFA Taiwan",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Persebaya Surabaya",
-      "away": "Malut United",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Persatuan sepak bola Indonesia Kediri",
-      "away": "PSIM Yogyakarta",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 1.52,
-        "away": 1.32
-      },
-      "probabilities": {
-        "1": 42.1,
-        "X": 25.0,
-        "2": 33.0,
-        "1X": 67.0,
-        "X2": 57.9,
-        "12": 75.0,
-        "BTTS Yes": 57.1,
-        "BTTS No": 42.9,
-        "Over 1.5": 77.4,
-        "Under 1.5": 22.6,
-        "Over 2.5": 53.8,
-        "Under 2.5": 46.2,
-        "1 + Over 2.5": 26.4,
-        "2 + Over 2.5": 20.1,
-        "1X + Over 2.5": 33.7,
-        "X2 + Over 2.5": 27.5,
-        "1X + Over 1.5": 52.2,
-        "X2 + Over 1.5": 44.3,
-        "BTTS + Over 2.5": 45.4,
-        "Home win + BTTS": 21.1,
-        "Away win + BTTS": 16.9,
-        "1X + BTTS": 40.2,
-        "X2 + BTTS": 36.0
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 77.4,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Lam Dong",
-      "away": "Dong Thap",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "PSIS Semarang",
-      "away": "Semen Padang",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Rans Nusantara FC",
-      "away": "Persipura Jayapura",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Kasem Bundit University FC",
-      "away": "Lopburi City FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 2.64,
-        "away": 0.36
-      },
-      "probabilities": {
-        "1": 85.8,
-        "X": 10.9,
-        "2": 3.3,
-        "1X": 96.7,
-        "X2": 14.2,
-        "12": 89.1,
-        "BTTS Yes": 28.1,
-        "BTTS No": 71.9,
-        "Over 1.5": 80.1,
-        "Under 1.5": 19.9,
-        "Over 2.5": 57.7,
-        "Under 2.5": 42.3,
-        "1 + Over 2.5": 55.3,
-        "2 + Over 2.5": 1.2,
-        "1X + Over 2.5": 56.5,
-        "X2 + Over 2.5": 2.4,
-        "1X + Over 1.5": 78.6,
-        "X2 + Over 1.5": 7.5,
-        "BTTS + Over 2.5": 23.3,
-        "Home win + BTTS": 21.0,
-        "Away win + BTTS": 1.1,
-        "1X + BTTS": 27.0,
-        "X2 + BTTS": 7.1
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 96.7,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Futera United",
-      "away": "Chamchuri United FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 6
-      },
-      "expectedGoals": {
-        "home": 0.82,
-        "away": 3.81
-      },
-      "probabilities": {
-        "1": 4.0,
-        "X": 7.6,
-        "2": 88.4,
-        "1X": 11.6,
-        "X2": 96.0,
-        "12": 92.4,
-        "BTTS Yes": 54.7,
-        "BTTS No": 45.3,
-        "Over 1.5": 94.4,
-        "Under 1.5": 5.6,
-        "Over 2.5": 83.8,
-        "Under 2.5": 16.2,
-        "1 + Over 2.5": 2.9,
-        "2 + Over 2.5": 77.4,
-        "1X + Over 2.5": 6.3,
-        "X2 + Over 2.5": 80.9,
-        "1X + Over 1.5": 9.8,
-        "X2 + Over 1.5": 91.2,
-        "BTTS + Over 2.5": 51.6,
-        "Home win + BTTS": 2.8,
-        "Away win + BTTS": 45.4,
-        "1X + BTTS": 9.3,
-        "X2 + BTTS": 52.0
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 96.0,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Royal Thai Air Force FC",
-      "away": "Pathumthani University",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 2.33,
-        "away": 0.66
-      },
-      "probabilities": {
-        "1": 74.9,
-        "X": 16.3,
-        "2": 8.8,
-        "1X": 91.2,
-        "X2": 25.1,
-        "12": 83.7,
-        "BTTS Yes": 43.5,
-        "BTTS No": 56.5,
-        "Over 1.5": 79.9,
-        "Under 1.5": 20.1,
-        "Over 2.5": 57.4,
-        "Under 2.5": 42.6,
-        "1 + Over 2.5": 49.5,
-        "2 + Over 2.5": 4.4,
-        "1X + Over 2.5": 53.0,
-        "X2 + Over 2.5": 7.9,
-        "1X + Over 1.5": 74.4,
-        "X2 + Over 1.5": 16.7,
-        "BTTS + Over 2.5": 35.8,
-        "Home win + BTTS": 28.2,
-        "Away win + BTTS": 4.1,
-        "1X + BTTS": 39.4,
-        "X2 + BTTS": 15.3
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 91.2,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Marines Eureka FC",
-      "away": "Burapha United",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 4.07,
-        "away": 4.41
-      },
-      "probabilities": {
-        "1": 38.5,
-        "X": 14.7,
-        "2": 46.9,
-        "1X": 53.1,
-        "X2": 61.5,
-        "12": 85.3,
-        "BTTS Yes": 97.0,
-        "BTTS No": 3.0,
-        "Over 1.5": 99.8,
-        "Under 1.5": 0.2,
-        "Over 2.5": 99.0,
-        "Under 2.5": 1.0,
-        "1 + Over 2.5": 38.2,
-        "2 + Over 2.5": 46.5,
-        "1X + Over 2.5": 52.5,
-        "X2 + Over 2.5": 60.8,
-        "1X + Over 1.5": 53.0,
-        "X2 + Over 1.5": 61.4,
-        "BTTS + Over 2.5": 96.6,
-        "Home win + BTTS": 37.3,
-        "Away win + BTTS": 45.1,
-        "1X + BTTS": 51.9,
-        "X2 + BTTS": 59.8
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 99.8,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Pluakdaeng United",
-      "away": "Fleet United FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 8,
-        "awayTeamMatches": 8
-      },
-      "expectedGoals": {
-        "home": 3.0,
-        "away": 3.21
-      },
-      "probabilities": {
-        "1": 38.5,
-        "X": 16.5,
-        "2": 45.0,
-        "1X": 55.0,
-        "X2": 61.5,
-        "12": 83.5,
-        "BTTS Yes": 91.2,
-        "BTTS No": 8.8,
-        "Over 1.5": 98.5,
-        "Under 1.5": 1.5,
-        "Over 2.5": 94.6,
-        "Under 2.5": 5.4,
-        "1 + Over 2.5": 37.0,
-        "2 + Over 2.5": 43.3,
-        "1X + Over 2.5": 51.3,
-        "X2 + Over 2.5": 57.6,
-        "1X + Over 1.5": 54.2,
-        "X2 + Over 1.5": 60.6,
-        "BTTS + Over 2.5": 89.2,
-        "Home win + BTTS": 34.7,
-        "Away win + BTTS": 40.2,
-        "1X + BTTS": 51.0,
-        "X2 + BTTS": 56.5
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 98.5,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Chiangrai Thawee",
-      "away": "Maejo United",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Paknampho NSRU",
-      "away": "TNSU Lampang FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Ubon Kruanapat",
-      "away": "Khonkaen Mordindang FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Yasothon FC",
-      "away": "Udon United",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 6,
-        "awayTeamMatches": 6
-      },
-      "expectedGoals": {
-        "home": 0.37,
-        "away": 2.88
-      },
-      "probabilities": {
-        "1": 2.8,
-        "X": 9.3,
-        "2": 87.9,
-        "1X": 12.1,
-        "X2": 97.2,
-        "12": 90.7,
-        "BTTS Yes": 29.4,
-        "BTTS No": 70.6,
-        "Over 1.5": 83.5,
-        "Under 1.5": 16.5,
-        "Over 2.5": 63.0,
-        "Under 2.5": 37.0,
-        "1 + Over 2.5": 1.1,
-        "2 + Over 2.5": 60.6,
-        "1X + Over 2.5": 2.4,
-        "X2 + Over 2.5": 61.9,
-        "1X + Over 1.5": 6.8,
-        "X2 + Over 1.5": 82.1,
-        "BTTS + Over 2.5": 25.2,
-        "Home win + BTTS": 1.1,
-        "Away win + BTTS": 22.9,
-        "1X + BTTS": 6.5,
-        "X2 + BTTS": 28.3
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 97.2,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Samut Sakhon City",
-      "away": "Phetchaburi PBRU FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 7,
-        "awayTeamMatches": 7
-      },
-      "expectedGoals": {
-        "home": 1.97,
-        "away": 0.85
-      },
-      "probabilities": {
-        "1": 63.7,
-        "X": 20.9,
-        "2": 15.3,
-        "1X": 84.7,
-        "X2": 36.3,
-        "12": 79.1,
-        "BTTS Yes": 49.2,
-        "BTTS No": 50.8,
-        "Over 1.5": 77.2,
-        "Under 1.5": 22.8,
-        "Over 2.5": 53.5,
-        "Under 2.5": 46.5,
-        "1 + Over 2.5": 40.4,
-        "2 + Over 2.5": 8.1,
-        "1X + Over 2.5": 45.4,
-        "X2 + Over 2.5": 13.2,
-        "1X + Over 1.5": 67.0,
-        "X2 + Over 1.5": 25.2,
-        "BTTS + Over 2.5": 39.2,
-        "Home win + BTTS": 26.8,
-        "Away win + BTTS": 7.4,
-        "1X + BTTS": 41.8,
-        "X2 + BTTS": 22.4
-      },
-      "topProbabilityMarket": "1X",
-      "topProbability": 84.7,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Samut Songkhram City",
-      "away": "Rajpracha FC",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 1.88,
-        "away": 2.79
-      },
-      "probabilities": {
-        "1": 25.4,
-        "X": 17.6,
-        "2": 57.0,
-        "1X": 43.0,
-        "X2": 74.6,
-        "12": 82.4,
-        "BTTS Yes": 79.5,
-        "BTTS No": 20.5,
-        "Over 1.5": 94.7,
-        "Under 1.5": 5.3,
-        "Over 2.5": 84.4,
-        "Under 2.5": 15.6,
-        "1 + Over 2.5": 21.9,
-        "2 + Over 2.5": 50.7,
-        "1X + Over 2.5": 33.7,
-        "X2 + Over 2.5": 62.5,
-        "1X + Over 1.5": 40.3,
-        "X2 + Over 1.5": 71.1,
-        "BTTS + Over 2.5": 74.6,
-        "Home win + BTTS": 20.1,
-        "Away win + BTTS": 42.7,
-        "1X + BTTS": 36.8,
-        "X2 + BTTS": 59.4
-      },
-      "topProbabilityMarket": "Over 1.5",
-      "topProbability": 94.7,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
-    },
-    {
-      "fixtureId": null,
-      "home": "Brisbane Roar",
-      "away": "Sydney FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "JS Djijel U20",
-      "away": "MO Constantine U20",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "FC Trostianets",
-      "away": "Penuel Kryvyi Rih",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Gloria Popesti-Leordeni",
-      "away": "Selimbar",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "ACS Dumbravita",
-      "away": "Afumati",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Scolar Resita",
-      "away": "Metaloglobus",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "CSM Slatina",
-      "away": "FCM Targu Mures",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "FC Bacau",
-      "away": "CS Dinamo Bucuresti",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "CSM Satu Mare",
-      "away": "Concordia Chiajna",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Lindab Stefanesti",
-      "away": "FC Unirea 2004 Slobozia",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "FC Shakhtar Donetsk Youth",
-      "away": "FC Livyi Bereh U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Banik Ostrava U19",
-      "away": "Viktoria Plzen U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Yangon United",
-      "away": "ISPE FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "MTK Budapest U19",
-      "away": "Budai FC U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Debreceni VSC U19",
-      "away": "Kisvárda FC U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Ferencvarosi TC U19",
-      "away": "Vasas U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Amedspor U19",
-      "away": "Caykur Rizespor U19",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Chinland FC U20",
-      "away": "Yadanarbon FC U20",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Yangon City U20",
-      "away": "ISPE FC U20",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.46,
-        "away": 3.05
-      },
-      "probabilities": {
-        "1": 3.2,
-        "X": 9.0,
-        "2": 87.8,
-        "1X": 12.2,
-        "X2": 96.8,
-        "12": 91.0,
-        "BTTS Yes": 35.4,
-        "BTTS No": 64.6,
-        "Over 1.5": 86.5,
-        "Under 1.5": 13.5,
-        "Over 2.5": 68.0,
-        "Under 2.5": 32.0,
-        "1 + Over 2.5": 1.5,
-        "2 + Over 2.5": 64.8,
-        "1X + Over 2.5": 3.3,
-        "X2 + Over 2.5": 66.5,
-        "1X + Over 1.5": 7.8,
-        "X2 + Over 1.5": 84.7,
-        "BTTS + Over 2.5": 31.1,
-        "Home win + BTTS": 1.4,
-        "Away win + BTTS": 27.9,
-        "1X + BTTS": 7.4,
-        "X2 + BTTS": 33.9
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 96.8,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+      "home": "Thonburi United FC",
+      "away": "Thap Luang United",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Banbueng",
+      "away": "Chachoengsao Hi-Tek",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "VRN Muangnont",
+      "away": "Royal Thai Army FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Persibo Bojonegoro",
+      "away": "Gresik United",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Persekabpas Pasuruan",
+      "away": "Persipani Paniai",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Anagennisi Karditsa U19",
+      "away": "Zakynthos U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "AAK Puncak Alam",
+      "away": "MUFT",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "AE Lefkimmis",
+      "away": "Pallixouriakos",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Vysocina Jihlava(w)",
+      "away": "Horni Herspice Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "KF Trepca 89 U19",
+      "away": "KF Drenica U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Junior Lions",
+      "away": "Asia Lion FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Hantharwady United U20",
+      "away": "Yangon United FC U20",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Teteks Tetovo U19",
+      "away": "Brera Strumica U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "FK Ohrid Lihnidos U19",
+      "away": "Shkendija U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "CS Concordia Chiajna Women",
+      "away": "ACS Juniorul 2014 Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Aris Limassol Women",
+      "away": "Peyia Akamas (W)",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Omonia Nicosia Women",
+      "away": "Lakatamia FC Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sagesse SC U20",
+      "away": "Loubnan Al Moutahed U20",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "UTA Arad (W)",
+      "away": "CS Valcea 1924 (W)",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tengah FC",
+      "away": "Singapore Cricket Club",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "South Avenue FC",
+      "away": "Bishan Barx FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Trinity Starlets Women",
-      "away": "Mathare United (W)",
+      "home": "Vulpitele Galbene Roman Women",
+      "away": "ACS Campionii FC Arges (W)",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Nurnberg U19",
-      "away": "Greuther Furth U19",
+      "home": "FK Viktoria Žižkov",
+      "away": "Slezský FC Opava",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Mahar United",
-      "away": "Myawady",
+      "home": "Lozova",
+      "away": "Metalurh Zaporizhya",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Asteras Tripolis U19",
-      "away": "Aris Thessaloniki U19",
+      "home": "Kuala Lumpur City FC",
+      "away": "Penang FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Crotone U19",
-      "away": "FC Guidonia Montecelio 1937 U19",
+      "home": "Dagon Star United",
+      "away": "Yadanarbon FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Grosseto U19",
-      "away": "AZ Picerno ASD U19",
+      "home": "South China AA",
+      "away": "Yuen Long",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Oleksandriya B",
-      "away": "Karbon Cherkasy",
+      "home": "Philippine Army FC",
+      "away": "Dynamic Herb Cebu",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Kolos Kovalivka II",
-      "away": "FC Victoria Mykolaivka",
+      "home": "USC Paloma",
+      "away": "Niendorfer TSV",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Samgurali Tskh",
-      "away": "FC Iberia 1999 Tbilisi",
+      "home": "FK Minsk B",
+      "away": "BATE-2 Borisov",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Merani Martvili",
-      "away": "FC Kolkheti Poti",
+      "home": "Volna Pinsk",
+      "away": "FC Gomel B",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "FC Orenburg",
-      "away": "Baltika Kaliningrad",
+      "home": "Adana Demirspor",
+      "away": "Aliaga Futbol",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Bratslav Vinnytsia",
-      "away": "Dnister Zalishchyky",
+      "home": "Aksarayspor",
+      "away": "Ispartaspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Puskas Akademia Women",
-      "away": "Ferencvarosi TC Women",
+      "home": "Ankaraspor FK",
+      "away": "Corluspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Magdeburg U19",
-      "away": "Holstein Kiel U19",
+      "home": "GMG Kastamonuspor",
+      "away": "Erbaaspor S",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "SV Babelsberg 03 U19",
-      "away": "Hallescher FC U19",
+      "home": "Musspor",
+      "away": "Atakas Hatayspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Energie Cottbus U19",
-      "away": "Eintracht Braunschweig U19",
+      "home": "Sebat Genclikspor",
+      "away": "Derincespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Eintracht Frankfurt U19",
-      "away": "Erzgebirge Aue U19",
+      "home": "Somaspor",
+      "away": "Elazigspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "SGV Freiberg U19",
-      "away": "VfB Stuttgart U19",
+      "home": "Erzincanspor",
+      "away": "Karacabey Belediyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "SV Sandhausen U19",
-      "away": "Augsburg U19",
+      "home": "Iskenderunspor",
+      "away": "Ankaragucu",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Fortuna Dusseldorf U19",
-      "away": "MSV Duisburg U19",
+      "home": "Kirklarelispor",
+      "away": "Fethiyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Rot-Weiss Essen U19",
-      "away": "Borussia Dortmund U19",
+      "home": "Kahramanmaras Bld",
+      "away": "Adana 1954",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "VfL Osnabruck U19",
-      "away": "Schalke 04 U19",
+      "home": "Kutahyaspor",
+      "away": "Hekimoglu Trabzon",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Salernitana U19",
-      "away": "Spezia U20",
+      "home": "Probiy Horodenka",
+      "away": "Metalist Kharkiv",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Udinese U20",
-      "away": "FC Sudtirol Youth",
+      "home": "MOL Fehervar FC Women",
+      "away": "Gyori Dozsa Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Lecce U20",
-      "away": "Atalanta U20",
+      "home": "Berliner AK 07 U19",
+      "away": "Werder Bremen U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Monza U20",
-      "away": "Fiorentina U20",
+      "home": "Chemnitzer U19",
+      "away": "Carl Zeiss Jena U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Adana Adaletgucu",
-      "away": "Mazidagi Fosfatspo",
-      "status": "model_ready",
-      "model": "ConC Poisson v1",
-      "sample": {
-        "homeTeamMatches": 5,
-        "awayTeamMatches": 5
-      },
-      "expectedGoals": {
-        "home": 0.72,
-        "away": 1.03
-      },
-      "probabilities": {
-        "1": 24.9,
-        "X": 32.9,
-        "2": 42.2,
-        "1X": 57.8,
-        "X2": 75.1,
-        "12": 67.1,
-        "BTTS Yes": 32.9,
-        "BTTS No": 67.1,
-        "Over 1.5": 52.2,
-        "Under 1.5": 47.8,
-        "Over 2.5": 25.6,
-        "Under 2.5": 74.4,
-        "1 + Over 2.5": 8.0,
-        "2 + Over 2.5": 15.0,
-        "1X + Over 2.5": 10.5,
-        "X2 + Over 2.5": 17.6,
-        "1X + Over 1.5": 27.9,
-        "X2 + Over 1.5": 39.7,
-        "BTTS + Over 2.5": 20.1,
-        "Home win + BTTS": 6.7,
-        "Away win + BTTS": 10.8,
-        "1X + BTTS": 22.1,
-        "X2 + BTTS": 26.3
-      },
-      "topProbabilityMarket": "X2",
-      "topProbability": 75.1,
-      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+      "home": "Paris FC U19",
+      "away": "Pontarlier U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "SPA Merignacais U19",
+      "away": "Beaucouze U19",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Atletic Club D Escaldes",
-      "away": "FC Santa Coloma",
+      "home": "Nice Cavigal (U19)",
+      "away": "Saint Etienne U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Beykoz Ishakli Spor",
-      "away": "Golcukspor",
+      "home": "Karpaty U21",
+      "away": "FC Zorya Luhansk U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Inkilapspor",
-      "away": "Yesil Yalova FK",
+      "home": "Kolos Kovalivka U21",
+      "away": "FC Kharkiv U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Kucukcekmece",
-      "away": "Kdz Ereglispor",
+      "home": "Kryvbas U21",
+      "away": "Kudrivka Nyva U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Gemlikspor",
-      "away": "Bucaspor",
+      "home": "Troyes U19",
+      "away": "Annecy U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Kepez Belediyespor",
-      "away": "Etimesgut Belediye Spor",
+      "home": "Lazio U20",
+      "away": "AC Milan U20",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "MOL Fehervar FC U19",
-      "away": "Zalaegerszegi TE U19",
+      "home": "Verona U20",
+      "away": "Cagliari U20",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Korona Kielce II",
-      "away": "Naprzod Jedrzejow",
+      "home": "Cala Pozuelo",
+      "away": "AD Torrejon CF",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "KTS-K Luzino",
-      "away": "KSS Kotwica Kornik",
+      "home": "Leganes B",
+      "away": "Fuenlabrada",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Spain U16",
-      "away": "Qatar U16",
+      "home": "Khatoco Khanh Hoa",
+      "away": "Hung Yen",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Arkonia Szczecin U19",
-      "away": "Legia Warszawa Youth",
+      "home": "Van Hien University",
+      "away": "Quy Nhon United",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Galatasaray U19",
-      "away": "Samsunspor U19",
+      "home": "Duzcespor",
+      "away": "Bulvarspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Genclerbirligi U19",
-      "away": "Gazisehir Gaziantep FK U19",
+      "home": "Pazarspor",
+      "away": "Yeni Amasya Spor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "ASU Politehnica Timisoara Women",
-      "away": "FC Rapid 1923 Women",
+      "home": "Tokat Bld Plevnespor",
+      "away": "Fatsa Belediyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Panaitolikos U19",
-      "away": "Volos Nps U19",
+      "home": "Zonguldak",
+      "away": "Silivrispor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Debreceni VSC II",
-      "away": "Diosgyori VTK II",
+      "home": "Agri 1970 Spor",
+      "away": "Yozgat Bld Bozokspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Rozwoj Katowice",
-      "away": "Szombierki Bytom",
+      "home": "Bitlis 1916",
+      "away": "Osmaniyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Tembisa Destroyers FC",
-      "away": "Wits University",
+      "home": "Karaköprü Belediyesi Spor Kulübü",
+      "away": "Yesilyurt Belediyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Spartak Trnava U19",
-      "away": "MFK Ruzomberok U19",
+      "home": "Karaman FK",
+      "away": "Diyarbakirspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Slovan Bratislava U19",
-      "away": "MFK Zemplin Michalovce U19",
+      "home": "Kirsehir Koyhizmetleri",
+      "away": "Yeni Mersin İdmanyurdu",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "FC Tatran Presov U19",
-      "away": "FC Petrzalka U19",
+      "home": "Silifke Belediyespor",
+      "away": "Turk Metal Kirikkale",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Orlando Pirates Reserves",
-      "away": "Durban City Reserves",
+      "home": "Yeni Malatyaspor",
+      "away": "Adanaspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Trencin U19",
-      "away": "DAC Dunajska Streda U19",
+      "home": "Anadolu Universitesi",
+      "away": "Akehirspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Dukla Banska Bystrica U19",
-      "away": "FK Zeleziarne Podbrezova U19",
+      "home": "Efeler 09",
+      "away": "Eskisehirspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Povazska Bystrica",
-      "away": "Cadca",
+      "home": "Wusu Tacheng FC",
+      "away": "Yining Zairena FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Bazhou Ghezel FC",
-      "away": "Aksu Yimin FC",
+      "home": "Kasimpasa U19",
+      "away": "Alanyaspor U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Lokomotiv Kyiv",
-      "away": "Prykarpattya Ivano Frankivsk",
+      "home": "Kispest Honved II",
+      "away": "Vasas SC II",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "FK Chernomorets 1919 Burgas",
-      "away": "Rilski sportist",
+      "home": "Konyaspor U19",
+      "away": "Besiktas JK U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Nyva Vinnytsya",
-      "away": "Dinaz Vyshgorod",
+      "home": "Kisvarda FC II",
+      "away": "Hajdunanas",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Migori Youth",
-      "away": "AFC Leopards",
+      "home": "Nyiregyhaza B",
+      "away": "Fuzesabonyi SC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Shamakhi FK",
-      "away": "Turan Tovuz",
+      "home": "Ujpest FC B",
+      "away": "Sandorfalvi",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "FC Pari Nizhniy Novgorod",
-      "away": "Torpedo Moscow",
+      "home": "Olimpia Cluj Women",
+      "away": "Vasas Odorhei Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Cetate Suceava",
-      "away": "ASU Politehnica Timișoara",
+      "home": "Erzurum BB U19",
+      "away": "Goztepe U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Istanbulspor",
-      "away": "Ankara Keciorengucu",
+      "home": "Kamphaengphet FC",
+      "away": "Chiangrai City FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Mardin 1969 Spor",
-      "away": "Bandirmaspor",
+      "home": "Surat Thani City",
+      "away": "Samui United",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Pescara Youth",
-      "away": "Cosenza Calcio Youth",
+      "home": "Ang Thong FC",
+      "away": "North Bangkok University",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Genclerbirligi",
-      "away": "Gaziantep Futbol Kulübü",
+      "home": "Padriew City",
+      "away": "Royal Thai Navy FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Olympiakos (Youth)",
-      "away": "Iraklis 1908 FC U19",
+      "home": "Italy (w) U16",
+      "away": "Germany U16 Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Olimpia Asuncion Reserves",
-      "away": "Sportivo Trinidense Reserves",
+      "home": "Shabana Starlets (W)",
+      "away": "Ulinzi Starlets Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "SBV Excelsior Reserve",
-      "away": "VVV Venlo U21",
+      "home": "Inyemera WFC Women",
+      "away": "Bugesera Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Alphense Boys Reserves",
-      "away": "IJsselmeervogels U21",
+      "home": "USC Landhaus Women",
+      "away": "RW Rankweil (w)",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Juve Stabia U19",
-      "away": "Giugliano U19",
+      "home": "Stellenbosch FC Reserves",
+      "away": "Kaizer Chiefs Reserves",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "A.C. Ospitaletto U19",
-      "away": "Sambenedettese U19",
+      "home": "Tatran Liptovsky Mikulas U19",
+      "away": "MFK Skalica U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Chapecoense - SC",
-      "away": "Cruzeiro - MG",
+      "home": "Atletico Madrid B Women",
+      "away": "Fundacion CD Tenerife B Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Jaguares Chiapas FC",
-      "away": "Los Cabos United",
+      "home": "Barcelona B Women",
+      "away": "Cacereno Women",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "La Tribu de Cd. Juarez",
-      "away": "Real Refineros",
+      "home": "Levadiakos U19",
+      "away": "Atromitos U19",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "CD Copiapo S.A.",
-      "away": "CSD Antofagasta",
+      "home": "Santurtzi CD",
+      "away": "SD Erandio Club",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Deportivo Yautepec FC",
-      "away": "Tlapa Mazatecochco",
+      "home": "Vorwarts Brigittenau",
+      "away": "Sportunion Mauer",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "SV Sporting",
-      "away": "SV Dakota",
+      "home": "Araz Nakhchivan",
+      "away": "FC Neftci Baku",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Gimnasia Jujuy",
-      "away": "Deportivo Madryn",
+      "home": "SCM Ramnicu Valcea",
+      "away": "AFC Metalul Buzau",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Pumas U.N.A.M.",
-      "away": "Rayados de Monterrey",
+      "home": "Shirak Gjumri B",
+      "away": "Urartu II",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Celaya FC",
-      "away": "Zacatepec",
+      "home": "Getafe B",
+      "away": "RSD Alcala Henares",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Fencibles United W",
-      "away": "Auckland United Women",
+      "home": "Batman Petrolspor",
+      "away": "Muglaspor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "CF Wellington United Women",
-      "away": "Wellington Phoenix Reserves Women",
+      "home": "Erzurumspor FK",
+      "away": "Goztepe",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Canterbury United Women",
-      "away": "West Coast Rangers (W)",
+      "home": "Shabana FC",
+      "away": "Mara Sugar FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Nueva Santa Rosa CDF",
-      "away": "Fraijanes FC",
+      "home": "Anagennisi Karditsa",
+      "away": "Kallithea",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Washington Spirit Women",
-      "away": "Kansas City Current Women",
+      "home": "CD Galapagar",
+      "away": "Mexico FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "San Marcos FC",
-      "away": "Real Esteli",
+      "home": "CF Trival Valderas",
+      "away": "UD San Sebastian Reyes B",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Vaqueros Reynosa",
-      "away": "Ciervos FC",
+      "home": "Gimnasia yTiro",
+      "away": "Tristan Suarez",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Deportiva Once Caldas",
-      "away": "Atletico Nacional Medellin",
+      "home": "SV River Plate",
+      "away": "SV Britannia",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Real Espana",
-      "away": "Marathon",
+      "home": "Carlos Mannucci",
+      "away": "Club Ada Jaen",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "CD Arabe Unido",
-      "away": "San Francisco FC",
+      "home": "Queretaro FC",
+      "away": "Necaxa",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Dallas Trinity Women",
-      "away": "Lexington SC Women",
+      "home": "Instituto de Córdoba",
+      "away": "CA Huracan",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Municipal Pérez Zeledón",
-      "away": "Deportivo Saprissa",
+      "home": "Marquense",
+      "away": "Aurora F.C.",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Guastatoya",
-      "away": "C.S.D. Comunicaciones",
+      "home": "Juticalpa",
+      "away": "Olancho FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Wellington Phoenix",
-      "away": "Macarthur FC",
+      "home": "Vancouver Whitecaps",
+      "away": "Real Salt Lake",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Atletico Morelia",
-      "away": "Club Atletico La Paz",
+      "home": "Mongolia U15",
+      "away": "Northern Mariana Islands U15",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Cyclones FC",
-      "away": "Florida Soccer Soldiers",
+      "home": "Tigres del Jumay",
+      "away": "Poptun FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     }
