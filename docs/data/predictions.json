@@ -2,8 +2,8 @@
   "date": "2026-11-23",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-23T13:07:28.422673+03:00",
-  "predictionCount": 5,
+  "generatedAt": "2026-11-23T18:58:18.702545+03:00",
+  "predictionCount": 10,
   "fixtures": [
     {
       "fixtureId": null,
@@ -221,6 +221,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Ethiopian Sports Academy (W)",
+      "away": "Addis Ketema FC W",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "MEG",
       "away": "Stride",
       "status": "model_ready",
@@ -264,13 +271,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Ethiopian Sports Academy (W)",
-      "away": "Addis Ketema FC W",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Nongkrem SC",
       "away": "Mawlai SC",
       "status": "insufficient_history",
@@ -299,13 +299,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Qatar U16",
-      "away": "USA U16",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Dynamo Kyiv Youth",
       "away": "Obolon Kiev U21",
       "status": "insufficient_history",
@@ -322,6 +315,13 @@
       "fixtureId": null,
       "home": "Urumqi Saierweiduo FC",
       "away": "Artush Milase Oral FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Qatar U16",
+      "away": "USA U16",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -348,15 +348,65 @@
     },
     {
       "fixtureId": null,
-      "home": "Parikrma FC",
-      "away": "SC Bengaluru",
+      "home": "Niroye Zamini",
+      "away": "Havadar Tehran",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
+      "home": "Saipa",
+      "away": "Naft Bandar Abbas",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 6
+      },
+      "expectedGoals": {
+        "home": 0.5,
+        "away": 0.15
+      },
+      "probabilities": {
+        "1": 35.1,
+        "X": 56.2,
+        "2": 8.8,
+        "1X": 91.2,
+        "X2": 64.9,
+        "12": 43.8,
+        "BTTS Yes": 5.5,
+        "BTTS No": 94.5,
+        "Over 1.5": 13.9,
+        "Under 1.5": 86.1,
+        "Over 2.5": 2.8,
+        "Under 2.5": 97.2,
+        "1 + Over 2.5": 2.4,
+        "2 + Over 2.5": 0.3,
+        "1X + Over 2.5": 2.5,
+        "X2 + Over 2.5": 0.4,
+        "1X + Over 1.5": 12.9,
+        "X2 + Over 1.5": 4.9,
+        "BTTS + Over 2.5": 1.6,
+        "Home win + BTTS": 1.2,
+        "Away win + BTTS": 0.3,
+        "1X + BTTS": 5.2,
+        "X2 + BTTS": 4.3
+      },
+      "topProbabilityMarket": "Under 2.5",
+      "topProbability": 97.2,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
       "home": "Nacional Asuncion Reserves",
       "away": "Cerro Porteno Asuncion Reserves",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Parikrma FC",
+      "away": "SC Bengaluru",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -390,17 +440,46 @@
     },
     {
       "fixtureId": null,
-      "home": "FC Simba(DRC)",
-      "away": "CS Don Bosco",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Mes Kerman",
       "away": "Be'sat Kermanshah FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 5
+      },
+      "expectedGoals": {
+        "home": 0.36,
+        "away": 0.15
+      },
+      "probabilities": {
+        "1": 26.6,
+        "X": 63.2,
+        "2": 10.2,
+        "1X": 89.8,
+        "X2": 73.4,
+        "12": 36.8,
+        "BTTS Yes": 4.3,
+        "BTTS No": 95.7,
+        "Over 1.5": 9.4,
+        "Under 1.5": 90.6,
+        "Over 2.5": 1.5,
+        "Under 2.5": 98.5,
+        "1 + Over 2.5": 1.2,
+        "2 + Over 2.5": 0.3,
+        "1X + Over 2.5": 1.2,
+        "X2 + Over 2.5": 0.4,
+        "1X + Over 1.5": 8.4,
+        "X2 + Over 1.5": 4.4,
+        "BTTS + Over 2.5": 1.0,
+        "Home win + BTTS": 0.7,
+        "Away win + BTTS": 0.3,
+        "1X + BTTS": 4.0,
+        "X2 + BTTS": 3.6
+      },
+      "topProbabilityMarket": "Under 2.5",
+      "topProbability": 98.5,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
     },
     {
       "fixtureId": null,
@@ -425,15 +504,15 @@
     },
     {
       "fixtureId": null,
-      "home": "Mes Soongoun Varzaghan",
-      "away": "Ario Eslamshahr",
+      "home": "FC Simba(DRC)",
+      "away": "CS Don Bosco",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Saipa",
-      "away": "Naft Bandar Abbas",
+      "home": "Mes Soongoun Varzaghan",
+      "away": "Ario Eslamshahr",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -595,8 +674,44 @@
       "fixtureId": null,
       "home": "Al Urooba U21",
       "away": "Emirates Club U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 5
+      },
+      "expectedGoals": {
+        "home": 0.98,
+        "away": 1.6
+      },
+      "probabilities": {
+        "1": 23.1,
+        "X": 25.0,
+        "2": 51.8,
+        "1X": 48.2,
+        "X2": 76.9,
+        "12": 75.0,
+        "BTTS Yes": 49.8,
+        "BTTS No": 50.2,
+        "Over 1.5": 72.9,
+        "Under 1.5": 27.1,
+        "Over 2.5": 47.6,
+        "Under 2.5": 52.4,
+        "1 + Over 2.5": 12.1,
+        "2 + Over 2.5": 30.0,
+        "1X + Over 2.5": 17.6,
+        "X2 + Over 2.5": 35.6,
+        "1X + Over 1.5": 33.1,
+        "X2 + Over 1.5": 57.1,
+        "BTTS + Over 2.5": 38.0,
+        "Home win + BTTS": 10.5,
+        "Away win + BTTS": 21.9,
+        "1X + BTTS": 28.0,
+        "X2 + BTTS": 39.3
+      },
+      "topProbabilityMarket": "X2",
+      "topProbability": 76.9,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
     },
     {
       "fixtureId": null,
@@ -628,13 +743,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Barnsley U21",
-      "away": "Bolton Wanderers U21",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Uzbekistan U17",
       "away": "Jamaica U17",
       "status": "insufficient_history",
@@ -649,20 +757,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Tanganyika",
-      "away": "TP Mazembe Englebert",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "SM Sanga Balende",
-      "away": "Malole",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Real Kashmir",
       "away": "Dempo",
       "status": "insufficient_history",
@@ -672,8 +766,44 @@
       "fixtureId": null,
       "home": "Foolad Natanz FC",
       "away": "Mes Rafsanjan",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 5
+      },
+      "expectedGoals": {
+        "home": 0.54,
+        "away": 0.23
+      },
+      "probabilities": {
+        "1": 35.1,
+        "X": 52.2,
+        "2": 12.7,
+        "1X": 87.3,
+        "X2": 64.9,
+        "12": 47.8,
+        "BTTS Yes": 8.6,
+        "BTTS No": 91.4,
+        "Over 1.5": 18.1,
+        "Under 1.5": 81.9,
+        "Over 2.5": 4.3,
+        "Under 2.5": 95.7,
+        "1 + Over 2.5": 3.3,
+        "2 + Over 2.5": 0.8,
+        "1X + Over 2.5": 3.5,
+        "X2 + Over 2.5": 1.0,
+        "1X + Over 1.5": 16.0,
+        "X2 + Over 1.5": 8.0,
+        "BTTS + Over 2.5": 2.8,
+        "Home win + BTTS": 1.9,
+        "Away win + BTTS": 0.7,
+        "1X + BTTS": 7.9,
+        "X2 + BTTS": 6.7
+      },
+      "topProbabilityMarket": "Under 2.5",
+      "topProbability": 95.7,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
     },
     {
       "fixtureId": null,
@@ -733,13 +863,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Stade Soussien",
-      "away": "AS Slimane",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "US Tataouine",
       "away": "Megrine",
       "status": "insufficient_history",
@@ -775,6 +898,27 @@
     },
     {
       "fixtureId": null,
+      "home": "Barnsley U21",
+      "away": "Bolton Wanderers U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tanganyika",
+      "away": "TP Mazembe Englebert",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "SM Sanga Balende",
+      "away": "Malole",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Senegal U17",
       "away": "Cuba U17",
       "status": "insufficient_history",
@@ -791,6 +935,13 @@
       "fixtureId": null,
       "home": "Bouchamma",
       "away": "Olympique du Kef",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Stade Soussien",
+      "away": "AS Slimane",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -819,6 +970,56 @@
       "fixtureId": null,
       "home": "Shenavar Sazi Qeshm",
       "away": "Naft Gachsaran",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 5
+      },
+      "expectedGoals": {
+        "home": 1.44,
+        "away": 1.38
+      },
+      "probabilities": {
+        "1": 38.7,
+        "X": 25.1,
+        "2": 36.1,
+        "1X": 63.9,
+        "X2": 61.3,
+        "12": 74.9,
+        "BTTS Yes": 57.2,
+        "BTTS No": 42.8,
+        "Over 1.5": 77.3,
+        "Under 1.5": 22.7,
+        "Over 2.5": 53.6,
+        "Under 2.5": 46.4,
+        "1 + Over 2.5": 24.0,
+        "2 + Over 2.5": 22.2,
+        "1X + Over 2.5": 31.4,
+        "X2 + Over 2.5": 29.6,
+        "1X + Over 1.5": 49.4,
+        "X2 + Over 1.5": 47.1,
+        "BTTS + Over 2.5": 45.3,
+        "Home win + BTTS": 19.6,
+        "Away win + BTTS": 18.4,
+        "1X + BTTS": 38.8,
+        "X2 + BTTS": 37.6
+      },
+      "topProbabilityMarket": "Over 1.5",
+      "topProbability": 77.3,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "Al-Wehdat U20",
+      "away": "Sahl Horan SC U20",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Shabab Al Ordon U20",
+      "away": "Al-Ramtha SC U20",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -854,20 +1055,6 @@
       "fixtureId": null,
       "home": "Louves Minproff Women",
       "away": "Amazone FAP Women",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Al-Wehdat U20",
-      "away": "Sahl Horan SC U20",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Shabab Al Ordon U20",
-      "away": "Al-Ramtha SC U20",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1104,7 +1291,7 @@
     },
     {
       "fixtureId": null,
-      "home": "Başakşehir Futbol Kulübü",
+      "home": "İstanbul Başakşehir FK",
       "away": "Corum Belediyespor",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
@@ -1477,13 +1664,6 @@
       "fixtureId": null,
       "home": "Cliftonville Reserves",
       "away": "Dungannon Swifts Reserves",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Coleraine Reserves",
-      "away": "Larne Reserves",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
