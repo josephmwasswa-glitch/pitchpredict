@@ -2,8 +2,8 @@
   "source": "SportScore",
   "sourceUrl": "https://sportscore.com/developers/api/",
   "windowDays": 35,
-  "generatedAt": "2026-11-25T03:56:14.812889+00:00",
-  "completedMatches": 6648,
+  "generatedAt": "2026-11-25T10:04:41.950921+00:00",
+  "completedMatches": 6657,
   "teamCount": 6580,
   "teams": {
     "Sao Paulo Youth": {
@@ -267,6 +267,528 @@
           "ga": 0,
           "venue": "home",
           "date": "2026-11-23T06:30:00+00:00"
+        }
+      ]
+    },
+    "FC Ryukyu Okinawa": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-25T03:00:00+00:00"
+        },
+        {
+          "gf": 5,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-21T05:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-15T07:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-11-07T05:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-03T07:00:00+00:00"
+        },
+        {
+          "gf": 5,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-31T07:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-24T05:00:00+00:00"
+        }
+      ]
+    },
+    "Roasso Kumamoto": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-25T03:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-22T04:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-15T05:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-08T04:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-04T05:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-31T09:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-25T04:00:00+00:00"
+        }
+      ]
+    },
+    "San Jose Earthquakes": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-25T03:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-08T00:10:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-29T02:40:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-10-25T00:40:00+00:00"
+        }
+      ]
+    },
+    "Houston Dynamo": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-25T03:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-08T00:10:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-02T02:50:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-29T02:40:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-25T00:40:00+00:00"
+        }
+      ]
+    },
+    "Gakunan F Mosuperio": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-25T04:30:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-15T01:45:00+00:00"
+        },
+        {
+          "gf": 6,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-14T04:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-13T04:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-28T01:00:00+00:00"
+        }
+      ]
+    },
+    "Aries Tokyo": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-25T04:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-15T04:30:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-14T01:45:00+00:00"
+        },
+        {
+          "gf": 4,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-13T04:30:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-28T03:25:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-28T03:25:00+00:00"
+        }
+      ]
+    },
+    "Indian Bank": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 4,
+          "venue": "home",
+          "date": "2026-11-25T04:30:00+00:00"
+        }
+      ]
+    },
+    "Union Bank of India": {
+      "matches": [
+        {
+          "gf": 4,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-25T04:30:00+00:00"
+        }
+      ]
+    },
+    "Giravanz Kitakyushu": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-25T05:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-22T04:00:00+00:00"
+        },
+        {
+          "gf": 4,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-14T05:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-07T05:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-03T05:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-31T06:05:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-25T05:00:00+00:00"
+        }
+      ]
+    },
+    "Zweigen Kanazawa FC": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-25T05:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-21T05:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-15T05:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-07T05:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-03T05:00:00+00:00"
+        },
+        {
+          "gf": 4,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-31T05:00:00+00:00"
+        },
+        {
+          "gf": 5,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-25T05:00:00+00:00"
+        }
+      ]
+    },
+    "Debre Birhan Ketema": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 4,
+          "venue": "home",
+          "date": "2026-11-25T06:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-15T06:00:00+00:00"
+        }
+      ]
+    },
+    "Menge Belashangul": {
+      "matches": [
+        {
+          "gf": 4,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-25T06:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-15T10:15:00+00:00"
+        }
+      ]
+    },
+    "Guam U15": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-25T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-23T06:30:00+00:00"
+        }
+      ]
+    },
+    "Mongolia U15": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-25T06:30:00+00:00"
+        },
+        {
+          "gf": 8,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-23T02:00:00+00:00"
+        }
+      ]
+    },
+    "Iron Born FC": {
+      "matches": [
+        {
+          "gf": 6,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-25T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-18T04:30:00+00:00"
+        }
+      ]
+    },
+    "Millat FC": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 6,
+          "venue": "away",
+          "date": "2026-11-25T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 8,
+          "venue": "home",
+          "date": "2026-11-19T06:45:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 6,
+          "venue": "away",
+          "date": "2026-11-17T07:25:00+00:00"
+        }
+      ]
+    },
+    "Melbourne Victory": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-25T07:45:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-21T04:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-08T06:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-04T07:45:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-01T04:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-10-28T12:15:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-24T08:40:00+00:00"
+        }
+      ]
+    },
+    "The Cong Viettel": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-25T07:45:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-20T12:15:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-04T10:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 5,
+          "venue": "home",
+          "date": "2026-10-28T12:15:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-23T12:15:00+00:00"
         }
       ]
     },
@@ -2032,7 +2554,7 @@
         }
       ]
     },
-    "Team zp5rzgh18vdq82w": {
+    "Al-Sufiya SC": {
       "matches": [
         {
           "gf": 1,
@@ -2042,7 +2564,7 @@
         }
       ]
     },
-    "Team 1l4rjnhevopm7vx": {
+    "Al Alam SC": {
       "matches": [
         {
           "gf": 1,
@@ -3487,6 +4009,12 @@
           "ga": 2,
           "venue": "away",
           "date": "2026-11-04T13:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-28T10:00:00+00:00"
         }
       ]
     },
@@ -4160,7 +4688,7 @@
         }
       ]
     },
-    "Team 4jwq2gh1lyjm0ve": {
+    "Independente PA U20": {
       "matches": [
         {
           "gf": 0,
@@ -8300,16 +8828,6 @@
         }
       ]
     },
-    "Mongolia U15": {
-      "matches": [
-        {
-          "gf": 8,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-23T02:00:00+00:00"
-        }
-      ]
-    },
     "Tigres del Jumay": {
       "matches": [
         {
@@ -8779,16 +9297,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-11-12T13:00:00+00:00"
-        }
-      ]
-    },
-    "Guam U15": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-23T06:30:00+00:00"
         }
       ]
     },
@@ -9356,7 +9864,7 @@
         }
       ]
     },
-    "Team 965mkyhzpdvr1ge": {
+    "Kibera Soccer": {
       "matches": [
         {
           "gf": 2,
@@ -16591,86 +17099,6 @@
           "ga": 2,
           "venue": "away",
           "date": "2026-10-22T01:00:00+00:00"
-        }
-      ]
-    },
-    "Roasso Kumamoto": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-22T04:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-15T05:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-08T04:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-04T05:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-31T09:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-25T04:00:00+00:00"
-        }
-      ]
-    },
-    "Giravanz Kitakyushu": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-22T04:00:00+00:00"
-        },
-        {
-          "gf": 4,
-          "ga": 3,
-          "venue": "home",
-          "date": "2026-11-14T05:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-07T05:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-03T05:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-31T06:05:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-25T05:00:00+00:00"
         }
       ]
     },
@@ -25166,46 +25594,6 @@
         }
       ]
     },
-    "Melbourne Victory": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-21T04:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-08T06:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-04T07:45:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-01T04:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-10-28T12:15:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-24T08:40:00+00:00"
-        }
-      ]
-    },
     "Briobecca Urayasu": {
       "matches": [
         {
@@ -27008,46 +27396,6 @@
         }
       ]
     },
-    "FC Ryukyu Okinawa": {
-      "matches": [
-        {
-          "gf": 5,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-21T05:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-15T07:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 4,
-          "venue": "away",
-          "date": "2026-11-07T05:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 3,
-          "venue": "home",
-          "date": "2026-11-03T07:00:00+00:00"
-        },
-        {
-          "gf": 5,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-31T07:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-24T05:00:00+00:00"
-        }
-      ]
-    },
     "Thespa Kusatsu Gunma": {
       "matches": [
         {
@@ -27125,46 +27473,6 @@
           "ga": 0,
           "venue": "away",
           "date": "2026-10-24T05:00:00+00:00"
-        }
-      ]
-    },
-    "Zweigen Kanazawa FC": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-21T05:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-15T05:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-07T05:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-03T05:00:00+00:00"
-        },
-        {
-          "gf": 4,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-31T05:00:00+00:00"
-        },
-        {
-          "gf": 5,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-25T05:00:00+00:00"
         }
       ]
     },
@@ -37558,34 +37866,6 @@
         }
       ]
     },
-    "The Cong Viettel": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-20T12:15:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-04T10:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 5,
-          "venue": "home",
-          "date": "2026-10-28T12:15:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-23T12:15:00+00:00"
-        }
-      ]
-    },
     "Song Lam Nghe An": {
       "matches": [
         {
@@ -40669,22 +40949,6 @@
           "ga": 2,
           "venue": "away",
           "date": "2026-11-19T06:00:00+00:00"
-        }
-      ]
-    },
-    "Millat FC": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 8,
-          "venue": "home",
-          "date": "2026-11-19T06:45:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 6,
-          "venue": "away",
-          "date": "2026-11-17T07:25:00+00:00"
         }
       ]
     },
@@ -45046,16 +45310,6 @@
           "gf": 0,
           "ga": 0,
           "venue": "home",
-          "date": "2026-11-18T04:30:00+00:00"
-        }
-      ]
-    },
-    "Iron Born FC": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
           "date": "2026-11-18T04:30:00+00:00"
         }
       ]
@@ -58880,34 +59134,6 @@
         }
       ]
     },
-    "Gakunan F Mosuperio": {
-      "matches": [
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-15T01:45:00+00:00"
-        },
-        {
-          "gf": 6,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-14T04:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-13T04:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-28T01:00:00+00:00"
-        }
-      ]
-    },
     "ASC Hokkaido": {
       "matches": [
         {
@@ -59442,34 +59668,6 @@
         }
       ]
     },
-    "Aries Tokyo": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-15T04:30:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-14T01:45:00+00:00"
-        },
-        {
-          "gf": 4,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-13T04:30:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-28T03:25:00+00:00"
-        }
-      ]
-    },
     "Wing Yee Property": {
       "matches": [
         {
@@ -59605,16 +59803,6 @@
           "ga": 11,
           "venue": "away",
           "date": "2026-11-15T05:30:00+00:00"
-        }
-      ]
-    },
-    "Debre Birhan Ketema": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-15T06:00:00+00:00"
         }
       ]
     },
@@ -61905,16 +62093,6 @@
         {
           "gf": 1,
           "ga": 0,
-          "venue": "away",
-          "date": "2026-11-15T10:15:00+00:00"
-        }
-      ]
-    },
-    "Menge Belashangul": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
           "venue": "away",
           "date": "2026-11-15T10:15:00+00:00"
         }
@@ -77832,34 +78010,6 @@
         }
       ]
     },
-    "Houston Dynamo": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-08T00:10:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-02T02:50:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-29T02:40:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-25T00:40:00+00:00"
-        }
-      ]
-    },
     "Minnesota United FC": {
       "matches": [
         {
@@ -77883,28 +78033,6 @@
         {
           "gf": 0,
           "ga": 0,
-          "venue": "away",
-          "date": "2026-10-25T00:40:00+00:00"
-        }
-      ]
-    },
-    "San Jose Earthquakes": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-08T00:10:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-29T02:40:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 3,
           "venue": "away",
           "date": "2026-10-25T00:40:00+00:00"
         }
@@ -98910,16 +99038,6 @@
         }
       ]
     },
-    "Aries Toshima FC": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-28T03:25:00+00:00"
-        }
-      ]
-    },
     "AKFA": {
       "matches": [
         {
@@ -99224,16 +99342,6 @@
           "gf": 2,
           "ga": 0,
           "venue": "away",
-          "date": "2026-10-28T10:00:00+00:00"
-        }
-      ]
-    },
-    "Como U20": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "home",
           "date": "2026-10-28T10:00:00+00:00"
         }
       ]
@@ -106108,8 +106216,8 @@
       "goals_per_team": 2.0,
       "home_factor": 1.25
     },
-    "Brazilian Paulista Women's League": {
-      "goals_per_team": 1.556,
+    "BRA Paulista Women's League U20": {
+      "goals_per_team": 1.583,
       "home_factor": 1.25
     },
     "Categoría Primera A": {
@@ -106121,12 +106229,32 @@
       "home_factor": 1.25
     },
     "Japanese Regional League": {
-      "goals_per_team": 1.457,
+      "goals_per_team": 1.479,
       "home_factor": 0.85
     },
     "EAFF U15 Men's Championship": {
-      "goals_per_team": 1.833,
+      "goals_per_team": 1.625,
       "home_factor": 1.25
+    },
+    "Japanese J3 League": {
+      "goals_per_team": 1.306,
+      "home_factor": 1.051
+    },
+    "United States Major League Soccer": {
+      "goals_per_team": 1.636,
+      "home_factor": 1.118
+    },
+    "India Mumbai Super Division": {
+      "goals_per_team": 2.717,
+      "home_factor": 1.25
+    },
+    "Ethiopian Higher League": {
+      "goals_per_team": 1.429,
+      "home_factor": 0.85
+    },
+    "AFC Champions League Two": {
+      "goals_per_team": 1.288,
+      "home_factor": 1.161
     },
     "Brazilian Serie A": {
       "goals_per_team": 1.167,
@@ -106144,10 +106272,6 @@
       "goals_per_team": 1.125,
       "home_factor": 1.25
     },
-    "United States Major League Soccer": {
-      "goals_per_team": 1.641,
-      "home_factor": 1.1
-    },
     "Costa Rica Primera Division": {
       "goals_per_team": 1.529,
       "home_factor": 0.926
@@ -106159,10 +106283,6 @@
     "Indian Bangalore Super Division": {
       "goals_per_team": 1.576,
       "home_factor": 1.138
-    },
-    "Ethiopian Higher League": {
-      "goals_per_team": 1.269,
-      "home_factor": 0.85
     },
     "Mumbai Premier League": {
       "goals_per_team": 2.3,
@@ -106311,10 +106431,6 @@
     "Indian Women's League": {
       "goals_per_team": 0.9,
       "home_factor": 1.25
-    },
-    "AFC Champions League Two": {
-      "goals_per_team": 1.34,
-      "home_factor": 1.161
     },
     "Russian Cup": {
       "goals_per_team": 1.864,
@@ -106836,10 +106952,6 @@
       "goals_per_team": 1.833,
       "home_factor": 1.25
     },
-    "Japanese J3 League": {
-      "goals_per_team": 1.317,
-      "home_factor": 1.052
-    },
     "Japanese Football League": {
       "goals_per_team": 1.45,
       "home_factor": 0.871
@@ -106920,8 +107032,8 @@
       "goals_per_team": 1.545,
       "home_factor": 1.136
     },
-    "Indo D4": {
-      "goals_per_team": 1.211,
+    "Indonesia Liga Nusantara": {
+      "goals_per_team": 1.15,
       "home_factor": 0.917
     },
     "Greek U19": {
@@ -107320,10 +107432,6 @@
       "goals_per_team": 2.042,
       "home_factor": 1.042
     },
-    "India Mumbai Super Division": {
-      "goals_per_team": 2.714,
-      "home_factor": 1.25
-    },
     "Thai University League": {
       "goals_per_team": 0.833,
       "home_factor": 1.25
@@ -107428,13 +107536,17 @@
       "goals_per_team": 2.5,
       "home_factor": 1.08
     },
-    "Brazilian Campeonato Paraibano": {
+    "Competition z8yomo4h": {
       "goals_per_team": 1.0,
       "home_factor": 1.0
     },
     "CONCACAF Nations League": {
       "goals_per_team": 1.741,
       "home_factor": 1.25
+    },
+    "Brazilian Paulista Women's League": {
+      "goals_per_team": 1.9,
+      "home_factor": 0.85
     },
     "Mexico Liga Premier Serie A": {
       "goals_per_team": 1.5,
@@ -107443,10 +107555,6 @@
     "Colombian Copa BetPlay DIMAYOR": {
       "goals_per_team": 1.3,
       "home_factor": 0.85
-    },
-    "Indonesia Liga Nusantara": {
-      "goals_per_team": 0.0,
-      "home_factor": 1.08
     },
     "Turkish Women's Super League": {
       "goals_per_team": 2.528,
@@ -107975,10 +108083,6 @@
     "French Division 1 Feminine": {
       "goals_per_team": 3.5,
       "home_factor": 1.08
-    },
-    "BRA Paulista Women's League U20": {
-      "goals_per_team": 2.5,
-      "home_factor": 0.85
     },
     "Jamaica Premier League": {
       "goals_per_team": 0.9,
