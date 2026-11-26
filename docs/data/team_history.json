@@ -2,9 +2,9 @@
   "source": "SportScore",
   "sourceUrl": "https://sportscore.com/developers/api/",
   "windowDays": 35,
-  "generatedAt": "2026-11-26T03:53:07.040484+00:00",
-  "completedMatches": 6651,
-  "teamCount": 6547,
+  "generatedAt": "2026-11-26T10:03:00.806791+00:00",
+  "completedMatches": 6667,
+  "teamCount": 6568,
   "teams": {
     "Boca Juniors": {
       "matches": [
@@ -55,38 +55,6 @@
           "ga": 0,
           "venue": "away",
           "date": "2026-11-26T00:00:00+00:00"
-        }
-      ]
-    },
-    "Barcelona SC(ECU)": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-26T00:30:00+00:00"
-        }
-      ]
-    },
-    "Independiente del Valle": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-26T00:30:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-06T00:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-29T00:00:00+00:00"
         }
       ]
     },
@@ -334,6 +302,38 @@
         }
       ]
     },
+    "Barcelona SC(ECU)": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-26T01:05:00+00:00"
+        }
+      ]
+    },
+    "Independiente del Valle": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-26T01:05:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-06T00:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-29T00:00:00+00:00"
+        }
+      ]
+    },
     "Atletico Nacional Medellin": {
       "matches": [
         {
@@ -393,6 +393,534 @@
           "ga": 3,
           "venue": "away",
           "date": "2026-10-29T01:05:00+00:00"
+        }
+      ]
+    },
+    "Florida Badgers FC": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 4,
+          "venue": "home",
+          "date": "2026-11-26T01:30:00+00:00"
+        }
+      ]
+    },
+    "Florida Wolves FC": {
+      "matches": [
+        {
+          "gf": 4,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-26T01:30:00+00:00"
+        }
+      ]
+    },
+    "CSD Municipal": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-26T02:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-15T01:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-29T02:00:00+00:00"
+        }
+      ]
+    },
+    "Aurora F.C.": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-26T02:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-23T01:10:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-12T22:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-29T00:00:00+00:00"
+        }
+      ]
+    },
+    "Inter F.A": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T02:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-15T00:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-12T01:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-08T00:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-31T01:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-24T00:00:00+00:00"
+        }
+      ]
+    },
+    "Aguila": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-26T02:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-12T21:30:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-08T02:00:00+00:00"
+        }
+      ]
+    },
+    "Rayados de Monterrey": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T03:10:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-22T01:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-11-08T01:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-01T01:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-25T01:00:00+00:00"
+        }
+      ]
+    },
+    "Club America": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T03:10:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-22T03:10:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-15T00:55:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-08T03:10:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-01T03:10:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-29T03:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-26T01:05:00+00:00"
+        }
+      ]
+    },
+    "One Foundation U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T05:00:00+00:00"
+        }
+      ]
+    },
+    "Bidhannagar MSA U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T05:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T05:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-23T05:05:00+00:00"
+        }
+      ]
+    },
+    "Team dn1m1gh16wvmoep": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T05:00:00+00:00"
+        }
+      ]
+    },
+    "Ateneo Blue Eagles": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-26T06:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-19T06:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-15T08:30:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 4,
+          "venue": "home",
+          "date": "2026-11-05T08:30:00+00:00"
+        }
+      ]
+    },
+    "Adamson Falcons": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-26T06:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-22T08:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-19T11:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-12T08:30:00+00:00"
+        }
+      ]
+    },
+    "Noida City FC": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-26T06:30:00+00:00"
+        }
+      ]
+    },
+    "National United SC": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-26T06:30:00+00:00"
+        }
+      ]
+    },
+    "AC Taipei": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-26T07:00:00+00:00"
+        }
+      ]
+    },
+    "Hang Yuen FC": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-26T07:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-22T07:00:00+00:00"
+        }
+      ]
+    },
+    "Fasil Kenema Women": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-26T07:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-21T07:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-16T07:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-12T13:00:00+00:00"
+        }
+      ]
+    },
+    "Lemi Kura (W)": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T07:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-17T13:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-13T07:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-09T13:00:00+00:00"
+        }
+      ]
+    },
+    "Tiara Nusa": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T07:30:00+00:00"
+        }
+      ]
+    },
+    "Persada Sumba Barat Daya": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T07:30:00+00:00"
+        }
+      ]
+    },
+    "Persami Maumere": {
+      "matches": [
+        {
+          "gf": 4,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T07:55:00+00:00"
+        }
+      ]
+    },
+    "Persap Alor Pantar": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-11-26T07:55:00+00:00"
+        }
+      ]
+    },
+    "Hung Vuong An Giang U21": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "Song Lam Nghe An U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "Dak Lak U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T08:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "Cong An Ha Noi U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "FK Kokand 1912 U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "Xorazm Urganch U21": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T08:00:00+00:00"
+        }
+      ]
+    },
+    "T T Hanoi U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-26T08:00:00+00:00"
         }
       ]
     },
@@ -1912,13 +2440,31 @@
         }
       ]
     },
-    "Team pxwrxlhvd4eryk0": {
+    "Royal Dagon FC": {
       "matches": [
         {
           "gf": 1,
           "ga": 1,
           "venue": "away",
           "date": "2026-11-25T09:00:00+00:00"
+        },
+        {
+          "gf": 4,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-18T09:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-12T09:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-06T09:00:00+00:00"
         }
       ]
     },
@@ -5484,6 +6030,38 @@
         }
       ]
     },
+    "Andorra U17 Women": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 6,
+          "venue": "home",
+          "date": "2026-11-25T11:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-10-29T14:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 5,
+          "venue": "away",
+          "date": "2026-10-26T09:00:00+00:00"
+        }
+      ]
+    },
+    "Philippines U17 Women": {
+      "matches": [
+        {
+          "gf": 6,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-25T11:00:00+00:00"
+        }
+      ]
+    },
     "Keciorengucu U19": {
       "matches": [
         {
@@ -5540,7 +6118,7 @@
         }
       ]
     },
-    "Team n54qllhdv04qvy9": {
+    "Serikspor U19": {
       "matches": [
         {
           "gf": 0,
@@ -5597,6 +6175,26 @@
           "ga": 2,
           "venue": "home",
           "date": "2026-11-04T12:00:00+00:00"
+        }
+      ]
+    },
+    "Sebatspor U19": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-25T11:00:00+00:00"
+        }
+      ]
+    },
+    "Rize Belediyesi U19": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-25T11:00:00+00:00"
         }
       ]
     },
@@ -7008,7 +7606,7 @@
         }
       ]
     },
-    "Team 1l4rjnhev7pm7vx": {
+    "Guzeltepe Genclikspor U19": {
       "matches": [
         {
           "gf": 2,
@@ -7042,6 +7640,12 @@
     },
     "Etoile du Congo": {
       "matches": [
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-25T13:00:00+00:00"
+        },
         {
           "gf": 1,
           "ga": 1,
@@ -7596,7 +8200,7 @@
         }
       ]
     },
-    "Team vjxm8ghxy15r6od": {
+    "AE Propontis Chalkis": {
       "matches": [
         {
           "gf": 2,
@@ -8180,7 +8784,7 @@
         }
       ]
     },
-    "Team 3glrw7hod8pqdyj": {
+    "Baltim FC": {
       "matches": [
         {
           "gf": 0,
@@ -8842,6 +9446,16 @@
         }
       ]
     },
+    "Racing Club de Brazzaville": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-25T13:00:00+00:00"
+        }
+      ]
+    },
     "CD Maxaquene": {
       "matches": [
         {
@@ -9082,7 +9696,7 @@
         }
       ]
     },
-    "Team 4wyrn4h9g38q86p": {
+    "Dabarosa SC New Halfa": {
       "matches": [
         {
           "gf": 0,
@@ -9092,7 +9706,7 @@
         }
       ]
     },
-    "Team l5ergphpg13r8k0": {
+    "Merreikh Al Thagher": {
       "matches": [
         {
           "gf": 0,
@@ -9152,7 +9766,7 @@
         }
       ]
     },
-    "Team jw2r09h18zxrz84": {
+    "Shabab Al Managil": {
       "matches": [
         {
           "gf": 0,
@@ -9923,120 +10537,6 @@
           "ga": 0,
           "venue": "away",
           "date": "2026-10-26T17:00:00+00:00"
-        }
-      ]
-    },
-    "Victoria Utd Limbe": {
-      "matches": [
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-25T14:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-04T14:30:00+00:00"
-        }
-      ]
-    },
-    "Aigle Royal Menoua": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-25T14:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-19T14:05:00+00:00"
-        }
-      ]
-    },
-    "FC Metalurgi Rustavi": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-25T15:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-10-27T16:00:00+00:00"
-        }
-      ]
-    },
-    "FC Meshakhte Tkibuli": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-25T15:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-20T14:00:00+00:00"
-        }
-      ]
-    },
-    "KAMAZ Naberezhnye Chelny": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-25T15:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-09T16:30:00+00:00"
-        }
-      ]
-    },
-    "Yenisey Krasnoyarsk": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-25T15:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-21T06:30:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-08T06:45:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-04T08:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-10-24T05:00:00+00:00"
         }
       ]
     },
@@ -17782,28 +18282,6 @@
         }
       ]
     },
-    "Aurora F.C.": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-23T01:10:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-12T22:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-29T00:00:00+00:00"
-        }
-      ]
-    },
     "Juticalpa": {
       "matches": [
         {
@@ -18179,16 +18657,6 @@
           "ga": 0,
           "venue": "home",
           "date": "2026-10-24T05:00:00+00:00"
-        }
-      ]
-    },
-    "Bidhannagar MSA U21": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-23T05:05:00+00:00"
         }
       ]
     },
@@ -24970,34 +25438,6 @@
         }
       ]
     },
-    "Rayados de Monterrey": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-22T01:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 4,
-          "venue": "away",
-          "date": "2026-11-08T01:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 3,
-          "venue": "home",
-          "date": "2026-11-01T01:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-25T01:00:00+00:00"
-        }
-      ]
-    },
     "Celaya FC": {
       "matches": [
         {
@@ -25875,46 +26315,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-10-25T03:10:00+00:00"
-        }
-      ]
-    },
-    "Club America": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-22T03:10:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-15T00:55:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-08T03:10:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-01T03:10:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-29T03:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-26T01:05:00+00:00"
         }
       ]
     },
@@ -27274,16 +27674,6 @@
           "gf": 0,
           "ga": 2,
           "venue": "home",
-          "date": "2026-11-22T07:00:00+00:00"
-        }
-      ]
-    },
-    "Hang Yuen FC": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
           "date": "2026-11-22T07:00:00+00:00"
         }
       ]
@@ -29027,28 +29417,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-11-05T11:00:00+00:00"
-        }
-      ]
-    },
-    "Adamson Falcons": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-22T08:30:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-19T11:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-12T08:30:00+00:00"
         }
       ]
     },
@@ -34906,6 +35274,34 @@
         }
       ]
     },
+    "Yenisey Krasnoyarsk": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-21T06:30:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-08T06:45:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-04T08:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-10-24T05:00:00+00:00"
+        }
+      ]
+    },
     "Volga Ulyanovsk": {
       "matches": [
         {
@@ -35275,28 +35671,6 @@
           "ga": 3,
           "venue": "home",
           "date": "2026-11-12T07:00:00+00:00"
-        }
-      ]
-    },
-    "Fasil Kenema Women": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-21T07:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-16T07:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-12T13:00:00+00:00"
         }
       ]
     },
@@ -45778,6 +46152,16 @@
         }
       ]
     },
+    "FC Meshakhte Tkibuli": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-20T14:00:00+00:00"
+        }
+      ]
+    },
     "Al-Mina'a SC": {
       "matches": [
         {
@@ -46187,28 +46571,6 @@
           "ga": 11,
           "venue": "away",
           "date": "2026-11-10T06:00:00+00:00"
-        }
-      ]
-    },
-    "Ateneo Blue Eagles": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-19T06:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-15T08:30:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 4,
-          "venue": "home",
-          "date": "2026-11-05T08:30:00+00:00"
         }
       ]
     },
@@ -47947,6 +48309,16 @@
           "ga": 1,
           "venue": "home",
           "date": "2026-11-12T14:00:00+00:00"
+        }
+      ]
+    },
+    "Aigle Royal Menoua": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-19T14:05:00+00:00"
         }
       ]
     },
@@ -49787,28 +50159,6 @@
           "ga": 1,
           "venue": "home",
           "date": "2026-11-18T08:30:00+00:00"
-        }
-      ]
-    },
-    "Royal Dagon FC": {
-      "matches": [
-        {
-          "gf": 4,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-18T09:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-12T09:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-06T09:00:00+00:00"
         }
       ]
     },
@@ -56018,28 +56368,6 @@
         }
       ]
     },
-    "Lemi Kura (W)": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-17T13:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-13T07:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-09T13:00:00+00:00"
-        }
-      ]
-    },
     "Zlate Moravce-Vrable W": {
       "matches": [
         {
@@ -61880,40 +62208,6 @@
         }
       ]
     },
-    "Inter F.A": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-15T00:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-12T01:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-08T00:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-31T01:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-24T00:00:00+00:00"
-        }
-      ]
-    },
     "CD Cacahuatique": {
       "matches": [
         {
@@ -62109,22 +62403,6 @@
           "ga": 2,
           "venue": "home",
           "date": "2026-10-29T00:00:00+00:00"
-        }
-      ]
-    },
-    "CSD Municipal": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-15T01:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-29T02:00:00+00:00"
         }
       ]
     },
@@ -73040,22 +73318,6 @@
         }
       ]
     },
-    "Aguila": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-12T21:30:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-08T02:00:00+00:00"
-        }
-      ]
-    },
     "Municipal Limeno": {
       "matches": [
         {
@@ -79487,6 +79749,16 @@
           "ga": 4,
           "venue": "away",
           "date": "2026-11-09T16:00:00+00:00"
+        }
+      ]
+    },
+    "KAMAZ Naberezhnye Chelny": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-09T16:30:00+00:00"
         }
       ]
     },
@@ -91888,6 +92160,16 @@
         }
       ]
     },
+    "Victoria Utd Limbe": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-04T14:30:00+00:00"
+        }
+      ]
+    },
     "Al-Yarmouk": {
       "matches": [
         {
@@ -99410,22 +99692,6 @@
         }
       ]
     },
-    "Andorra U17 Women": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-10-29T14:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 5,
-          "venue": "away",
-          "date": "2026-10-26T09:00:00+00:00"
-        }
-      ]
-    },
     "Armenia U17 Women": {
       "matches": [
         {
@@ -102187,6 +102453,16 @@
         {
           "gf": 0,
           "ga": 1,
+          "venue": "away",
+          "date": "2026-10-27T16:00:00+00:00"
+        }
+      ]
+    },
+    "FC Metalurgi Rustavi": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 2,
           "venue": "away",
           "date": "2026-10-27T16:00:00+00:00"
         }
@@ -106008,24 +106284,20 @@
     }
   },
   "league_averages": {
-    "Argentine Division 1": {
-      "goals_per_team": 1.676,
-      "home_factor": 1.111
+    "Argentina Division 1": {
+      "goals_per_team": 1.875,
+      "home_factor": 1.25
     },
     "BRA WC U20": {
       "goals_per_team": 1.0,
       "home_factor": 0.85
     },
-    "LigaPro Serie A": {
-      "goals_per_team": 1.333,
-      "home_factor": 1.0
-    },
     "Mexico Liga MX": {
-      "goals_per_team": 1.433,
+      "goals_per_team": 1.387,
       "home_factor": 1.048
     },
     "El Salvador Primera Division": {
-      "goals_per_team": 1.395,
+      "goals_per_team": 1.375,
       "home_factor": 1.25
     },
     "Nicaragua Liga Primera": {
@@ -106036,9 +106308,53 @@
       "goals_per_team": 1.75,
       "home_factor": 0.85
     },
+    "LigaPro Serie A": {
+      "goals_per_team": 1.333,
+      "home_factor": 1.0
+    },
     "Categoría Primera A": {
       "goals_per_team": 0.88,
       "home_factor": 1.25
+    },
+    "National Premier Soccer League": {
+      "goals_per_team": 2.077,
+      "home_factor": 1.25
+    },
+    "Guatemala Liga Nacional": {
+      "goals_per_team": 1.194,
+      "home_factor": 1.25
+    },
+    "India U21 DL": {
+      "goals_per_team": 1.458,
+      "home_factor": 1.25
+    },
+    "University Athletic Association of the Philippines": {
+      "goals_per_team": 1.9,
+      "home_factor": 1.25
+    },
+    "IND DSD": {
+      "goals_per_team": 1.375,
+      "home_factor": 1.25
+    },
+    "Chinese Taipei Intercity League": {
+      "goals_per_team": 1.714,
+      "home_factor": 0.85
+    },
+    "Ethiopia HL W": {
+      "goals_per_team": 1.211,
+      "home_factor": 0.85
+    },
+    "El Tari Memorial Cup": {
+      "goals_per_team": 1.0,
+      "home_factor": 1.08
+    },
+    "Vietnam Championship U21": {
+      "goals_per_team": 0.333,
+      "home_factor": 1.08
+    },
+    "Uzbekistan U21 League": {
+      "goals_per_team": 1.0,
+      "home_factor": 0.85
     },
     "Brazilian Youth Cup": {
       "goals_per_team": 2.0,
@@ -106046,10 +106362,6 @@
     },
     "BRA Paulista Women's League U20": {
       "goals_per_team": 1.571,
-      "home_factor": 1.25
-    },
-    "National Premier Soccer League": {
-      "goals_per_team": 2.0,
       "home_factor": 1.25
     },
     "Japanese Regional League": {
@@ -106113,24 +106425,20 @@
       "home_factor": 1.25
     },
     "Turkish U19 A2 League": {
-      "goals_per_team": 1.641,
-      "home_factor": 1.211
+      "goals_per_team": 1.631,
+      "home_factor": 1.232
     },
     "Indian Bangalore Super Division": {
       "goals_per_team": 1.552,
       "home_factor": 1.195
     },
     "Georgia Erovnuli Liga": {
-      "goals_per_team": 1.35,
-      "home_factor": 0.929
+      "goals_per_team": 1.333,
+      "home_factor": 0.85
     },
     "Japanese J2 League": {
       "goals_per_team": 1.236,
       "home_factor": 1.06
-    },
-    "IND DSD": {
-      "goals_per_team": 1.5,
-      "home_factor": 1.25
     },
     "Tajikistan Higher League": {
       "goals_per_team": 1.167,
@@ -106176,10 +106484,6 @@
       "goals_per_team": 1.722,
       "home_factor": 0.85
     },
-    "Chinese Taipei Intercity League": {
-      "goals_per_team": 1.833,
-      "home_factor": 0.85
-    },
     "Ethiopia Premier League": {
       "goals_per_team": 1.846,
       "home_factor": 1.182
@@ -106204,6 +106508,10 @@
       "goals_per_team": 1.0,
       "home_factor": 0.85
     },
+    "International Friendly": {
+      "goals_per_team": 1.801,
+      "home_factor": 1.25
+    },
     "Iraq Premier Division": {
       "goals_per_team": 0.958,
       "home_factor": 1.091
@@ -106217,7 +106525,7 @@
       "home_factor": 1.148
     },
     "Russian First League": {
-      "goals_per_team": 1.433,
+      "goals_per_team": 1.393,
       "home_factor": 1.25
     },
     "Serbian Mozzart Bet Superliga": {
@@ -106308,6 +106616,10 @@
       "goals_per_team": 0.826,
       "home_factor": 0.9
     },
+    "Congo Premier League": {
+      "goals_per_team": 0.5,
+      "home_factor": 0.85
+    },
     "Mozambique Championship": {
       "goals_per_team": 1.179,
       "home_factor": 1.25
@@ -106350,10 +106662,6 @@
     },
     "Angolan Girabola League": {
       "goals_per_team": 1.0,
-      "home_factor": 1.25
-    },
-    "Cameroon Elite One": {
-      "goals_per_team": 1.286,
       "home_factor": 1.25
     },
     "Brazilian Serie A": {
@@ -106476,10 +106784,6 @@
       "goals_per_team": 1.9,
       "home_factor": 0.85
     },
-    "International Friendly": {
-      "goals_per_team": 1.792,
-      "home_factor": 1.25
-    },
     "Maldives Premier League": {
       "goals_per_team": 2.0,
       "home_factor": 1.25
@@ -106580,10 +106884,6 @@
       "goals_per_team": 2.727,
       "home_factor": 1.25
     },
-    "Guatemala Liga Nacional": {
-      "goals_per_team": 1.118,
-      "home_factor": 1.25
-    },
     "Honduras Primera Division": {
       "goals_per_team": 1.955,
       "home_factor": 1.25
@@ -106595,14 +106895,6 @@
     "Women Empowerment League": {
       "goals_per_team": 1.189,
       "home_factor": 1.25
-    },
-    "India U21 DL": {
-      "goals_per_team": 1.75,
-      "home_factor": 1.25
-    },
-    "Ethiopia HL W": {
-      "goals_per_team": 1.25,
-      "home_factor": 0.85
     },
     "Indian Shillong Premier League": {
       "goals_per_team": 0.5,
@@ -106972,10 +107264,6 @@
       "goals_per_team": 1.8,
       "home_factor": 0.85
     },
-    "University Athletic Association of the Philippines": {
-      "goals_per_team": 1.778,
-      "home_factor": 1.25
-    },
     "Indian Calcutta Football League": {
       "goals_per_team": 1.833,
       "home_factor": 1.25
@@ -107342,6 +107630,10 @@
     },
     "UEFA European U17 Women's Championship": {
       "goals_per_team": 1.935,
+      "home_factor": 1.25
+    },
+    "Cameroon Elite One": {
+      "goals_per_team": 1.167,
       "home_factor": 1.25
     },
     "Egyptian Scores Cup": {
@@ -108411,6 +108703,10 @@
     "Bosnia and Herzegovina Cup": {
       "goals_per_team": 2.423,
       "home_factor": 0.909
+    },
+    "Argentine Division 1": {
+      "goals_per_team": 1.2,
+      "home_factor": 0.85
     },
     "Netherlands Youth Eredivisie": {
       "goals_per_team": 5.0,

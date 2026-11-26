@@ -2,13 +2,63 @@
   "date": "2026-11-26",
   "model": "ConC Poisson v1",
   "historySource": "team_history.json",
-  "generatedAt": "2026-11-26T06:52:59.801657+03:00",
-  "predictionCount": 1,
+  "generatedAt": "2026-11-26T13:02:49.114869+03:00",
+  "predictionCount": 2,
   "fixtures": [
     {
       "fixtureId": null,
       "home": "Rayados de Monterrey",
       "away": "Club America",
+      "status": "model_ready",
+      "model": "ConC Poisson v1",
+      "sample": {
+        "homeTeamMatches": 5,
+        "awayTeamMatches": 7
+      },
+      "expectedGoals": {
+        "home": 0.97,
+        "away": 0.94
+      },
+      "probabilities": {
+        "1": 34.9,
+        "X": 31.7,
+        "2": 33.4,
+        "1X": 66.6,
+        "X2": 65.1,
+        "12": 68.3,
+        "BTTS Yes": 38.0,
+        "BTTS No": 62.0,
+        "Over 1.5": 57.0,
+        "Under 1.5": 43.0,
+        "Over 2.5": 30.0,
+        "Under 2.5": 70.0,
+        "1 + Over 2.5": 13.6,
+        "2 + Over 2.5": 13.0,
+        "1X + Over 2.5": 17.1,
+        "X2 + Over 2.5": 16.4,
+        "1X + Over 1.5": 37.5,
+        "X2 + Over 1.5": 36.5,
+        "BTTS + Over 2.5": 24.4,
+        "Home win + BTTS": 10.7,
+        "Away win + BTTS": 10.3,
+        "1X + BTTS": 27.7,
+        "X2 + BTTS": 27.2
+      },
+      "topProbabilityMarket": "Under 2.5",
+      "topProbability": 70.0,
+      "disclaimer": "Model estimate, not a guarantee. Probabilities are not value assessments; odds are required for value."
+    },
+    {
+      "fixtureId": null,
+      "home": "One Foundation U21",
+      "away": "Bidhannagar MSA U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Team dn1m1gh16wvmoep",
+      "away": "Bidhannagar MSA U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -28,7 +78,7 @@
     },
     {
       "fixtureId": null,
-      "home": "Team ednm9whe1nyryox",
+      "home": "AC Taipei",
       "away": "Hang Yuen FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
@@ -42,8 +92,64 @@
     },
     {
       "fixtureId": null,
+      "home": "Mawlai SC",
+      "away": "Mawkhar SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Tiara Nusa",
+      "away": "Persada Sumba Barat Daya",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Persami Maumere",
+      "away": "Persap Alor Pantar",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "FC United Stars",
       "away": "Parikrma FC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Hung Vuong An Giang U21",
+      "away": "Song Lam Nghe An U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Dak Lak U21",
+      "away": "Cong An Ha Noi U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "FK Kokand 1912 U21",
+      "away": "Xorazm Urganch U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Dak Lak U21",
+      "away": "T T Hanoi U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "FK Kokand 1912 U21",
+      "away": "Team l7oqdeh1750r510",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -141,6 +247,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Port FC U21",
+      "away": "Pattaya United U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "FK Parvoz Bobojon Ghafurov",
       "away": "CSKA Pamir Dushanbe",
       "status": "insufficient_history",
@@ -150,6 +263,20 @@
       "fixtureId": null,
       "home": "Regar-TadAZ Tursunzoda",
       "away": "Sardor Tursunzoda",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "KCCA (W)",
+      "away": "Uganda Martyrs High School (W)",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Bangkok United U21",
+      "away": "Chainat Hornbill U21",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -204,6 +331,20 @@
     },
     {
       "fixtureId": null,
+      "home": "Spain U16",
+      "away": "USA U16",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sweden U16",
+      "away": "Qatar U16",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Bentonit Idzhevan",
       "away": "Shirak Gjumri B",
       "status": "insufficient_history",
@@ -241,20 +382,6 @@
       "fixtureId": null,
       "home": "Shurtan Guzor",
       "away": "Olympic MobiUz",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Spain U16",
-      "away": "USA U16",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sweden U16",
-      "away": "Qatar U16",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -302,15 +429,36 @@
     },
     {
       "fixtureId": null,
-      "home": "MIKA Ashtarak",
-      "away": "Olympia Yerevan",
+      "home": "Olympia Yerevan",
+      "away": "MIKA Ashtarak",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Team 965mkyhzpvvr1ge",
+      "home": "UST Golden Booters",
       "away": "UP Fighting Maroons",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Al-Hudod",
+      "away": "Naft Al-Wassat SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Kanchanaburi Power U21",
+      "away": "Buriram United U21",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Team 4wyrn4h9gk8q86p",
+      "away": "Naft Al-Basra SC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -372,6 +520,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Tishreen SC",
+      "away": "Homs Al Fidaa SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "BG Pathum United",
       "away": "Lion City Sailors",
       "status": "insufficient_history",
@@ -395,6 +550,48 @@
       "fixtureId": null,
       "home": "Belqas",
       "away": "La Viena",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Hay Al‑Amir Hasan",
+      "away": "Ittihad Al-Ramtha SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sahl Horan SC",
+      "away": "Al Hashemeya",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "AL-Sareeh",
+      "away": "Al Aqaba SC",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Sama Al Sarhan",
+      "away": "Al-Ahly",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Amman FC",
+      "away": "Maan",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Al Yarmouk",
+      "away": "Jerash Club",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -610,14 +807,14 @@
     },
     {
       "fixtureId": null,
-      "home": "Team dj2ryoh28onq1zp",
+      "home": "Al Gash SC Kassala",
       "away": "Al Hilal ESC El Fasher",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Team 2y8m4zh1lo1ql07",
+      "home": "Al Merrikh Kh. El Girba",
       "away": "Al Taqadom",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
@@ -694,48 +891,6 @@
     },
     {
       "fixtureId": null,
-      "home": "Hay Al‑Amir Hasan",
-      "away": "Al Yarmouk",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Al-Ahly",
-      "away": "Sahl Horan SC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Ittihad Al-Ramtha SC",
-      "away": "Al Aqaba SC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Jerash Club",
-      "away": "Amman FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Maan",
-      "away": "Sama Al Sarhan",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Al Hashemeya",
-      "away": "AL-Sareeh",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
       "home": "Cebrayil",
       "away": "FK MOIK Baku",
       "status": "insufficient_history",
@@ -787,13 +942,6 @@
       "fixtureId": null,
       "home": "Al Mesaimeer Club",
       "away": "Qatar U23",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Umm Salal",
-      "away": "Al Rayyan B",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -863,7 +1011,7 @@
     {
       "fixtureId": null,
       "home": "Al Amal SC Atbarah",
-      "away": "Team 8yomo4hznp5q0j6",
+      "away": "Al Rabita Al Silaim",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -904,6 +1052,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Umm Salal",
+      "away": "Al Rayyan B",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Mochudi Centre Chiefs",
       "away": "Orapa United",
       "status": "insufficient_history",
@@ -919,13 +1074,13 @@
     {
       "fixtureId": null,
       "home": "Al-Ahli Khartoum",
-      "away": "Team dn1m1gh16jvmoep",
+      "away": "Al Ahli El Obeid Club",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
     {
       "fixtureId": null,
-      "home": "Team 6ypq3nh1x9gmd7o",
+      "home": "Al Nasir Omdurman",
       "away": "Hilal El Fasher",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
@@ -934,6 +1089,13 @@
       "fixtureId": null,
       "home": "SC Ramla",
       "away": "SC Shicun Hamizrah",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Jordan (w) U20",
+      "away": "Team y39mp1h97l2mojx",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1093,6 +1255,13 @@
     },
     {
       "fixtureId": null,
+      "home": "Paysandu Women",
+      "away": "Tiradentes PA Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
       "home": "Vasalunds IF",
       "away": "FC Arlanda",
       "status": "insufficient_history",
@@ -1137,6 +1306,20 @@
       "fixtureId": null,
       "home": "Maccabi Ashkelon",
       "away": "Maccabi Ironi Netivot",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Espanyol B Women",
+      "away": "CE Europa Women",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "La Nucia Women",
+      "away": "Elche  B (w)",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1212,127 +1395,8 @@
     },
     {
       "fixtureId": null,
-      "home": "Juventus",
-      "away": "Omonia Nicosia FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Lyon",
-      "away": "Lillestrom",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "NEC Nijmegen",
-      "away": "Stade Rennais FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "OFI Crete FC",
-      "away": "Anderlecht",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "AC Sparta Praha",
-      "away": "AZ Alkmaar",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Sunderland",
-      "away": "Jagiellonia Bialystok",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "SCU Torreense",
-      "away": "Celtic FC",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Hajduk Split",
-      "away": "Sint-Truidense",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "CSKA Sofia",
-      "away": "Trabzonspor",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Cavalier FC",
-      "away": "Portmore United",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "AC Colina",
-      "away": "General VelAsquez",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "CD Audaz",
-      "away": "AD Izalco",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Santiago Wanderers",
-      "away": "Deportes Recoleta",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Independiente Reserves",
-      "away": "Gimnasia Mendoza Reserves",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Tirol",
-      "away": "Guarani CE",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Cerro Porteno",
-      "away": "Club Libertad Asunción",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "São Paulo - SP",
-      "away": "Remo - PA",
-      "status": "insufficient_history",
-      "message": "At least five recent scored results per team are required. No prediction published."
-    },
-    {
-      "fixtureId": null,
-      "home": "Palmeiras Youth",
-      "away": "Operario Ferroviario PR U20",
+      "home": "Diriangen",
+      "away": "Matagalpa FC",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
@@ -1354,6 +1418,13 @@
       "fixtureId": null,
       "home": "CD Marte Soyapango",
       "away": "Independiente San Vicente",
+      "status": "insufficient_history",
+      "message": "At least five recent scored results per team are required. No prediction published."
+    },
+    {
+      "fixtureId": null,
+      "home": "Veroskronos Tsuno",
+      "away": "Gakunan F Mosuperio",
       "status": "insufficient_history",
       "message": "At least five recent scored results per team are required. No prediction published."
     },
