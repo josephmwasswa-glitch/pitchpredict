@@ -2,9 +2,9 @@
   "source": "SportScore",
   "sourceUrl": "https://sportscore.com/developers/api/",
   "windowDays": 35,
-  "generatedAt": "2026-11-27T03:54:41.381401+00:00",
-  "completedMatches": 6648,
-  "teamCount": 6582,
+  "generatedAt": "2026-11-27T10:00:27.428482+00:00",
+  "completedMatches": 6655,
+  "teamCount": 6583,
   "teams": {
     "Diriangen": {
       "matches": [
@@ -297,6 +297,422 @@
           "ga": 0,
           "venue": "home",
           "date": "2026-11-23T06:30:00+00:00"
+        }
+      ]
+    },
+    "Juarez FC U21": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-27T02:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-06T14:00:00+00:00"
+        }
+      ]
+    },
+    "Chivas Guadalajara U21": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-27T02:00:00+00:00"
+        }
+      ]
+    },
+    "Bangalore United FC": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-27T02:40:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-11-24T08:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-28T10:30:00+00:00"
+        }
+      ]
+    },
+    "MEG": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-27T02:40:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-23T08:10:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-16T08:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-11T08:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-05T05:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-10-29T05:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-26T10:30:00+00:00"
+        }
+      ]
+    },
+    "Club Leon": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-27T03:10:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-09T02:10:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-02T01:10:00+00:00"
+        }
+      ]
+    },
+    "Cruz Azul": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-27T03:10:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-08T01:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-02T01:10:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-10-26T01:00:00+00:00"
+        }
+      ]
+    },
+    "Bangalore Dream United FC": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-27T05:25:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 4,
+          "venue": "home",
+          "date": "2026-11-19T05:25:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-13T03:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 5,
+          "venue": "home",
+          "date": "2026-11-10T08:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 5,
+          "venue": "away",
+          "date": "2026-11-04T05:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-30T10:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 4,
+          "venue": "away",
+          "date": "2026-10-27T08:00:00+00:00"
+        }
+      ]
+    },
+    "Bangalore City": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-27T05:25:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-17T07:55:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-12T05:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-05T08:00:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-02T05:25:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-29T05:30:00+00:00"
+        }
+      ]
+    },
+    "Guam U15": {
+      "matches": [
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-27T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-11-25T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-23T06:30:00+00:00"
+        }
+      ]
+    },
+    "Northern Mariana Islands U15": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-27T06:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-11-25T02:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 8,
+          "venue": "away",
+          "date": "2026-11-23T02:00:00+00:00"
+        }
+      ]
+    },
+    "Arba Minch Women": {
+      "matches": [
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-27T07:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-17T07:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-12T11:00:00+00:00"
+        }
+      ]
+    },
+    "Ethiopian Sports Academy (W)": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-27T07:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-23T08:00:00+00:00"
+        },
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-18T13:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-13T07:00:00+00:00"
+        }
+      ]
+    },
+    "Uptown Rebels SC": {
+      "matches": [
+        {
+          "gf": 3,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-27T07:55:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-24T05:35:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-17T10:25:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 1,
+          "venue": "away",
+          "date": "2026-11-12T08:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 1,
+          "venue": "home",
+          "date": "2026-11-09T05:30:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-02T08:00:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "home",
+          "date": "2026-10-29T08:00:00+00:00"
+        }
+      ]
+    },
+    "FC Agniputhra": {
+      "matches": [
+        {
+          "gf": 0,
+          "ga": 3,
+          "venue": "away",
+          "date": "2026-11-27T07:55:00+00:00"
+        },
+        {
+          "gf": 2,
+          "ga": 0,
+          "venue": "home",
+          "date": "2026-11-24T10:25:00+00:00"
+        },
+        {
+          "gf": 4,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-11-19T05:25:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 2,
+          "venue": "away",
+          "date": "2026-11-10T05:30:00+00:00"
+        },
+        {
+          "gf": 0,
+          "ga": 5,
+          "venue": "home",
+          "date": "2026-11-03T08:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 0,
+          "venue": "away",
+          "date": "2026-10-30T08:00:00+00:00"
+        },
+        {
+          "gf": 1,
+          "ga": 2,
+          "venue": "home",
+          "date": "2026-10-27T05:30:00+00:00"
         }
       ]
     },
@@ -8456,22 +8872,6 @@
         }
       ]
     },
-    "Northern Mariana Islands U15": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 3,
-          "venue": "home",
-          "date": "2026-11-25T02:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 8,
-          "venue": "away",
-          "date": "2026-11-23T02:00:00+00:00"
-        }
-      ]
-    },
     "FC Ryukyu Okinawa": {
       "matches": [
         {
@@ -8807,22 +9207,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-11-15T10:15:00+00:00"
-        }
-      ]
-    },
-    "Guam U15": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-25T06:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-23T06:30:00+00:00"
         }
       ]
     },
@@ -18052,46 +18436,6 @@
         }
       ]
     },
-    "Uptown Rebels SC": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-24T05:35:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-17T10:25:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-12T08:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-09T05:30:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-02T08:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 3,
-          "venue": "home",
-          "date": "2026-10-29T08:00:00+00:00"
-        }
-      ]
-    },
     "Yirga Chefe Bunna": {
       "matches": [
         {
@@ -18261,22 +18605,6 @@
           "ga": 5,
           "venue": "away",
           "date": "2026-11-20T08:00:00+00:00"
-        }
-      ]
-    },
-    "Bangalore United FC": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 4,
-          "venue": "away",
-          "date": "2026-11-24T08:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-28T10:30:00+00:00"
         }
       ]
     },
@@ -18935,46 +19263,6 @@
           "ga": 1,
           "venue": "away",
           "date": "2026-11-02T10:30:00+00:00"
-        }
-      ]
-    },
-    "FC Agniputhra": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-24T10:25:00+00:00"
-        },
-        {
-          "gf": 4,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-11-19T05:25:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-10T05:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 5,
-          "venue": "home",
-          "date": "2026-11-03T08:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-30T08:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-27T05:30:00+00:00"
         }
       ]
     },
@@ -25756,28 +26044,6 @@
         }
       ]
     },
-    "Ethiopian Sports Academy (W)": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-23T08:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-11-18T13:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-13T07:00:00+00:00"
-        }
-      ]
-    },
     "Addis Ketema FC W": {
       "matches": [
         {
@@ -25791,46 +26057,6 @@
           "ga": 0,
           "venue": "home",
           "date": "2026-11-18T07:00:00+00:00"
-        }
-      ]
-    },
-    "MEG": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-11-23T08:10:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-16T08:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-11T08:00:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-05T05:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "home",
-          "date": "2026-10-29T05:30:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-26T10:30:00+00:00"
         }
       ]
     },
@@ -50916,46 +51142,6 @@
         }
       ]
     },
-    "Bangalore Dream United FC": {
-      "matches": [
-        {
-          "gf": 0,
-          "ga": 4,
-          "venue": "home",
-          "date": "2026-11-19T05:25:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-13T03:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 5,
-          "venue": "home",
-          "date": "2026-11-10T08:00:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 5,
-          "venue": "away",
-          "date": "2026-11-04T05:30:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "home",
-          "date": "2026-10-30T10:30:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 4,
-          "venue": "away",
-          "date": "2026-10-27T08:00:00+00:00"
-        }
-      ]
-    },
     "Western Springs AFC": {
       "matches": [
         {
@@ -57308,22 +57494,6 @@
         }
       ]
     },
-    "Arba Minch Women": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-17T07:00:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-11-12T11:00:00+00:00"
-        }
-      ]
-    },
     "GMSC": {
       "matches": [
         {
@@ -57369,40 +57539,6 @@
           "ga": 3,
           "venue": "away",
           "date": "2026-11-11T11:35:00+00:00"
-        }
-      ]
-    },
-    "Bangalore City": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-17T07:55:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-12T05:30:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 3,
-          "venue": "away",
-          "date": "2026-11-05T08:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-02T05:25:00+00:00"
-        },
-        {
-          "gf": 0,
-          "ga": 0,
-          "venue": "away",
-          "date": "2026-10-29T05:30:00+00:00"
         }
       ]
     },
@@ -80798,22 +80934,6 @@
         }
       ]
     },
-    "Club Leon": {
-      "matches": [
-        {
-          "gf": 1,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-09T02:10:00+00:00"
-        },
-        {
-          "gf": 1,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-02T01:10:00+00:00"
-        }
-      ]
-    },
     "Zinc Football Academy": {
       "matches": [
         {
@@ -83401,28 +83521,6 @@
           "ga": 2,
           "venue": "home",
           "date": "2026-11-08T00:30:00+00:00"
-        }
-      ]
-    },
-    "Cruz Azul": {
-      "matches": [
-        {
-          "gf": 3,
-          "ga": 2,
-          "venue": "away",
-          "date": "2026-11-08T01:00:00+00:00"
-        },
-        {
-          "gf": 2,
-          "ga": 1,
-          "venue": "home",
-          "date": "2026-11-02T01:10:00+00:00"
-        },
-        {
-          "gf": 3,
-          "ga": 1,
-          "venue": "away",
-          "date": "2026-10-26T01:00:00+00:00"
         }
       ]
     },
@@ -90046,16 +90144,6 @@
           "gf": 0,
           "ga": 2,
           "venue": "home",
-          "date": "2026-11-06T14:00:00+00:00"
-        }
-      ]
-    },
-    "Juarez FC U21": {
-      "matches": [
-        {
-          "gf": 2,
-          "ga": 0,
-          "venue": "away",
           "date": "2026-11-06T14:00:00+00:00"
         }
       ]
@@ -106121,8 +106209,8 @@
       "home_factor": 0.85
     },
     "Mexico Liga MX": {
-      "goals_per_team": 1.391,
-      "home_factor": 1.07
+      "goals_per_team": 1.379,
+      "home_factor": 1.022
     },
     "El Salvador Segunda Division": {
       "goals_per_team": 1.889,
@@ -106133,8 +106221,20 @@
       "home_factor": 0.85
     },
     "EAFF U15 Men's Championship": {
-      "goals_per_team": 1.4,
+      "goals_per_team": 1.333,
       "home_factor": 1.25
+    },
+    "MEX U21": {
+      "goals_per_team": 1.667,
+      "home_factor": 0.85
+    },
+    "Indian Bangalore Super Division": {
+      "goals_per_team": 1.567,
+      "home_factor": 1.238
+    },
+    "Ethiopia HL W": {
+      "goals_per_team": 1.214,
+      "home_factor": 0.85
     },
     "Argentina Division 1": {
       "goals_per_team": 1.676,
@@ -106172,10 +106272,6 @@
       "goals_per_team": 1.458,
       "home_factor": 1.25
     },
-    "Indian Bangalore Super Division": {
-      "goals_per_team": 1.605,
-      "home_factor": 1.205
-    },
     "University Athletic Association of the Philippines": {
       "goals_per_team": 1.667,
       "home_factor": 1.25
@@ -106186,10 +106282,6 @@
     },
     "Chinese Taipei Intercity League": {
       "goals_per_team": 1.714,
-      "home_factor": 0.85
-    },
-    "Ethiopia HL W": {
-      "goals_per_team": 1.25,
       "home_factor": 0.85
     },
     "El Tari Memorial Cup": {
@@ -106390,10 +106482,6 @@
     },
     "Jordan Premier League": {
       "goals_per_team": 1.0,
-      "home_factor": 0.85
-    },
-    "MEX U21": {
-      "goals_per_team": 2.25,
       "home_factor": 0.85
     },
     "Syrian Premier League": {
